@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TS_AT_TOP",
+      "TS_AT_BOTTOM",
+      "TS_GOING_UP",
+      "TS_GOING_DOWN",
+      "DOOR_OPEN",
+      "DOOR_CLOSED",
+      "DOOR_OPENING",
+      "DOOR_CLOSING"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

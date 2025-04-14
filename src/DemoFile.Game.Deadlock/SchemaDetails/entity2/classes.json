@@ -1,0 +1,16 @@
+[
+  "CEntityIOOutput",
+  "GameTick_t",
+  "CEntityComponentHelper",
+  "EntInput_t",
+  "CEntityIdentity",
+  "CEntityComponent",
+  "CScriptComponent",
+  "CEntityInstance",
+  "GameTime_t",
+  "CNetworkVarChainer",
+  "EntOutput_t",
+  "CVariantDefaultAllocator",
+  "CEmptyEntityInstance",
+  "EntComponentInfo_t"
+]

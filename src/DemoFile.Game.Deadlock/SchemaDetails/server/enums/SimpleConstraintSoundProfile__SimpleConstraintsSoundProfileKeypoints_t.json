@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "kMIN_THRESHOLD",
+      "kMIN_FULL",
+      "kHIGHWATER"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

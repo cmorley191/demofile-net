@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropElement",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Model"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Places a model as the child of an element."
+    },
+    {
+      "name": "MVDataOutlinerAssetNameExpr"
+    }
+  ],
+  "fields": []
+}

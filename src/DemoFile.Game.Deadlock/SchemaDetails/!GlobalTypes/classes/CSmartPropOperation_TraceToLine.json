@@ -1,0 +1,23 @@
+{
+  "parent": "CSmartPropOperation_Trace",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Transform: Trace To Line"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Perform a trace from a specified origin point to a the closest point on a line."
+    },
+    {
+      "name": "MVDataClassGroup"
+    },
+    {
+      "name": "MVDataExperimentalNodeSet"
+    }
+  ],
+  "fields": []
+}

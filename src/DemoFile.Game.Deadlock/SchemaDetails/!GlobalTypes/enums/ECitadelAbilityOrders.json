@@ -48,6 +48,7 @@
       "ECitadelAbilityOrder_Invalid_OnlyOneDownDash",
       "ECitadelAbilityOrder_Invalid_OnlyTwoDownDashes",
       "ECitadelAbilityOrder_Invalid_OnlyOneWallJump",
+      "ECitadelAbilityOrder_Invalid_OnlyTwoWallJumps",
       "ECitadelAbilityOrder_Invalid_SlideTakingPriority",
       "ECitadelAbilityOrder_Invalid_NothingToRefresh",
       "ECitadelAbilityOrder_Invalid_BeetleTarget",
@@ -115,7 +116,8 @@
       52,
       53,
       54,
-      55
+      55,
+      56
     ]
   }
 }

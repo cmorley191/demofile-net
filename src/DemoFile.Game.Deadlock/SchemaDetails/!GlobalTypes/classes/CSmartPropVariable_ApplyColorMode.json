@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Tint Mode"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies how a color tint value is to be applied with respect to the existing color tint"
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

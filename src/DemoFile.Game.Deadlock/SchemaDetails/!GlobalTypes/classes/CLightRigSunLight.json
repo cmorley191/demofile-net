@@ -1,0 +1,9 @@
+{
+  "parent": "CLightRigLight",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

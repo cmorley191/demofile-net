@@ -605,5 +605,21 @@
   "SequenceFinishNotifyState_t",
   "ECitadelClientMessages",
   "EFeatureBanReason",
-  "PointWorldTextJustifyHorizontal_t"
+  "PointWorldTextJustifyHorizontal_t",
+  "ScaleMode_t",
+  "SmartPropSpace_t",
+  "SmartPropDirection_t",
+  "EWallJumpFacing",
+  "ApplyColorMode_t",
+  "LightRigType_t",
+  "SmartPropDistributionMode_t",
+  "SmartPropGridPlacementMode_t",
+  "PickMode_t",
+  "SmartPropGridOriginBasis_t",
+  "SmartPropPathPositions_t",
+  "TraceNoHitResult_t",
+  "SmartPropChoiceSelectionMode_t",
+  "ConfigurationHandleShape_t",
+  "EWallAttachState",
+  "SmartPropRadiusPlacementMode_t"
 ]

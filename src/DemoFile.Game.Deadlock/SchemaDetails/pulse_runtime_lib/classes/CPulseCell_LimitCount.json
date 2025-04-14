@@ -1,0 +1,32 @@
+{
+  "parent": "CPulseCell_BaseRequirement",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Limit Count"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Skip this node after the limit. Check Type does not apply, the limit will always be checked."
+    },
+    {
+      "name": "MPulseRequirementPass"
+    },
+    {
+      "name": "MPulseRequirementSummaryExpr"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "AIUG_NONE",
+      "AIUG_QUEUE_GOAL"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

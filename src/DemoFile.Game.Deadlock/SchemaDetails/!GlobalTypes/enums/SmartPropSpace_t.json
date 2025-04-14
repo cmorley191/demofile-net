@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "WORLD",
+      "OBJECT",
+      "ELEMENT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

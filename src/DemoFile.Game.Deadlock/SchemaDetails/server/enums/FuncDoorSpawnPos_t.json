@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FUNC_DOOR_SPAWN_CLOSED",
+      "FUNC_DOOR_SPAWN_OPEN"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "CSmartPropTransformOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Transform: Rigid Deformation"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Apply the active deformer to the current transform as a rigid deformation and disable the deformer."
+    },
+    {
+      "name": "MVDataClassGroup"
+    },
+    {
+      "name": "MVDataComponentRequiresAncestor"
+    }
+  ],
+  "fields": []
+}

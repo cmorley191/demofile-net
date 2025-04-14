@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LARGEST_FIRST",
+      "RANDOM",
+      "ALL_IN_ORDER"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

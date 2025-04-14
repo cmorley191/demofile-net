@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropFilter",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Filter: Surface Angles"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Allows the parent element to be conditionally evaluated base on the current surface angle. The surface angle is set based on the initial placement of the smart prop object, but can also be updated by the Trace to Surface modifier."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

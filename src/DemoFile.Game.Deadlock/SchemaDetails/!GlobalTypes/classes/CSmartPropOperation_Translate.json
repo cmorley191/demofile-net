@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropTransformOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Transform: Translate"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Apply a position offset to the current transform."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

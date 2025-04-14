@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropFilter",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Filter: Surface Properties"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Allows the parent element to be conditionally evaluated based on surface properties."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

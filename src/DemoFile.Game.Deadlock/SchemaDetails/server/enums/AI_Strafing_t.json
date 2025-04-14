@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "eInvalid",
+      "eDisabled",
+      "eEnabled"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eDontClear",
+      "eClear"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Save Direction Vector"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Save the specified direction vector to a specified variable, in the requested coordinate space"
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

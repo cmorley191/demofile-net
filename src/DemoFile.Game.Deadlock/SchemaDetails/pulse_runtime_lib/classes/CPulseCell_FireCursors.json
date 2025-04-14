@@ -1,0 +1,21 @@
+{
+  "parent": "CPulseCell_BaseYieldingInflow",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPulseCellWithCustomDocNode"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Model"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Model Asset Variable"
+    }
+  ],
+  "fields": []
+}

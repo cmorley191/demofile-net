@@ -1,0 +1,17 @@
+{
+  "parent": "CSmartPropElement_Group",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Layout Grid"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Generates set of child instances arranged in a regular grid layout."
+    }
+  ],
+  "fields": []
+}

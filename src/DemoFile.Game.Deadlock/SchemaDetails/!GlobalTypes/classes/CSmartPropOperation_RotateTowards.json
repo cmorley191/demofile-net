@@ -1,0 +1,23 @@
+{
+  "parent": "CSmartPropTransformOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Transform: Rotate Towards"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Apply a rotation to the current transform according to the alignment of two points."
+    },
+    {
+      "name": "MVDataClassGroup"
+    },
+    {
+      "name": "MVDataExperimentalNodeSet"
+    }
+  ],
+  "fields": []
+}

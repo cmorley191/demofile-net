@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TASKSTATUS_NEW",
+      "TASKSTATUS_RUN_MOVE_AND_TASK",
+      "TASKSTATUS_RUN_TASK",
+      "TASKSTATUS_COMPLETE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropTransformOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Transform: Reset Rotation"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Reset the current rotation such the element only inherits the object level rotation, but does not inherit the rotation applied to its parent."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

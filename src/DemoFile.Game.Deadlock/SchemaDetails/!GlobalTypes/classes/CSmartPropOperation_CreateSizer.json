@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropTransformOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Create Sizer"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Create a sizer that will be displayed at the current location, allowing the user to manipulate the specified set of size values."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

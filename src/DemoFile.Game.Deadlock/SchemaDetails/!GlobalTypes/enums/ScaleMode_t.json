@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "NONE",
+      "SCALE_END_TO_FIT",
+      "SCALE_EQUALLY",
+      "SCALE_MAXIMIZE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

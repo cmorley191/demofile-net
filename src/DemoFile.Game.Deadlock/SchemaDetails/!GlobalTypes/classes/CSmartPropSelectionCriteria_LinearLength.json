@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropSelectionCriteria",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataComponentValidGrandParents"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Linear Length"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies the length of this element, used when fitting an element on to a line."
+    }
+  ],
+  "fields": []
+}

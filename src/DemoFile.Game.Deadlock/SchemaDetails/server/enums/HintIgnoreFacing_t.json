@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "HIF_NO",
+      "HIF_YES",
+      "HIF_DEFAULT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

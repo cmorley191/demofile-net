@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FORCEDCROUCH_NONE",
+      "FORCEDCROUCH_CROUCHED",
+      "FORCEDCROUCH_UNCROUCHED"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

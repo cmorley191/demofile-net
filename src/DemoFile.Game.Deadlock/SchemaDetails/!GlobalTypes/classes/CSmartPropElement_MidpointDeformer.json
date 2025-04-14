@@ -1,0 +1,17 @@
+{
+  "parent": "CSmartPropElement_Deformer",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Midpoint Deformer"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Soft deform the center of a volume defined by two endpoints."
+    }
+  ],
+  "fields": []
+}

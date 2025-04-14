@@ -10825,6 +10825,9 @@ public partial class CCitadel_Ability_Jump : CCitadelBaseAbility
     // MNetworkUserGroup "LocalPlayerOwnerAndObserversExclusive"
     public sbyte ConsecutiveWallJumps { get; private set; }
 
+    // MNetworkUserGroup "LocalPlayerOwnerAndObserversExclusive"
+    public GameTime LateralInputSuppressEndTime { get; private set; } = new();
+
     internal new static SendNodeDecoder<CCitadel_Ability_Jump> CreateFieldDecoder(SerializableField field, DecoderSet decoderSet)
     {
         if (field.SendNode.Length >= 1 && field.SendNode.Span[0] == "m_flGroundDashJumpStartTime")
@@ -10897,6 +10900,14 @@ public partial class CCitadel_Ability_Jump : CCitadelBaseAbility
             return (CCitadel_Ability_Jump @this, ReadOnlySpan<int> path, ref BitBuffer buffer) =>
             {
                 @this.ConsecutiveWallJumps = decoder(ref buffer);
+            };
+        }
+        if (field.VarName == "m_flLateralInputSuppressEndTime")
+        {
+            var decoder = FieldDecode.CreateDecoder_GameTime(field.FieldEncodingInfo);
+            return (CCitadel_Ability_Jump @this, ReadOnlySpan<int> path, ref BitBuffer buffer) =>
+            {
+                @this.LateralInputSuppressEndTime = decoder(ref buffer);
             };
         }
         return CCitadelBaseAbility.CreateFieldDecoder(field, decoderSet);
@@ -20895,6 +20906,8 @@ public partial class CCitadel_Ice_Path_Shard_Physics : CBaseModelEntity
     // MNetworkChangeCallback "OnEndTimeChanged"
     public GameTime EndTime { get; private set; } = new();
 
+    public float ShardWidth { get; private set; }
+
     internal new static SendNodeDecoder<CCitadel_Ice_Path_Shard_Physics> CreateFieldDecoder(SerializableField field, DecoderSet decoderSet)
     {
         if (field.SendNode.Length >= 1 && field.SendNode.Span[0] == "m_ShardDesc")
@@ -20927,6 +20940,14 @@ public partial class CCitadel_Ice_Path_Shard_Physics : CBaseModelEntity
             return (CCitadel_Ice_Path_Shard_Physics @this, ReadOnlySpan<int> path, ref BitBuffer buffer) =>
             {
                 @this.EndTime = decoder(ref buffer);
+            };
+        }
+        if (field.VarName == "m_flShardWidth")
+        {
+            var decoder = FieldDecode.CreateDecoder_float(field.FieldEncodingInfo);
+            return (CCitadel_Ice_Path_Shard_Physics @this, ReadOnlySpan<int> path, ref BitBuffer buffer) =>
+            {
+                @this.ShardWidth = decoder(ref buffer);
             };
         }
         return CBaseModelEntity.CreateFieldDecoder(field, decoderSet);
@@ -34869,10 +34890,11 @@ public partial class CItemXP : CBaseModelEntity
 {
     internal CItemXP(DeadlockDemoParser.EntityContext context, SendNodeDecoder<object> decoder) : base(context, decoder) {}
 
-    // MNetworkChangeCallback "OnLaunchTimeChanged"
     public GameTime TimeLaunch { get; private set; } = new();
 
     public GameTime AttackableTime { get; private set; } = new();
+
+    public Int32 LaunchNum { get; private set; }
 
     internal new static SendNodeDecoder<CItemXP> CreateFieldDecoder(SerializableField field, DecoderSet decoderSet)
     {
@@ -34890,6 +34912,14 @@ public partial class CItemXP : CBaseModelEntity
             return (CItemXP @this, ReadOnlySpan<int> path, ref BitBuffer buffer) =>
             {
                 @this.AttackableTime = decoder(ref buffer);
+            };
+        }
+        if (field.VarName == "m_nLaunchNum")
+        {
+            var decoder = FieldDecode.CreateDecoder_Int32(field.FieldEncodingInfo);
+            return (CItemXP @this, ReadOnlySpan<int> path, ref BitBuffer buffer) =>
+            {
+                @this.LaunchNum = decoder(ref buffer);
             };
         }
         return CBaseModelEntity.CreateFieldDecoder(field, decoderSet);

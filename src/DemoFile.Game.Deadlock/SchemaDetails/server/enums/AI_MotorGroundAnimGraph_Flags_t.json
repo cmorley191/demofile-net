@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eNone",
+      "eDelayStop",
+      "eWaitingForFacing",
+      "eWaitingForNavigatorArrivalFacing",
+      "eDelayIdleTurn"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ]
+  }
+}

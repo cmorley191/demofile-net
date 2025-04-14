@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropSelectionCriteria",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataComponentValidGrandParents"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "End Cap Settings"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies that this is a special part that should be used at the start or end of the line."
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Distribution Mode"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies a distribution mode used to determine how certain elements distribute instances of their children within a space."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

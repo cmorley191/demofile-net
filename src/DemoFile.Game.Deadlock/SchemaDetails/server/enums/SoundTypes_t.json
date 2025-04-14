@@ -1,0 +1,35 @@
+{
+  "align": 2,
+  "items": {
+    "names": [
+      "SOUND_NONE",
+      "SOUND_COMBAT",
+      "SOUND_PLAYER",
+      "SOUND_DANGER",
+      "SOUND_BULLET_IMPACT",
+      "SOUND_THUMPER",
+      "SOUND_PHYSICS_DANGER",
+      "SOUND_MOVE_AWAY",
+      "SOUND_PLAYER_VEHICLE",
+      "SOUND_GLASS_BREAK",
+      "SOUND_PHYSICS_OBJECT",
+      "SOUND_WARN_FRIENDS",
+      "SOUND_FOOD"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ]
+  }
+}

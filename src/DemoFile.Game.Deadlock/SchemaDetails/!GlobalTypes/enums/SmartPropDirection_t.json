@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FORWARD",
+      "LEFT",
+      "UP"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "CSmartPropElement_Group",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Place In Radius"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "An element which places multiple instances of its child elements within a radius."
+    }
+  ],
+  "fields": []
+}

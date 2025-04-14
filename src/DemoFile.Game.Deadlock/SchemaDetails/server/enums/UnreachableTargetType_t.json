@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "UTT_ENTITY",
+      "UTT_WORLDPOS",
+      "UTT_GLOBALSYMBOL"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

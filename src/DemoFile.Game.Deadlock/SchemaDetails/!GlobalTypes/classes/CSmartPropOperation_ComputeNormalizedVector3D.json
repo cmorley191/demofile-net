@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Normalize Vector"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Normalize the value of a 3d vector."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

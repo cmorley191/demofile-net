@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Placement Shape"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies the shape (circle, or sphere) to use with elements that place children within a radius."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

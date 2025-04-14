@@ -1,0 +1,17 @@
+{
+  "parent": "CSmartPropElement_Group",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Select Single Child"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "An element which selects a single choice from its set of child choices."
+    }
+  ],
+  "fields": []
+}

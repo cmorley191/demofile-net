@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropTransformOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Create Locator"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Create a locator with the current transform. The locator may optionally be configurable, so that its transform can be modified in Hammer."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

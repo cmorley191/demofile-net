@@ -46,9 +46,10 @@ internal static class Program
 
         var schemaFiles = new[] {"server.json", "!GlobalTypes.json"};
 
-        foreach (var schemaFile in schemaFiles)
+        foreach (var schemaFile in new DirectoryInfo(Path.Combine(outputPath, "Schema")).GetFiles("*.json", SearchOption.TopDirectoryOnly))
         {
-            var schemaPath = Path.Combine(outputPath, "Schema", schemaFile);
+            Console.WriteLine($"Loading {schemaFile.Name}");
+            var schemaPath = Path.Combine(outputPath, "Schema", schemaFile.Name);
 
             var schema = JsonSerializer.Deserialize<SchemaModule>(
                 File.ReadAllText(schemaPath),

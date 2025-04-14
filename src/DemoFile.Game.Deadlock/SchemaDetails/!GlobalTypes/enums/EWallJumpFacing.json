@@ -1,0 +1,19 @@
+{
+  "align": 2,
+  "items": {
+    "names": [
+      "NotOnWall",
+      "WallToFront",
+      "WallToRight",
+      "WallToLeft",
+      "WallToBack"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

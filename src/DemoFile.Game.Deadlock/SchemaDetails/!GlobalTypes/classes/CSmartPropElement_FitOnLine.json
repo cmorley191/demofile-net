@@ -1,0 +1,17 @@
+{
+  "parent": "CSmartPropElement_Group",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Fit on Line"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "An element which fits one or more instances of a set of choices on to a line."
+    }
+  ],
+  "fields": []
+}

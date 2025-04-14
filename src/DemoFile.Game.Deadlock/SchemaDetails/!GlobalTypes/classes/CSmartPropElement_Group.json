@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropElement",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Group"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "A group of elements that will all be evaulated."
+    },
+    {
+      "name": "MVDataOutlinerLabelExpr"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Grid Placement"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies how to place elements within a grid."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

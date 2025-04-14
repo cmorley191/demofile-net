@@ -1,0 +1,23 @@
+{
+  "parent": "CSmartPropOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Save State"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Save the current state, allowing it to be restored at a later state."
+    },
+    {
+      "name": "MVDataNodeTintColor"
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

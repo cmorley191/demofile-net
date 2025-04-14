@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropFilter",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Filter: Variable Value"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Compares the current value of a variable to the specified value. If the comparison is false the element evaluation is stopped."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

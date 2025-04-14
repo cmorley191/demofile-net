@@ -1,0 +1,21 @@
+{
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataBase"
+    },
+    {
+      "name": "MVDataNodeType"
+    },
+    {
+      "name": "MVDataAnonymousNode"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Smart Prop Element"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "CSmartPropParameter",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Choice"
+    },
+    {
+      "name": "MVDataAnonymousNode"
+    },
+    {
+      "name": "MVDataOutlinerNameExpr"
+    }
+  ],
+  "fields": []
+}

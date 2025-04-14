@@ -8,18 +8,21 @@
         "name": "GameTime_t",
         "category": 5
       },
-      "metadata": [
-        {
-          "name": "MNetworkChangeCallback",
-          "value": "OnLaunchTimeChanged"
-        }
-      ]
+      "metadata": []
     },
     {
       "name": "m_flAttackableTime",
       "type": {
         "name": "GameTime_t",
         "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nLaunchNum",
+      "type": {
+        "name": "int32",
+        "category": 0
       },
       "metadata": []
     }

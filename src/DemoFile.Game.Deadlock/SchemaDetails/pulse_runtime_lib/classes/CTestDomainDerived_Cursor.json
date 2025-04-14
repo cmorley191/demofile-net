@@ -1,0 +1,12 @@
+{
+  "parent": "CPulseExecCursor",
+  "metadata": [
+    {
+      "name": "MPulseLibraryBindings"
+    },
+    {
+      "name": "MPulseInternal_IsCursor"
+    }
+  ],
+  "fields": []
+}

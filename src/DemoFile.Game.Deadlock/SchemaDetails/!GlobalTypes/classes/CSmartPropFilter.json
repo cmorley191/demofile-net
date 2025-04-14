@@ -1,0 +1,12 @@
+{
+  "parent": "CSmartPropModifier",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataNodeTintColor"
+    }
+  ],
+  "fields": []
+}

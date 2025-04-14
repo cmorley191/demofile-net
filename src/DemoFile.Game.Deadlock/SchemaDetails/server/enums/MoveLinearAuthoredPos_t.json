@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MOVELINEAR_AUTHORED_AT_START_POSITION",
+      "MOVELINEAR_AUTHORED_AT_OPEN_POSITION",
+      "MOVELINEAR_AUTHORED_AT_CLOSED_POSITION"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Vector Between Points"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Compute the vector between two 3D points"
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

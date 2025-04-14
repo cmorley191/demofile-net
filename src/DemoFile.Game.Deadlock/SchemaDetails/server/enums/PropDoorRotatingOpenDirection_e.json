@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DOOR_ROTATING_OPEN_BOTH_WAYS",
+      "DOOR_ROTATING_OPEN_FORWARD",
+      "DOOR_ROTATING_OPEN_BACKWARD"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

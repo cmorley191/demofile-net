@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropSelectionCriteria",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataComponentValidGrandParents"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Valid Path Positions"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies the path positions at which this element may appear."
+    }
+  ],
+  "fields": []
+}

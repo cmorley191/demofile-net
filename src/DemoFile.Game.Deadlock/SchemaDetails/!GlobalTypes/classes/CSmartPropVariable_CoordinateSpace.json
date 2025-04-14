@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Coordinate Space"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies a coordinate space in which a point or vector value is defined."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

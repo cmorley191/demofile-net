@@ -1,5 +1,5 @@
 {
-  "parent": "CCitadel_Modifier_BaseBulletPreRollProc",
+  "parent": "CCitadelModifier",
   "metadata": [],
   "fields": []
 }

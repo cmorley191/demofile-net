@@ -1,0 +1,9 @@
+{
+  "parent": "CSmartPropModifier",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

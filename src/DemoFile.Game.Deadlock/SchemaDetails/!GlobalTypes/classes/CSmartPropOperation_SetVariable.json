@@ -1,0 +1,23 @@
+{
+  "parent": "CSmartPropOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Set Variable"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Set the value of a variable."
+    },
+    {
+      "name": "MVDataClassGroup"
+    },
+    {
+      "name": "MVDataOutlinerNameExpr"
+    }
+  ],
+  "fields": []
+}

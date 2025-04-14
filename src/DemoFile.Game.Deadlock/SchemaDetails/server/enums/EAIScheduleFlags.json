@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SCHEDULE_FLAGS_NONE",
+      "SCHEDULE_FLAGS_ABILITY",
+      "SCHEDULE_FLAGS_INTERRUPT_ACTIVE_HANDSHAKES",
+      "SCHEDULE_FLAGS_CANNOT_BE_INTERRUPTED_BY_SYNCHRONIZED_ABILITY",
+      "SCHEDULE_FLAGS_CANNOT_BE_INTERRUPTED_BY_INCAPACITATION"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ]
+  }
+}

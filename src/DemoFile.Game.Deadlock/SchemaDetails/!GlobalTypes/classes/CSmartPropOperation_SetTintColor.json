@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropOperation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Tint Color Choice"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Set the color tint to one color out of a pre-selected set of colors."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

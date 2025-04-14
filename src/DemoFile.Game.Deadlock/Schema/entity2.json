@@ -1,0 +1,178 @@
+{
+  "enums": {
+    "EntityDormancyType_t": {
+      "align": 4,
+      "items": [
+        {
+          "name": "ENTITY_NOT_DORMANT",
+          "value": 0
+        },
+        {
+          "name": "ENTITY_DORMANT",
+          "value": 1
+        },
+        {
+          "name": "ENTITY_SUSPENDED",
+          "value": 2
+        }
+      ]
+    },
+    "EntityIOTargetType_t": {
+      "align": 4,
+      "items": [
+        {
+          "name": "ENTITY_IO_TARGET_INVALID",
+          "value": -1
+        },
+        {
+          "name": "ENTITY_IO_TARGET_ENTITYNAME",
+          "value": 2
+        },
+        {
+          "name": "ENTITY_IO_TARGET_EHANDLE",
+          "value": 6
+        },
+        {
+          "name": "ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME",
+          "value": 7
+        }
+      ]
+    }
+  },
+  "classes": {
+    "CEntityIOOutput": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "GameTick_t": {
+      "metadata": [
+        {
+          "name": "MIsBoxedIntegerType"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CEntityComponentHelper": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "EntInput_t": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "CEntityIdentity": {
+      "metadata": [
+      ],
+      "fields": [
+        {
+          "name": "m_nameStringableIndex",
+          "type": {
+            "name": "int32",
+            "category": 0
+          },
+          "metadata": [
+            {
+              "name": "MNetworkChangeCallback",
+              "value": "entityIdentityNameChanged"
+            }
+          ]
+        }
+      ]
+    },
+    "CEntityComponent": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "CScriptComponent": {
+      "parent": "CEntityComponent",
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "CEntityInstance": {
+      "metadata": [
+      ],
+      "fields": [
+        {
+          "name": "m_pEntity",
+          "type": {
+            "name": "CEntityIdentity*",
+            "category": 1,
+            "inner": {
+              "name": "CEntityIdentity",
+              "category": 5
+            }
+          },
+          "metadata": [
+            {
+              "name": "MNetworkPriority",
+              "value": 56
+            }
+          ]
+        },
+        {
+          "name": "m_CScriptComponent",
+          "type": {
+            "name": "CScriptComponent*",
+            "category": 1,
+            "inner": {
+              "name": "CScriptComponent",
+              "category": 5
+            }
+          },
+          "metadata": [
+          ]
+        }
+      ]
+    },
+    "GameTime_t": {
+      "metadata": [
+        {
+          "name": "MIsBoxedFloatType"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CNetworkVarChainer": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "EntOutput_t": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "CVariantDefaultAllocator": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "CEmptyEntityInstance": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "EntComponentInfo_t": {
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    }
+  }
+}

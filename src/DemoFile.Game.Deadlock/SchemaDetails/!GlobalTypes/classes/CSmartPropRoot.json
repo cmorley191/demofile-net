@@ -1,0 +1,37 @@
+{
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MSmartPropClassVersion"
+    },
+    {
+      "name": "MVDataRoot"
+    },
+    {
+      "name": "MVDataSingleton"
+    },
+    {
+      "name": "MVDataFileExtension"
+    },
+    {
+      "name": "MVDataPreviewWidget"
+    },
+    {
+      "name": "MVDataGroupNodeClass"
+    },
+    {
+      "name": "MVDataUsesComponentEditor"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Smart Prop Root"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Root of a smart prop, contains a list of elements to evaluate."
+    }
+  ],
+  "fields": []
+}

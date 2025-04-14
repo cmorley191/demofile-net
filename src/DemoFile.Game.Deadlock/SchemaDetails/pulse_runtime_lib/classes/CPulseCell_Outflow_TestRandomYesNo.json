@@ -1,0 +1,26 @@
+{
+  "parent": "CPulseCell_BaseFlow",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "[Test] Random Yes/No Outflow"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Test node that randomly picks between two outflows."
+    }
+  ],
+  "fields": []
+}

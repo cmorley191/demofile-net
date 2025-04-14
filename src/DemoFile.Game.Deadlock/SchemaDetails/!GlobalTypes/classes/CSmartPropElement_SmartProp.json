@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropElement",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Smart Prop Reference"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Evaluates a specified smart prop as a child of the current element."
+    },
+    {
+      "name": "MVDataOutlinerAssetNameExpr"
+    }
+  ],
+  "fields": []
+}

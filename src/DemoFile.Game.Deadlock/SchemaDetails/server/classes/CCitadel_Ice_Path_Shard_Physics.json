@@ -49,6 +49,14 @@
           "value": "OnEndTimeChanged"
         }
       ]
+    },
+    {
+      "name": "m_flShardWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
     }
   ]
 }

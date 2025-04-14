@@ -1,0 +1,37 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eYawToDest",
+      "eDisableUpdateGoalPos",
+      "eLocalSucceedOnWithinTolerance",
+      "eGoalOffsetInLocalYaw",
+      "eGoalOffsetInLocalSpace",
+      "eDestInWorldSpace",
+      "eDontLimitGoalOffset",
+      "eInterruptPath",
+      "eDisablePathSmoothing",
+      "eClearGoalOffsetOnRepathForMovement",
+      "eUseTargetPredictedPosition",
+      "eDisableTargetPredictedPositionForDynamicPathing",
+      "eDisableStopAtGoal",
+      "eDefault"
+    ],
+    "values": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      0
+    ]
+  }
+}

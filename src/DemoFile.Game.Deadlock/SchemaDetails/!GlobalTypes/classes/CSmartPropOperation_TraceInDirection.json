@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropOperation_Trace",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Transform: Trace In Direction"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Perform a trace in a direction from a specified origin and stop when a surface is hit."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}

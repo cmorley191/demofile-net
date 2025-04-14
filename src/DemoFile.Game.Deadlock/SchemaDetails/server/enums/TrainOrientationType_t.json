@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TrainOrientation_Fixed",
+      "TrainOrientation_AtPathTracks",
+      "TrainOrientation_LinearBlend",
+      "TrainOrientation_EaseInEaseOut"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

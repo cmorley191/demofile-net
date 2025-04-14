@@ -1,0 +1,13 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Vector 3D"
+    }
+  ],
+  "fields": []
+}

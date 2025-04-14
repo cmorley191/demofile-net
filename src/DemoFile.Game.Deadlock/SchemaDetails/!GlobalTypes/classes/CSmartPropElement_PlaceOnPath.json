@@ -1,0 +1,17 @@
+{
+  "parent": "CSmartPropElement_Group",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Place on Path"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "An element which places an instance of its child elements at a specified interval along a path."
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "RANDOM",
+      "FIRST",
+      "SPECIFIC"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

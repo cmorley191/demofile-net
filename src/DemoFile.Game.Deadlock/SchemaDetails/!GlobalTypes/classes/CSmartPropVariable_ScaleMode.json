@@ -1,0 +1,20 @@
+{
+  "parent": "CSmartPropVariable",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Fit on Line Scale Mode"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Specifies how a fit on line element will scale generate scale values for the objects it places."
+    },
+    {
+      "name": "MVDataClassGroup"
+    }
+  ],
+  "fields": []
+}
