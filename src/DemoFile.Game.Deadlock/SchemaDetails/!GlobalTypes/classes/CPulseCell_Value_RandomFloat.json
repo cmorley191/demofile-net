@@ -1,0 +1,29 @@
+{
+  "parent": "CPulseCell_BaseValue",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Random Float"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Generate a random float between min and max (inclusive)"
+    },
+    {
+      "name": "MPulseEditorHeaderIcon"
+    }
+  ],
+  "fields": []
+}

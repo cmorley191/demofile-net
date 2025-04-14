@@ -1,0 +1,37 @@
+{
+  "parent": "CBaseToggle",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_glowEntity",
+      "type": {
+        "name": "CHandle< CBaseModelEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseModelEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_usable",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_szDisplayText",
+      "type": {
+        "name": "CUtlSymbolLarge",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

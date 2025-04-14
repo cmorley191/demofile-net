@@ -1,0 +1,57 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_Handle",
+      "type": {
+        "name": "ModelConfigHandle_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Name",
+      "type": {
+        "name": "CUtlSymbolLarge",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_AssociatedEntities",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBaseModelEntity > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBaseModelEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseModelEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_AssociatedEntityNames",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlSymbolLarge >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlSymbolLarge",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "WORLDTEXT_ORIENTATION_DEFAULT",
+      "WORLDTEXT_ORIENTATION_FACEUSER",
+      "WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

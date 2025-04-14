@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LIFE_ALIVE",
+      "LIFE_DYING",
+      "LIFE_DEAD",
+      "LIFE_RESPAWNABLE",
+      "LIFE_RESPAWNING"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

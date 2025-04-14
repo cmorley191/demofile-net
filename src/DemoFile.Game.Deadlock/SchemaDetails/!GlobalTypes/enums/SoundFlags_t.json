@@ -1,0 +1,29 @@
+{
+  "align": 2,
+  "items": {
+    "names": [
+      "SOUND_FLAGS_NONE",
+      "SOUND_FLAG_GUNFIRE",
+      "SOUND_FLAG_COMBINE_ONLY",
+      "SOUND_FLAG_REACT_TO_SOURCE",
+      "SOUND_FLAG_EXPLOSION",
+      "SOUND_FLAG_EXCLUDE_COMBINE",
+      "SOUND_FLAG_DANGER_APPROACH",
+      "SOUND_FLAG_ALLIES_ONLY",
+      "SOUND_FLAG_PANIC_NPCS",
+      "SOUND_FLAG_SQUAD_ONLY"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "KnockdownLarge",
+      "KnockdownMedium",
+      "KnockdownSmall",
+      "KnockdownPancake",
+      "KnockdownParried",
+      "ENumKnockdowns",
+      "EKnockdownInvalid"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5
+    ]
+  }
+}

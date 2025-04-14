@@ -1,0 +1,444 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_flTimeScale"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_angRotation"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_blinktoggle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_cellX"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_cellY"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_cellZ"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flAnimTime"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flCycle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flEncodedController"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flPoseParameter"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flSimulationTime"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flexWeight"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_nForceBone"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_nHitboxSet"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_baseLayer.m_hSequence"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_vecForce"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_vecMaxs"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_vecMins"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_vecOrigin"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_vecSpecifiedSurroundingMaxs"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_vecSpecifiedSurroundingMins"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_vLookTargetPosition"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_MoveCollide"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_MoveType"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_Gender"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flElasticity"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_nMinCPULevel"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_nMinGPULevel"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_nMaxCPULevel"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_nMaxGPULevel"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flNavIgnoreUntilTime"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_ubInterpolationFrame"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flScale"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "overlay_vars"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CCitadelBaseAbility"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CCitadelBaseAbility"
+    },
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_flTimeScale"
+      }
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_bChanneling",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnChannelingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bInCastDelay",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnInCastDelayChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vecImbuedByAbilitiyIDs",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlStringToken >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlStringToken",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnAbilityImbuedChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bCanBeUpgraded",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eStolenInSlot",
+      "type": {
+        "name": "CitadelStolenAbilitySlot_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nUpgradeBits",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpgradeBitsChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_iBucketID",
+      "type": {
+        "name": "EAbilityBucketType",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bToggleState",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flCooldownStart",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flCooldownEnd",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flCastCompletedTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flChannelStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flCastDelayStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eAbilitySlot",
+      "type": {
+        "name": "EAbilitySlots_t",
+        "category": 6
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnAbilitySlotChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flPostCastDelayEndTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_iRemainingCharges",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flChargeRechargeStart",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flChargeRechargeEnd",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flMovementControlActiveTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flSelectedChangedTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flAltCastHoldStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flAltCastDoubleTapStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bCanBeImbued",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nImbuedAbilityID",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bSelectionModeIsAltMode",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

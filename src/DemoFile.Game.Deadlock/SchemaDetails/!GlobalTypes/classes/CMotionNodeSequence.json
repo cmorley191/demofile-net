@@ -1,0 +1,9 @@
+{
+  "parent": "CMotionNode",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

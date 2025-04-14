@@ -1,0 +1,19 @@
+{
+  "parent": "CEntityComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bvDisabledHitGroups",
+      "type": {
+        "name": "uint32[1]",
+        "category": 3,
+        "arraySize": 1,
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

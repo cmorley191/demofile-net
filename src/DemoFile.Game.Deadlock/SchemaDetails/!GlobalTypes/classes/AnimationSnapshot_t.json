@@ -1,0 +1,9 @@
+{
+  "parent": "AnimationSnapshotBase_t",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

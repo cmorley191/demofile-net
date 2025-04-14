@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EClientUIEvent_Invalid",
+      "EClientUIEvent_DialogFinished",
+      "EClientUIEvent_FireOutput"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

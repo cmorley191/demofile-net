@@ -1,0 +1,57 @@
+{
+  "parent": "CPlayerPawnComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nToggleButtonDownMask",
+      "type": {
+        "name": "uint64",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flMaxspeed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 12
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 2048
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "m_arrForceSubtickMoveWhen",
+      "type": {
+        "name": "float32[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "float32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

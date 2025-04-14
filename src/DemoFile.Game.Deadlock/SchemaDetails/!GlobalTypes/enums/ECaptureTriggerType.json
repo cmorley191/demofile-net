@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ENoEffect",
+      "EAmmoSpawn",
+      "EHeal"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

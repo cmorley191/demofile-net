@@ -1,0 +1,53 @@
+{
+  "parent": "CParticleSystem",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flAlphaScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flRadiusScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flSelfIllumScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_ColorTint",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hTextureOverride",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeCTextureBase >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeCTextureBase",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

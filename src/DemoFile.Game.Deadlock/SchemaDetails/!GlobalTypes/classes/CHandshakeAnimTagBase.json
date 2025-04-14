@@ -1,0 +1,9 @@
+{
+  "parent": "CAnimTagBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

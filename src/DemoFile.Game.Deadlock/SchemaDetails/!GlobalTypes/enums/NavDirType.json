@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "NORTH",
+      "EAST",
+      "SOUTH",
+      "WEST",
+      "NUM_NAV_DIR_TYPE_DIRECTIONS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

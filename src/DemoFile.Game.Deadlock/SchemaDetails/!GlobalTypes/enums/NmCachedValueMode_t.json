@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "OnEntry",
+      "OnExit"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

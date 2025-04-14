@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "TESTBED: Decaying Sine Wave Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Only text params, renders in real time"
+    }
+  ],
+  "fields": []
+}

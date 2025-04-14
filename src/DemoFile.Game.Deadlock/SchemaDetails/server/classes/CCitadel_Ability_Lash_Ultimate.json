@@ -1,0 +1,38 @@
+{
+  "parent": "CCitadelBaseLockonAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_EGrappleState",
+      "type": {
+        "name": "ELashGrappleState",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flStateEnterTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flNextStateTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flBoostEndTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

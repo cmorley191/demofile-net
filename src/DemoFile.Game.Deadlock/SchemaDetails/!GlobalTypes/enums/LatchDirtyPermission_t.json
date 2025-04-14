@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LATCH_DIRTY_DISALLOW",
+      "LATCH_DIRTY_SERVER_CONTROLLED",
+      "LATCH_DIRTY_CLIENT_SIMULATED",
+      "LATCH_DIRTY_PREDICTION",
+      "LATCH_DIRTY_FRAMESIMULATE",
+      "LATCH_DIRTY_PARTICLE_SIMULATE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

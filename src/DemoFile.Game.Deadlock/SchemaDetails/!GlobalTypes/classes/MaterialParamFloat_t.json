@@ -1,0 +1,9 @@
+{
+  "parent": "MaterialParam_t",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

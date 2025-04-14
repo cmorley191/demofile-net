@@ -1,0 +1,22 @@
+{
+  "parent": "CPulseCell_BaseValue",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Find Fake Entity"
+    }
+  ],
+  "fields": []
+}

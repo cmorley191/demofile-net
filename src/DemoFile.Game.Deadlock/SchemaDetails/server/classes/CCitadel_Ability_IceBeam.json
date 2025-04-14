@@ -1,0 +1,14 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_beam",
+      "type": {
+        "name": "CCitadelAbilityBeam_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

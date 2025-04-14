@@ -1,0 +1,29 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "GE_FireBullets",
+      "GE_PlayerAnimEvent",
+      "GE_ParticleSystemManager",
+      "GE_ScreenTextPretty",
+      "GE_ServerRequestedTracer",
+      "GE_BulletImpact",
+      "GE_EnableSatVolumesEvent",
+      "GE_PlaceSatVolumeEvent",
+      "GE_DisableSatVolumesEvent",
+      "GE_RemoveSatVolumeEvent"
+    ],
+    "values": [
+      450,
+      451,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465
+    ]
+  }
+}

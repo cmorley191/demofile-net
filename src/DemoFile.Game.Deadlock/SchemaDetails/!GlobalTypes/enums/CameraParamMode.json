@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EParamMode_AllowInOneContext",
+      "k_EParamMode_AllowInMultipleContexts"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

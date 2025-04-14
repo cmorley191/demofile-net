@@ -1,0 +1,106 @@
+{
+  "parent": "CTeam",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flBaseObjectiveHealth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecBaseLocationX",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecBaseLocationY",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHasValidBaseLocation",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hPayload",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nBossesAlive",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nBossesMax",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nFlexSlotsUnlocked",
+      "type": {
+        "name": "EFlexSlotTypes_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nBaseGuardianLanesCleared",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecFOWEntities",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< STeamFOWEntity >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "STeamFOWEntity",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    }
+  ]
+}

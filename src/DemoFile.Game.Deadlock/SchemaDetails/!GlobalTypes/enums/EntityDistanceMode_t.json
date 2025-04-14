@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eOriginToOrigin",
+      "eCenterToCenter",
+      "eAxisToAxis"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

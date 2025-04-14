@@ -1,0 +1,449 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iLevel",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iMaxAmmo",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iHealthMax",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flHealthRegen",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flRespawnTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHeroID",
+      "type": {
+        "name": "HeroID_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGoldNetWorth",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iAPNetWorth",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iCreepGold",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iCreepGoldSoloBonus",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iCreepGoldKill",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iCreepGoldAirOrb",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iCreepGoldGroundOrb",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iCreepGoldDeny",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iCreepGoldNeutral",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iFarmBaseline",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iHealth",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iPlayerKills",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iPlayerAssists",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iDeaths",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iDenies",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iLastHits",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bAlive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHeroDraftPosition",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "HeroDraftPositionChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bUltimateTrained",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flUltimateCooldownStart",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flUltimateCooldownEnd",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHasRejuvenator",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHasRebirth",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFlaggedAsCheater",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iHeroDamage",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iHeroHealing",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iSelfHealing",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iObjectiveDamage",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHeroAbilityUpgradeBits",
+      "type": {
+        "name": "int32[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "pdgAbilitiesChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vecUpgrades",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlStringToken >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlStringToken",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "pdgUpgradesChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vecBonusCounterAbilities",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlStringToken >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlStringToken",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecBonusCounterValues",
+      "type": {
+        "name": "CNetworkUtlVectorBase< int32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "pdgBonusCounterChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_tHeldItem",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "pdgUpgradesChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vecImbuements",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< ItemImbuementPair_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "ItemImbuementPair_t",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecDynamicAbilityValues",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< DynamicAbilityValues_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "DynamicAbilityValues_t",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecStatViewerModifierValues",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< StatViewerModifierValues_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "StatViewerModifierValues_t",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecStolenAbilities",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< StolenAbilityPair_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "StolenAbilityPair_t",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "pdgStolenAbilityChanged"
+        }
+      ]
+    }
+  ]
+}

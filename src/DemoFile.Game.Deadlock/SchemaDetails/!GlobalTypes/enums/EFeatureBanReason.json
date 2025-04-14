@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eFeatureBanReason_Invalid",
+      "k_eFeatureBanReason_DevCommand",
+      "k_eFeatureBanReason_PlayerReports",
+      "k_eFeatureBanReason_MatchAbandons",
+      "k_eFeatureBanReason_ExcessivePlayerReports"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

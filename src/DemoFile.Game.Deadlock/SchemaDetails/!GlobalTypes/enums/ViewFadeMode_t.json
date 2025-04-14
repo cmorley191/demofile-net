@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "VIEW_FADE_CONSTANT_COLOR",
+      "VIEW_FADE_MODULATE",
+      "VIEW_FADE_MOD2X"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

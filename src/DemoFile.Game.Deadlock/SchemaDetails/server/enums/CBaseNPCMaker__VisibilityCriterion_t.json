@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "VC_YES_LOS",
+      "VC_NO_LOS",
+      "VC_DONT_CARE",
+      "VC_YES_IN_VIEWCONE",
+      "VC_NO_IN_VIEWCONE",
+      "VC_YES_LOS_VIEWCONE",
+      "VC_NO_LOS_VIEWCONE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

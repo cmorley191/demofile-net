@@ -1,0 +1,19 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "FacingMode_Invalid",
+      "FacingMode_Manual",
+      "FacingMode_Path",
+      "FacingMode_LookTarget",
+      "FacingMode_ManualPosition"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

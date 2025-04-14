@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SOLVEIKCHAINANIMNODEDEBUGSETTING_None",
+      "SOLVEIKCHAINANIMNODEDEBUGSETTING_X_Axis_Circle",
+      "SOLVEIKCHAINANIMNODEDEBUGSETTING_Y_Axis_Circle",
+      "SOLVEIKCHAINANIMNODEDEBUGSETTING_Z_Axis_Circle",
+      "SOLVEIKCHAINANIMNODEDEBUGSETTING_Forward",
+      "SOLVEIKCHAINANIMNODEDEBUGSETTING_Up",
+      "SOLVEIKCHAINANIMNODEDEBUGSETTING_Left"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

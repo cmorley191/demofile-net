@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "TESTBED: FM Synth Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Real time FM Synthesis"
+    }
+  ],
+  "fields": []
+}

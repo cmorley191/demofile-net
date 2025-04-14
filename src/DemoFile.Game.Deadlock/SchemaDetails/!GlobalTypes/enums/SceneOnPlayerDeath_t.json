@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SCENE_ONPLAYERDEATH_DO_NOTHING",
+      "SCENE_ONPLAYERDEATH_CANCEL"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

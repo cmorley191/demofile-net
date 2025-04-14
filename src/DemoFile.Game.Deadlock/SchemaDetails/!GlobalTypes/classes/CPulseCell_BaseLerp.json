@@ -1,0 +1,9 @@
+{
+  "parent": "CPulseCell_BaseYieldingInflow",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

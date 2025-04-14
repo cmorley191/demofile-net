@@ -1,0 +1,14 @@
+{
+  "parent": "CCitadel_Item",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nKillsEarned",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

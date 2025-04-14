@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EM_PlayJingle",
+      "EM_ScreenOverlay",
+      "EM_RemoveAllDecals",
+      "EM_PropagateForce",
+      "EM_DoSpark",
+      "EM_FixAngle"
+    ],
+    "values": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141
+    ]
+  }
+}

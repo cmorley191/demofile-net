@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SimSpace_Local",
+      "SimSpace_Model",
+      "SimSpace_World"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eInvalid",
+      "eAngle",
+      "eWorldPosition"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

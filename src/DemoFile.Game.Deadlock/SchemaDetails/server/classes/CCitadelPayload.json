@@ -1,0 +1,22 @@
+{
+  "parent": "CCitadelAnimatingModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flProgress",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nNumPushers",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

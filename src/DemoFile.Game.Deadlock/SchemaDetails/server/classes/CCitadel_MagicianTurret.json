@@ -1,0 +1,20 @@
+{
+  "parent": "CCitadelAnimatingModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hAbility",
+      "type": {
+        "name": "CHandle< CCitadelBaseAbility >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CCitadelBaseAbility",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

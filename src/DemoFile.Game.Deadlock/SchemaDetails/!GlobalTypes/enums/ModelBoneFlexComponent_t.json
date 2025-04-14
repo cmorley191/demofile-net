@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODEL_BONE_FLEX_INVALID",
+      "MODEL_BONE_FLEX_TX",
+      "MODEL_BONE_FLEX_TY",
+      "MODEL_BONE_FLEX_TZ"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

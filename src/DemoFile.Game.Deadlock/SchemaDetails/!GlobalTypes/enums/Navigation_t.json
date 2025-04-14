@@ -1,0 +1,29 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "AI_NAV_NONE",
+      "AI_NAV_GROUND",
+      "AI_NAV_JUMP",
+      "AI_NAV_FLY",
+      "AI_NAV_CLIMB",
+      "AI_NAV_LINK",
+      "AI_NAV_NAVLINK",
+      "AI_NAV_TRANSITION",
+      "AI_NAV_ORIENTED",
+      "AI_NAV_SMART_GOAL"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      5,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

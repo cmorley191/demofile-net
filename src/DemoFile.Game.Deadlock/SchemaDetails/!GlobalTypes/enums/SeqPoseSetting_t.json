@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SEQ_POSE_SETTING_CONSTANT",
+      "SEQ_POSE_SETTING_ROTATION",
+      "SEQ_POSE_SETTING_POSITION",
+      "SEQ_POSE_SETTING_VELOCITY"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

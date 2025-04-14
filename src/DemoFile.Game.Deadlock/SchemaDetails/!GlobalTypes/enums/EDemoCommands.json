@@ -1,0 +1,53 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DEM_Error",
+      "DEM_Stop",
+      "DEM_FileHeader",
+      "DEM_FileInfo",
+      "DEM_SyncTick",
+      "DEM_SendTables",
+      "DEM_ClassInfo",
+      "DEM_StringTables",
+      "DEM_Packet",
+      "DEM_SignonPacket",
+      "DEM_ConsoleCmd",
+      "DEM_CustomData",
+      "DEM_CustomDataCallbacks",
+      "DEM_UserCmd",
+      "DEM_FullPacket",
+      "DEM_SaveGame",
+      "DEM_SpawnGroups",
+      "DEM_AnimationData",
+      "DEM_AnimationHeader",
+      "DEM_Recovery",
+      "DEM_Max",
+      "DEM_IsCompressed"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      64
+    ]
+  }
+}

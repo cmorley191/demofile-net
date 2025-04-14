@@ -1,0 +1,64 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vecLadderDir",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_vecPlayerMountPositionTop",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_vecPlayerMountPositionBottom",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_flAutoRideSpeed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFakeLadder",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

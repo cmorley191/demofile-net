@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_TOPOLOGY_POINTS",
+      "PARTICLE_TOPOLOGY_LINES",
+      "PARTICLE_TOPOLOGY_TRIS",
+      "PARTICLE_TOPOLOGY_QUADS",
+      "PARTICLE_TOPOLOGY_CUBES"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

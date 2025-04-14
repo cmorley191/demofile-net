@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CIRCLE",
+      "SQUARE",
+      "TRIANGLE"
+    ],
+    "values": [
+      100,
+      200,
+      300
+    ]
+  }
+}

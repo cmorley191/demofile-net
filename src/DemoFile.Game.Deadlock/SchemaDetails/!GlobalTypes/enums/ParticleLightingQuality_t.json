@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_LIGHTING_PER_PARTICLE",
+      "PARTICLE_LIGHTING_PER_VERTEX",
+      "PARTICLE_LIGHTING_PER_PIXEL"
+    ],
+    "values": [
+      0,
+      1,
+      -1
+    ]
+  }
+}

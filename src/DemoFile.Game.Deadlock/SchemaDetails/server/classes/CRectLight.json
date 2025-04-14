@@ -1,0 +1,19 @@
+{
+  "parent": "CBarnLight",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bShowLight",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    }
+  ]
+}

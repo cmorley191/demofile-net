@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelLeaderboardRegion_None",
+      "k_ECitadelLeaderboardRegion_Europe",
+      "k_ECitadelLeaderboardRegion_Asia",
+      "k_ECitadelLeaderboardRegion_NAmerica",
+      "k_ECitadelLeaderboardRegion_SAmerica",
+      "k_ECitadelLeaderboardRegion_Oceania"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

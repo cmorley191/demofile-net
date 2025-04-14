@@ -1,0 +1,16 @@
+{
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Sound Array "
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Reference to list of vsnd files or other containers."
+    }
+  ],
+  "fields": []
+}

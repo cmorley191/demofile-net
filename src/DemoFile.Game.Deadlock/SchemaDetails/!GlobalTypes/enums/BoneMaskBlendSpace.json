@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BlendSpace_Parent",
+      "BlendSpace_Model",
+      "BlendSpace_Model_RotationOnly",
+      "BlendSpace_Model_TranslationOnly"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE",
+      "SPAWN_GROUP_DONT_SPAWN_ENTITIES",
+      "SPAWN_GROUP_SYNCHRONOUS_SPAWN",
+      "SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP",
+      "SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES",
+      "SPAWN_GROUP_BLOCK_UNTIL_LOADED",
+      "SPAWN_GROUP_LOAD_STREAMING_DATA",
+      "SPAWN_GROUP_CREATE_NEW_SCENE_WORLD"
+    ],
+    "values": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      64,
+      128,
+      256
+    ]
+  }
+}

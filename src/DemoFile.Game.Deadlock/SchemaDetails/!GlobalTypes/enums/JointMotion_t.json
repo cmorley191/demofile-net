@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "JOINT_MOTION_FREE",
+      "JOINT_MOTION_LOCKED",
+      "JOINT_MOTION_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

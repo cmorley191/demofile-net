@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_PING_WHEEL_PREGAME",
+      "CITADEL_PING_WHEEL_INPROGRESS",
+      "CITADEL_PING_WHEEL_DISABLED_WHILE_DEAD",
+      "CITADEL_PING_WHEEL_POSTGAME",
+      "CITADEL_PING_WHEEL_CONTEXTUAL",
+      "CITADEL_PING_WHEEL_SUBNAV",
+      "CITADEL_PING_WHEEL_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

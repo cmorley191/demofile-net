@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelMMPreference_Invalid",
+      "k_ECitadelMMPreference_Casual",
+      "k_ECitadelMMPreference_Serious"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

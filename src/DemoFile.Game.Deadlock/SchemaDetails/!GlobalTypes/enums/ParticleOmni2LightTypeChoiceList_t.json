@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_OMNI2_LIGHT_TYPE_POINT",
+      "PARTICLE_OMNI2_LIGHT_TYPE_SPHERE"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iTeamNum"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_aPlayerControllers",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBasePlayerController > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBasePlayerController >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBasePlayerController",
+            "category": 5
+          }
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkAlias",
+          "value": "m_aPlayers"
+        }
+      ]
+    },
+    {
+      "name": "m_aPlayers",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBasePlayerPawn > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBasePlayerPawn >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBasePlayerPawn",
+            "category": 5
+          }
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkAlias",
+          "value": "m_aPawns"
+        }
+      ]
+    },
+    {
+      "name": "m_iScore",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_szTeamname",
+      "type": {
+        "name": "char[129]",
+        "category": 3,
+        "arraySize": 129,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

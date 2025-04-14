@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MAX_RESPONSE_NAME",
+      "MAX_RULE_NAME"
+    ],
+    "values": [
+      192,
+      128
+    ]
+  }
+}

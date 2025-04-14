@@ -1,0 +1,38 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_timeLastUpdate",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_vecFOWEntities",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< STrooperFOWEntity >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "STrooperFOWEntity",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    }
+  ]
+}

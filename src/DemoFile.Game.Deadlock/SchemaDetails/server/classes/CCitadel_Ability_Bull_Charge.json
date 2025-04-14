@@ -1,0 +1,49 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_anglesCharging",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flChargeStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnChargingStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFastChargeEndTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHitAPlayer",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

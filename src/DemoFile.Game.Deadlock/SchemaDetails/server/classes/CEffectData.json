@@ -1,0 +1,241 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vOrigin",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord_integral"
+        }
+      ]
+    },
+    {
+      "name": "m_vStart",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord_integral"
+        }
+      ]
+    },
+    {
+      "name": "m_vNormal",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "normal"
+        }
+      ]
+    },
+    {
+      "name": "m_vAngles",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle"
+        }
+      ]
+    },
+    {
+      "name": "m_hEntity",
+      "type": {
+        "name": "CEntityHandle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hOtherEntity",
+      "type": {
+        "name": "CEntityHandle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flMagnitude",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 12
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1023
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "m_flRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 10
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1023
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "m_nSurfaceProp",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nEffectIndex",
+      "type": {
+        "name": "CWeakHandle< InfoForResourceTypeIParticleSystemDefinition >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CWeakHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIParticleSystemDefinition",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nDamageType",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nPenetrate",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nMaterial",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHitBox",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nColor",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fFlags",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nAttachmentIndex",
+      "type": {
+        "name": "AttachmentHandle_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nAttachmentName",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iEffectName",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nExplosionType",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

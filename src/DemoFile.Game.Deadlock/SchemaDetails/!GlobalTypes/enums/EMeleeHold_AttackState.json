@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EAttackState_None",
+      "EAttackState_Charging",
+      "EAttackState_GroundDashing",
+      "EAttackState_AirDashing",
+      "EAttackState_Attacking",
+      "EAttackState_SlideDashing"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

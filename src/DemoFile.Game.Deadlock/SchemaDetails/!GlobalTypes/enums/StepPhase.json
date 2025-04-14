@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "StepPhase_OnGround",
+      "StepPhase_InAir"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

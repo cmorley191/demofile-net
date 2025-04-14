@@ -1,0 +1,19 @@
+{
+  "parent": "CCitadel_Item",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flEndTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FLAG_TRANSLUCENT",
+      "FLAG_TRANSLUCENT_TWO_PASS",
+      "FLAG_MODEL_IS_RUNTIME_COMBINED",
+      "FLAG_SOURCE1_IMPORT",
+      "FLAG_MODEL_PART_CHILD",
+      "FLAG_NAV_GEN_NONE",
+      "FLAG_NAV_GEN_HULL",
+      "FLAG_NO_FORCED_FADE",
+      "FLAG_HAS_SKINNED_MESHES",
+      "FLAG_DO_NOT_CAST_SHADOWS",
+      "FLAG_FORCE_PHONEME_CROSSFADE",
+      "FLAG_NO_ANIM_EVENTS",
+      "FLAG_ANIMATION_DRIVEN_FLEXES",
+      "FLAG_IMPLICIT_BIND_POSE_SEQUENCE",
+      "FLAG_MODEL_DOC"
+    ],
+    "values": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      2048,
+      1024,
+      131072,
+      4096,
+      1048576,
+      2097152,
+      4194304,
+      8388608
+    ]
+  }
+}

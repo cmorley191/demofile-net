@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CAST_DELAY_STARTED",
+      "CAST_COMPLETED",
+      "CAST_TOGGLED_ON",
+      "CAST_CHANNEL_STARTED"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

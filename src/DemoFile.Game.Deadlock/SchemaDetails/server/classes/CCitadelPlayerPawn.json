@@ -1,0 +1,625 @@
+{
+  "parent": "CCitadelPlayerPawnBase",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_baseLayer.m_hSequence"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_blinktoggle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flAnimTime"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flCycle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flEncodedController"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flPoseParameter"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CCitadelPlayerPawn"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CCitadelPlayerPawn"
+    },
+    {
+      "name": "MNetworkVarTypeOverride",
+      "value": {
+        "type": "CCitadelPlayer_CameraServices",
+        "name": "m_pCameraServices"
+      }
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_pCameraServices"
+    },
+    {
+      "name": "MNetworkVarTypeOverride",
+      "value": {
+        "type": "CCitadelPlayer_MovementServices",
+        "name": "m_pMovementServices"
+      }
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_pMovementServices"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_angClientCamera",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "SourceTVExclusive"
+        },
+        {
+          "name": "MNetworkBitCount",
+          "value": 11
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_angEyeAngles",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "RemotePlayersOnly"
+        },
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle"
+        },
+        {
+          "name": "MNetworkBitCount",
+          "value": 11
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_angLockedEyeAngles",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_nLevel",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nCurrencies",
+      "type": {
+        "name": "int32[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nSpentCurrencies",
+      "type": {
+        "name": "int32[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flRespawnTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flLastSpawnTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bInRegenerationZone",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bInItemShopZone",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_timeRevealedOnMinimapByNPC",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_vecFullSellPriceItems",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlStringToken >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlStringToken",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_vecFullSellPriceAbilityUpgrades",
+      "type": {
+        "name": "CNetworkUtlVectorBase< FullSellPriceAbilityUpgrades_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "FullSellPriceAbilityUpgrades_t",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bNetworkDisconnected",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHasIncomingThreats",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bLearningAbility",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_nFlashStartTick",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nFlashMaxStartTick",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nFlashFadeStartTick",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nFlashEndTick",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nFlashMaxAlpha",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nDeducedLane",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bDismissedReportCard",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flCurrentHealingAmount",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_CCitadelAbilityComponent",
+      "type": {
+        "name": "CCitadelAbilityComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelAbilityComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelAbilityComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelAbilityComponent"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_CCitadelHeroComponent",
+      "type": {
+        "name": "CCitadelHeroComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelHeroComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelHeroComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelHeroComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_CCitadelRegenComponent",
+      "type": {
+        "name": "CCitadelRegenComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelRegenComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelRegenComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelRegenComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_CCitadelMinimapComponent",
+      "type": {
+        "name": "CCitadelMinimapComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelMinimapComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_eZipLineLaneColor",
+      "type": {
+        "name": "CMsgLaneColor",
+        "category": 6
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_nSuccessiveDucks",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flLastDuckTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bAnimGraphMovementClipped",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bAnimGraphMovementDisableGravity",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bAnimGraphMovementDirectAirControl",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flPredTimeSlowedStart",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flPredTimeSlowedEnd",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flPredSlowSpeed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flTimeSlowedStart",
+      "type": {
+        "name": "GameTime_t[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "GameTime_t",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flTimeSlowedEnd",
+      "type": {
+        "name": "GameTime_t[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "GameTime_t",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flSlowSpeed",
+      "type": {
+        "name": "float32[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "float32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flSprintAnimSuppressEndTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    }
+  ]
+}

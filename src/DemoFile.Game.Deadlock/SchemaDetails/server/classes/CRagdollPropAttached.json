@@ -1,0 +1,50 @@
+{
+  "parent": "CRagdollProp",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_boneIndexAttached",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_ragdollAttachedObjectIndex",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_attachmentPointBoneSpace",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_attachmentPointRagdollSpace",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_CM_MapPing",
+      "CITADEL_CM_PerformanceStats",
+      "CITADEL_CM_PingWheel",
+      "CITADEL_CM_ChatMsg",
+      "CITADEL_CM_PerfReport",
+      "CITADEL_CM_QuickResponse",
+      "CITADEL_CM_Pause",
+      "CITADEL_CM_MapLine",
+      "CITADEL_CM_AbilityPing",
+      "CITADEL_CM_ExecuteMapUnitAbility",
+      "CITADEL_CM_GetDamageStats",
+      "CITADEL_CM_CheaterVote",
+      "CITADEL_CM_MutePlayers"
+    ],
+    "values": [
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014
+    ]
+  }
+}

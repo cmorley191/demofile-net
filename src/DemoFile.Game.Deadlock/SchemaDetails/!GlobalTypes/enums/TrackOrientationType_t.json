@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TrackOrientation_Fixed",
+      "TrackOrientation_FacePath",
+      "TrackOrientation_FacePathAngles"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

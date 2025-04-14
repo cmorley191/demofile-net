@@ -1,0 +1,31 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SPRITECARD_TEXTURE_DIFFUSE",
+      "SPRITECARD_TEXTURE_ZOOM",
+      "SPRITECARD_TEXTURE_1D_COLOR_LOOKUP",
+      "SPRITECARD_TEXTURE_UVDISTORTION",
+      "SPRITECARD_TEXTURE_UVDISTORTION_ZOOM",
+      "SPRITECARD_TEXTURE_NORMALMAP",
+      "SPRITECARD_TEXTURE_ANIMMOTIONVEC",
+      "SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_A",
+      "SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_B",
+      "SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_C",
+      "SPRITECARD_TEXTURE_DEPTH"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

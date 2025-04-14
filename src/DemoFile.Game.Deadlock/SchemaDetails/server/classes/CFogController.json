@@ -1,0 +1,18 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_fog",
+      "type": {
+        "name": "fogparams_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

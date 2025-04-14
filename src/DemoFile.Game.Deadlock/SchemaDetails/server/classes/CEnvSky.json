@@ -1,0 +1,180 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_hSkyMaterial",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_hSkyMaterialLightingOnly",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bStartDisabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vTintColor",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vTintColorLightingOnly",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flBrightnessScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nFogType",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogMinStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogMinEnd",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogMaxStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogMaxEnd",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "SkyStateChanged"
+        }
+      ]
+    }
+  ]
+}

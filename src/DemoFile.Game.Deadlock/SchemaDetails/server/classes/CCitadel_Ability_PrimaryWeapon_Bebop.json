@@ -1,0 +1,30 @@
+{
+  "parent": "CCitadel_Ability_PrimaryWeapon_BeamWeapon",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flStartWindUpTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flStartFiringTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFiring",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

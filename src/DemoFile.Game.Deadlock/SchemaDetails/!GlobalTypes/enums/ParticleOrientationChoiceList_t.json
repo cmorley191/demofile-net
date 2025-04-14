@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_ORIENTATION_SCREEN_ALIGNED",
+      "PARTICLE_ORIENTATION_SCREEN_Z_ALIGNED",
+      "PARTICLE_ORIENTATION_WORLD_Z_ALIGNED",
+      "PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL",
+      "PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL",
+      "PARTICLE_ORIENTATION_FULL_3AXIS_ROTATION"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

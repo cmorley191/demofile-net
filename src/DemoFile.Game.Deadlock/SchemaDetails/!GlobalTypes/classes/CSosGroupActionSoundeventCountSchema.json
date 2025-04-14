@@ -1,0 +1,9 @@
+{
+  "parent": "CSosGroupActionSchema",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,157 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_bActive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vBoxMins",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vBoxMaxs",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bStartDisabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flStrength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nFalloffShape",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFalloffExponent",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flHeightFogDepth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fHeightFogEdgeWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fIndirectLightStrength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fSunLightStrength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fNoiseStrength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_TintColor",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bOverrideTintColor",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bOverrideIndirectLightStrength",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bOverrideSunLightStrength",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bOverrideNoiseStrength",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bAllowLPVIndirect",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

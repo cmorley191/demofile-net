@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EPointType_MoveTarget",
+      "EPointType_EnemyBot",
+      "EPointType_EnemyTrooper",
+      "EPointType_FriendlyBot",
+      "EPointType_FriendlyTrooper",
+      "EPointType_DamageZone",
+      "EPointType_MovingEnemyBot",
+      "EPointType_MeleeTrainer"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

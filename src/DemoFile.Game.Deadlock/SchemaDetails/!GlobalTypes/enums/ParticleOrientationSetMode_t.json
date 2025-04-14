@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_ORIENTATION_SET_FROM_VELOCITY",
+      "PARTICLE_ORIENTATION_SET_FROM_ROTATIONS"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

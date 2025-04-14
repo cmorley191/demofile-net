@@ -1,0 +1,17 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "SHATTERGLASS_BLUNT",
+      "SHATTERGLASS_BALLISTIC",
+      "SHATTERGLASS_PULSE",
+      "SHATTERGLASS_EXPLOSIVE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

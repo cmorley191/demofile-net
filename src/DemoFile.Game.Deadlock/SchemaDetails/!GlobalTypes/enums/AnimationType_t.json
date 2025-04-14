@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ANIMATION_TYPE_FIXED_RATE",
+      "ANIMATION_TYPE_FIT_LIFETIME",
+      "ANIMATION_TYPE_MANUAL_FRAMES"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

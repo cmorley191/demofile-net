@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PET_GROUND_NONE",
+      "PET_GROUND_GRID",
+      "PET_GROUND_PLANE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

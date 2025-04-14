@@ -1,0 +1,9 @@
+{
+  "parent": "CSSDSMsg_LayerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

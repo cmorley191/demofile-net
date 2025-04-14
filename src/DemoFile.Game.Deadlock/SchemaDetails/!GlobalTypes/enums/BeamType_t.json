@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BEAM_INVALID",
+      "BEAM_POINTS",
+      "BEAM_ENTPOINT",
+      "BEAM_ENTS",
+      "BEAM_HOSE",
+      "BEAM_SPLINE",
+      "BEAM_LASER"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

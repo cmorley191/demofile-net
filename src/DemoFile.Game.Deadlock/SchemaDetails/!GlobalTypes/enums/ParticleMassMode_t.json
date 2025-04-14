@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_MASSMODE_RADIUS_CUBED",
+      "PARTICLE_MASSMODE_RADIUS_SQUARED"
+    ],
+    "values": [
+      0,
+      2
+    ]
+  }
+}

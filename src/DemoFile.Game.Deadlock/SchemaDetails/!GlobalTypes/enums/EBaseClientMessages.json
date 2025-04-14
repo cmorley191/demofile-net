@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CM_CustomGameEvent",
+      "CM_CustomGameEventBounce",
+      "CM_ClientUIEvent",
+      "CM_DevPaletteVisibilityChanged",
+      "CM_WorldUIControllerHasPanelChanged",
+      "CM_RotateAnchor",
+      "CM_ListenForResponseFound",
+      "CM_MAX_BASE"
+    ],
+    "values": [
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      300
+    ]
+  }
+}

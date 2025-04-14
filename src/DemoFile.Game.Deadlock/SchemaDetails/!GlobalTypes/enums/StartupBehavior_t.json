@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "UNIT_STARTUP_BEHAVIOR_DEFAULT",
+      "UNIT_STARTUP_BEHAVIOR_TAUNT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

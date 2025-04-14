@@ -1,0 +1,9 @@
+{
+  "parent": "CNmIDValueNode::CDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

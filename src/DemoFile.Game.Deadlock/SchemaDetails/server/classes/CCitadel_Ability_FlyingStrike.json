@@ -1,0 +1,252 @@
+{
+  "parent": "CCitadelBaseYamatoAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bShadowFormCast",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_vYamatoCastPos",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        },
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_vTargetCastPos",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        },
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_flFlyingToTargetStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flEndAttackTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flGrappleStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flGrappleArriveTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flAttackLatchTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_vAttackLatchPos",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_hTarget",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsTargetAlly",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flGrappleShotAttackTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_rgPath",
+      "type": {
+        "name": "Vector[20]",
+        "category": 3,
+        "arraySize": 20,
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        },
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnPathChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nPathIdx",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_nPathSize",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flPathLength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_vFlyingInitialOffsetToPath",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "flDistFlown",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LOGIC_BRANCH_LISTENER_NOT_INIT",
+      "LOGIC_BRANCH_LISTENER_ALL_TRUE",
+      "LOGIC_BRANCH_LISTENER_ALL_FALSE",
+      "LOGIC_BRANCH_LISTENER_MIXED"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

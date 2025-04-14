@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eHideAlways",
+      "eHideIfCasterIsTarget"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EAttachState_None",
+      "EAttachState_AwaitingTether",
+      "EAttachState_Latched",
+      "EAttachState_Attached",
+      "EAttachStateCount"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

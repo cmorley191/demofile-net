@@ -1,0 +1,38 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hAbilityToTrigger",
+      "type": {
+        "name": "CHandle< CCitadelBaseAbility >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CCitadelBaseAbility",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_SwappedToTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

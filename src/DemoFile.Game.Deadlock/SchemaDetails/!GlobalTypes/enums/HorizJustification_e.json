@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "HORIZ_JUSTIFICATION_LEFT",
+      "HORIZ_JUSTIFICATION_CENTER",
+      "HORIZ_JUSTIFICATION_RIGHT",
+      "HORIZ_JUSTIFICATION_NONE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

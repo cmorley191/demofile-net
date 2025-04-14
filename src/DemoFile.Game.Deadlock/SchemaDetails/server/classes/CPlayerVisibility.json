@@ -1,0 +1,74 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flVisibilityStrength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "PlayerVisibilityStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogDistanceMultiplier",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "PlayerVisibilityStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogMaxDensityMultiplier",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "PlayerVisibilityStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFadeTime",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "PlayerVisibilityStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bStartDisabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

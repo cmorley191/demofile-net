@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "STATE_PRE_SCRIPT",
+      "STATE_WAIT_FOR_SCRIPT",
+      "STATE_WALK_TO_MARK",
+      "STATE_SYNCHRONIZE_SCRIPT",
+      "STATE_PLAY_SCRIPT",
+      "STATE_PLAY_SCRIPT_POST_IDLE",
+      "STATE_PLAY_SCRIPT_POST_IDLE_DONE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

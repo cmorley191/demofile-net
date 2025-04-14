@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_LIGHTNING_BRANCH_CURRENT_DIR",
+      "PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

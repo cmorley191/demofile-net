@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTNER_NONE",
+      "PARTNER_PERFECT_WORLD",
+      "PARTNER_INVALID"
+    ],
+    "values": [
+      0,
+      1,
+      3
+    ]
+  }
+}

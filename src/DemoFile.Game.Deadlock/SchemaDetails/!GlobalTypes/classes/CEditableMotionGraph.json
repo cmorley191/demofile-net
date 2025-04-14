@@ -1,0 +1,9 @@
+{
+  "parent": "CMotionGraph",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

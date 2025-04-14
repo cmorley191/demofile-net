@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "INVALID",
+      "NONE",
+      "LIGHT",
+      "MEDIUM",
+      "HEAVY",
+      "NEAR_DEATH",
+      "DEAD",
+      "COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EBreakOnceBecomeInvuln",
+      "EBreakOnceRemainDamagable",
+      "EBreakMultipleTimes",
+      "EBreakNever",
+      "EBreakOnceHideBodygroup"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

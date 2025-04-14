@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TRAIN_SAFE",
+      "TRAIN_BLOCKING",
+      "TRAIN_FOLLOWING"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

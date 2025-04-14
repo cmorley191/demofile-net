@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EMantleNone",
+      "EMantle32",
+      "EMantle64",
+      "EMantle96",
+      "EMantle128"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

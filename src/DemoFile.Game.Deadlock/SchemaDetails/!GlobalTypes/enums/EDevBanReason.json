@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eDevBanReason_Unspecified",
+      "k_eDevBanReason_AimAssist",
+      "k_eDevBanReason_VisionAssist",
+      "k_eDevBanReason_MovementAssist"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

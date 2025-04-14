@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "UF_SUCCESS",
+      "UF_FAIL_INVALID_LOCATION",
+      "UF_FAIL_INVALID_TEAM",
+      "UF_FAIL_INVALID_TYPE",
+      "UF_FAIL_INVALID_ENTITY",
+      "UF_FAIL_INVALID_FLAGS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

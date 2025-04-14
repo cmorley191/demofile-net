@@ -1,0 +1,59 @@
+{
+  "parent": "CBaseAnimGraph",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flexWeight",
+      "type": {
+        "name": "CNetworkUtlVectorBase< float32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "float32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 12
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "m_vLookTargetPosition",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_blinktoggle",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

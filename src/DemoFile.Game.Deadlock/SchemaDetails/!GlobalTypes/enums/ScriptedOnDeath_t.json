@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SS_ONDEATH_NOT_APPLICABLE",
+      "SS_ONDEATH_UNDEFINED",
+      "SS_ONDEATH_RAGDOLL",
+      "SS_ONDEATH_ANIMATED_DEATH"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

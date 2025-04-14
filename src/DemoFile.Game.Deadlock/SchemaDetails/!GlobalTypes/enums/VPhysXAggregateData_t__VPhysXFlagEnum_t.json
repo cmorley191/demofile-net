@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FLAG_IS_POLYSOUP_GEOMETRY",
+      "FLAG_LEVEL_COLLISION",
+      "FLAG_IGNORE_SCALE_OBSOLETE_DO_NOT_USE"
+    ],
+    "values": [
+      1,
+      16,
+      32
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CNmTargetValueNode::CDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

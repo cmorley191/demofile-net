@@ -1,0 +1,152 @@
+{
+  "parent": "CPlayerPawnComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vecPunchAngle",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle_precise"
+        }
+      ]
+    },
+    {
+      "name": "m_vecPunchAngleVel",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        },
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle_precise"
+        }
+      ]
+    },
+    {
+      "name": "m_nPunchAngleJoltTick",
+      "type": {
+        "name": "GameTick_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnPunchJoltChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_PlayerFog",
+      "type": {
+        "name": "fogplayerparams_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hColorCorrectionCtrl",
+      "type": {
+        "name": "CHandle< CColorCorrection >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CColorCorrection",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hViewEntity",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hTonemapController",
+      "type": {
+        "name": "CHandle< CTonemapController2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CTonemapController2",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_audio",
+      "type": {
+        "name": "audioparams_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_PostProcessingVolumes",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CPostProcessingVolume > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CPostProcessingVolume >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CPostProcessingVolume",
+            "category": 5
+          }
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

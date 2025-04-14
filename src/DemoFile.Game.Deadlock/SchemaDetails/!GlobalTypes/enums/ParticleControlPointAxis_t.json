@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_CP_AXIS_X",
+      "PARTICLE_CP_AXIS_Y",
+      "PARTICLE_CP_AXIS_Z",
+      "PARTICLE_CP_AXIS_NEGATIVE_X",
+      "PARTICLE_CP_AXIS_NEGATIVE_Y",
+      "PARTICLE_CP_AXIS_NEGATIVE_Z"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SCALAR_EXPRESSION_UNINITIALIZED",
+      "SCALAR_EXPRESSION_ADD",
+      "SCALAR_EXPRESSION_SUBTRACT",
+      "SCALAR_EXPRESSION_MUL",
+      "SCALAR_EXPRESSION_DIVIDE",
+      "SCALAR_EXPRESSION_INPUT_1",
+      "SCALAR_EXPRESSION_MIN",
+      "SCALAR_EXPRESSION_MAX",
+      "SCALAR_EXPRESSION_MOD",
+      "SCALAR_EXPRESSION_EQUAL",
+      "SCALAR_EXPRESSION_GT",
+      "SCALAR_EXPRESSION_LT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

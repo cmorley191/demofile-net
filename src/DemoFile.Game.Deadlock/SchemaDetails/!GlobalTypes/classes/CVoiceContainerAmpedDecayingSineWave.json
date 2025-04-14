@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerDecayingSineWave",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "TESTBED: Amped Decaying Sine Wave Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Bytecode instruction"
+    }
+  ],
+  "fields": []
+}

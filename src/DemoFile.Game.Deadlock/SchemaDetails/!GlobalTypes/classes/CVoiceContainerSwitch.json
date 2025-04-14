@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Container Switch"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "An array of containers"
+    }
+  ],
+  "fields": []
+}

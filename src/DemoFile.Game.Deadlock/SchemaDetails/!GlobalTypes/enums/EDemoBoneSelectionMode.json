@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CaptureAllBones",
+      "CaptureSelectedBones"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

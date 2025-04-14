@@ -1,0 +1,30 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_SourceModifierID",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eValType",
+      "type": {
+        "name": "EModifierValue",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flValue",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

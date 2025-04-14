@@ -1,0 +1,91 @@
+{
+  "parent": "CPointEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bDisabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nResolutionX",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nResolutionY",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_szLayoutFileName",
+      "type": {
+        "name": "CUtlSymbolLarge",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_RenderAttrName",
+      "type": {
+        "name": "CUtlSymbolLarge",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_TargetEntities",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBaseModelEntity > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBaseModelEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseModelEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nTargetChangeCount",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecCSSClasses",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlSymbolLarge >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlSymbolLarge",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

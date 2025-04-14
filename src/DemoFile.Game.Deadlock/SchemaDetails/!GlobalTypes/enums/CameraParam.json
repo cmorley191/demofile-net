@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EParam_ClearAllOps",
+      "k_EParam_ClearAllOpsForContext",
+      "k_EParam_Distance",
+      "k_EParam_FOV",
+      "k_EParam_TargetPosition",
+      "k_EParam_VertOffset",
+      "k_EParam_HorizOffset"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PostProcState_Killed",
+      "PostProcState_Black",
+      "PostProcState_Blinded",
+      "PostProcState_ShivPossessed"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "INHERITABLE_BOOL_INHERIT",
+      "INHERITABLE_BOOL_FALSE",
+      "INHERITABLE_BOOL_TRUE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

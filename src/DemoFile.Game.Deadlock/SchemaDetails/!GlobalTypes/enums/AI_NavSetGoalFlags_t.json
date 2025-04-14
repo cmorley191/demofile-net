@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "AISG_SET_ARRIVAL_FROM_PREVWP",
+      "AISG_MAINTAIN_SMART_GOAL",
+      "AISG_QUEUE_GOAL",
+      "AISG_DEF_FLAGS"
+    ],
+    "values": [
+      1,
+      2,
+      4,
+      0
+    ]
+  }
+}

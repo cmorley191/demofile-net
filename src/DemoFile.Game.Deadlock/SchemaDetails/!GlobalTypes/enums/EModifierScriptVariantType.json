@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_SCRIPT_VARIANT_MODIFIER_FLOAT",
+      "MODIFIER_SCRIPT_VARIANT_MODEL",
+      "MODIFIER_SCRIPT_VARIANT_PARTICLE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

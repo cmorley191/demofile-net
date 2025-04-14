@@ -1,0 +1,25 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "RENDER_MULTISAMPLE_INVALID",
+      "RENDER_MULTISAMPLE_NONE",
+      "RENDER_MULTISAMPLE_2X",
+      "RENDER_MULTISAMPLE_4X",
+      "RENDER_MULTISAMPLE_6X",
+      "RENDER_MULTISAMPLE_8X",
+      "RENDER_MULTISAMPLE_16X",
+      "RENDER_MULTISAMPLE_TYPE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

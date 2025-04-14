@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "eDoNotNotify",
+      "eNotifyWhenFinished",
+      "eNotifyTriggered"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PF_ROUND_TYPE_INVALID",
+      "PF_ROUND_TYPE_NEAREST",
+      "PF_ROUND_TYPE_FLOOR",
+      "PF_ROUND_TYPE_CEIL",
+      "PF_ROUND_TYPE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

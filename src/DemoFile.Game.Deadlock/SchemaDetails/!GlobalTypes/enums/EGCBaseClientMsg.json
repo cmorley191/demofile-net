@@ -1,0 +1,35 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EMsgGCPingRequest",
+      "k_EMsgGCPingResponse",
+      "k_EMsgGCToClientPollConvarRequest",
+      "k_EMsgGCToClientPollConvarResponse",
+      "k_EMsgGCCompressedMsgToClient",
+      "k_EMsgGCCompressedMsgToClient_Legacy",
+      "k_EMsgGCToClientRequestDropped",
+      "k_EMsgGCClientWelcome",
+      "k_EMsgGCServerWelcome",
+      "k_EMsgGCClientHello",
+      "k_EMsgGCServerHello",
+      "k_EMsgGCClientConnectionStatus",
+      "k_EMsgGCServerConnectionStatus"
+    ],
+    "values": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      523,
+      3006,
+      4004,
+      4005,
+      4006,
+      4007,
+      4009,
+      4010
+    ]
+  }
+}

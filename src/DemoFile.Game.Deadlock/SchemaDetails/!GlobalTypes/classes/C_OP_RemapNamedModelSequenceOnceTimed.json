@@ -1,0 +1,9 @@
+{
+  "parent": "C_OP_RemapNamedModelElementOnceTimed",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,13 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ExactlyAtEventIndex",
+      "GreaterThanEqualToEventIndex"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

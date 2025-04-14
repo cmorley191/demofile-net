@@ -1,0 +1,19 @@
+{
+  "parent": "CPointClientUIWorldPanel",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_messageText",
+      "type": {
+        "name": "char[512]",
+        "category": 3,
+        "arraySize": 512,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

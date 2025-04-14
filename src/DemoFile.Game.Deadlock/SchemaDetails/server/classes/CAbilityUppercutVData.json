@@ -1,0 +1,9 @@
+{
+  "parent": "CAbilityMeleeVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

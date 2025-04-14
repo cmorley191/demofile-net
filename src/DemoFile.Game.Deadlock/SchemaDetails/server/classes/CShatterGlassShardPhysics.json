@@ -1,0 +1,19 @@
+{
+  "parent": "CPhysicsProp",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_hModel"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_ShardDesc",
+      "type": {
+        "name": "shard_model_desc_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

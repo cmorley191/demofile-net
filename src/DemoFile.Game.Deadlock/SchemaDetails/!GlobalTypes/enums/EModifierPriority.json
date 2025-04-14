@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_PRIORITY_LOW",
+      "MODIFIER_PRIORITY_NORMAL",
+      "MODIFIER_PRIORITY_HIGH",
+      "MODIFIER_PRIORITY_ULTRA",
+      "MODIFIER_PRIORITY_SUPER_ULTRA"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flEndDistance",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flStartDistance",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFogFalloffExponent",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHeightFogEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFogHeightWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFogHeightEnd",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFogHeightStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFogHeightExponent",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flLODBias",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bActive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bStartDisabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFogMaxOpacity",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nCubemapSourceType",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hSkyMaterial",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iszSkyEntity",
+      "type": {
+        "name": "CUtlSymbolLarge",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hFogCubemapTexture",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeCTextureBase >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeCTextureBase",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHasHeightFogEnd",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

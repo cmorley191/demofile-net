@@ -1,0 +1,116 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_bClientSideRagdoll"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_bInitiallyPopulateInterpHistory",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bAnimGraphUpdateEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecForce",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nForceBone",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_RagdollPose",
+      "type": {
+        "name": "PhysicsRagdollPose_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bRagdollEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnClientRagdollEnabledChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bRagdollClientSide",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnClientRagdollChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_animGraph2SerializeData",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint8 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint8",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        }
+      ]
+    },
+    {
+      "name": "m_nAnimGraph2SerializeDataSizeBytes",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        }
+      ]
+    },
+    {
+      "name": "m_animGraph2ReloadCountSV",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

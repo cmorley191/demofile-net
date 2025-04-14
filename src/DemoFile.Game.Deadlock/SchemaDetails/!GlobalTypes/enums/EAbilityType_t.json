@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "EAbilityType_Invalid",
+      "EAbilityType_Weapon",
+      "EAbilityType_Signature",
+      "EAbilityType_Ultimate",
+      "EAbilityType_Item",
+      "EAbilityType_Innate"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

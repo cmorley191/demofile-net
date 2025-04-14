@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ROLL_NONE",
+      "ROLL_STATS",
+      "ROLL_CREDITS",
+      "ROLL_LATE_JOIN_LOGO",
+      "ROLL_OUTTRO"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

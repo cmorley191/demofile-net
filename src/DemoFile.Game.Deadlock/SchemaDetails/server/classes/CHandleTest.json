@@ -1,0 +1,28 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_Handle",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bSendHandle",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

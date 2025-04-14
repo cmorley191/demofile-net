@@ -1,0 +1,38 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_ChargeState",
+      "type": {
+        "name": "EViscousChargedGunState",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nClipConsumed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsCharging",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsToggled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

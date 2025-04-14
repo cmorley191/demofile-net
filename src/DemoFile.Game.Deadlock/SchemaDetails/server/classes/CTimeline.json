@@ -1,0 +1,72 @@
+{
+  "parent": "IntervalTimer",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flValues",
+      "type": {
+        "name": "float32[64]",
+        "category": 3,
+        "arraySize": 64,
+        "inner": {
+          "name": "float32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nValueCounts",
+      "type": {
+        "name": "int32[64]",
+        "category": 3,
+        "arraySize": 64,
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nBucketCount",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flInterval",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFinalValue",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nCompressionType",
+      "type": {
+        "name": "TimelineCompression_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bStopped",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

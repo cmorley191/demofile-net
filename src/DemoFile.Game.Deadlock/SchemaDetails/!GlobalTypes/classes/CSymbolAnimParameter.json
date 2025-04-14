@@ -1,0 +1,13 @@
+{
+  "parent": "CConcreteAnimParameter",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Symbol Parameter"
+    }
+  ],
+  "fields": []
+}

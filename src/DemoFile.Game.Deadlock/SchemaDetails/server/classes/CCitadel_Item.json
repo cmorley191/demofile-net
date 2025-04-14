@@ -1,0 +1,26 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vecComponentsConsumed",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlStringToken >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlStringToken",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "AimMatrixBlendMode_None",
+      "AimMatrixBlendMode_Additive",
+      "AimMatrixBlendMode_ModelSpaceAdditive",
+      "AimMatrixBlendMode_BoneMask"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

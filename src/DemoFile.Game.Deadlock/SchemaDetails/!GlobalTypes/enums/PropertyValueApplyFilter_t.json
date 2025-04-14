@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EApplyFilter_None",
+      "EApplyFilter_OnlyIfImbued",
+      "EApplyFilter_OnlyIfNonImbued",
+      "EApplyFilter_OnlyIfHasCharges",
+      "EApplyFilter_OnlyIfUltimate",
+      "EApplyFilter_OnlyIfSignature"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_ABILITY_TARGETING_SHAPE_NONE",
+      "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
+      "CITADEL_ABILITY_TARGETING_SHAPE_LINE",
+      "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
+      "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+      "CITADEL_ABILITY_TARGETING_SHAPE_CAPSULE",
+      "CITADEL_ABILITY_TARGETING_SHAPE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

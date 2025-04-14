@@ -1,0 +1,27 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CPathQueryComponent",
+      "type": {
+        "name": "CPathQueryComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CPathQueryComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CPathQueryComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CPathQueryComponent"
+        }
+      ]
+    }
+  ]
+}

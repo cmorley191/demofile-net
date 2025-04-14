@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BLOCK_LOS_DEFAULT",
+      "BLOCK_LOS_FORCE_FALSE",
+      "BLOCK_LOS_FORCE_TRUE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

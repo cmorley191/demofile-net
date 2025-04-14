@@ -1,0 +1,87 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flFadeInStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFadeInLength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFadeOutModelStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFadeOutModelLength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFadeOutStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFadeOutLength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nDissolveType",
+      "type": {
+        "name": "EntityDisolveType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vDissolverOrigin",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nMagnitude",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

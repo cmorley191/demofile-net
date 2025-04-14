@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eInvalid",
+      "eChest",
+      "eHead",
+      "eEyesOnly"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

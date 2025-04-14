@@ -1,0 +1,49 @@
+{
+  "parent": "CAI_CitadelNPC",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iLane",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hTargetedEnemy",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flHealingChargeParticlePct",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "C_OP_RenderPoints",
+  "metadata": [
+    {
+      "name": "MObsoleteParticleFunction"
+    },
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

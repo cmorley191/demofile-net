@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_LIGHT_UNIT_CANDELAS",
+      "PARTICLE_LIGHT_UNIT_LUMENS"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

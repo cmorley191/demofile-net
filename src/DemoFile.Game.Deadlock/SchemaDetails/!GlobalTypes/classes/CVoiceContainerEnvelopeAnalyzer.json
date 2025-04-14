@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerAnalysisBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Envelope Analyzer"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Generates an Envelope Curve on compile"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,20 @@
+{
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataRoot"
+    },
+    {
+      "name": "MVDataNodeType"
+    },
+    {
+      "name": "MVDataOverlayType"
+    },
+    {
+      "name": "MVDataUseLinkedEntityClasses"
+    }
+  ],
+  "fields": []
+}

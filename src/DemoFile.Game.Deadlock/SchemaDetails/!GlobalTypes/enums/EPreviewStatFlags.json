@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EPreviewFlag_None",
+      "EPreviewFlag_WithPreviewItem",
+      "EPreviewFlag_WithTierBonuses",
+      "EPreviewFlag_WithPreviewItemConditionals",
+      "EPreviewFlag_OnlyTierBonuses"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ]
+  }
+}

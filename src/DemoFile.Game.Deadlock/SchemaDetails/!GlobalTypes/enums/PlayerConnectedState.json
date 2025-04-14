@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PlayerNeverConnected",
+      "PlayerConnected",
+      "PlayerConnecting",
+      "PlayerReconnecting",
+      "PlayerDisconnecting",
+      "PlayerDisconnected",
+      "PlayerReserved"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

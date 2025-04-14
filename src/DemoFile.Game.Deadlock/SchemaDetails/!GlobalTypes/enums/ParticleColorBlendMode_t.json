@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLEBLEND_DEFAULT",
+      "PARTICLEBLEND_OVERLAY",
+      "PARTICLEBLEND_DARKEN",
+      "PARTICLEBLEND_LIGHTEN",
+      "PARTICLEBLEND_MULTIPLY"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

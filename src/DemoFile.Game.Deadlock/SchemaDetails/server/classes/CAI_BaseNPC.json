@@ -1,0 +1,39 @@
+{
+  "parent": "CBaseCombatCharacter",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_lifeState"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_spawnflags"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_NPCState",
+      "type": {
+        "name": "NPC_STATE",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFadeCorpse",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bImportantRagdoll",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

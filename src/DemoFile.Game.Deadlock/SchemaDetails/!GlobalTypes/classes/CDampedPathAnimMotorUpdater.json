@@ -1,0 +1,9 @@
+{
+  "parent": "CPathAnimMotorUpdaterBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

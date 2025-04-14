@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eNone",
+      "eMoving",
+      "eInstant"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

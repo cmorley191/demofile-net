@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_PING_WHEEL_SOUND_NONE",
+      "CITADEL_PING_WHEEL_SOUND_MAP_PING",
+      "CITADEL_PING_WHEEL_SOUND_ATTACK",
+      "CITADEL_PING_WHEEL_SOUND_DEFEND",
+      "CITADEL_PING_WHEEL_SOUND_WARNING"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

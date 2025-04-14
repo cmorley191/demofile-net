@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PM_NORMAL",
+      "PM_NO_GIBS"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

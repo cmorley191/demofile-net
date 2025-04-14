@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EFlashType_BulletDamage",
+      "EFlashType_TechDamage",
+      "EFlashType_Healing",
+      "EFlashType_CritDamage",
+      "EFlashType_MeleeActivate",
+      "EFlshTypeCount"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

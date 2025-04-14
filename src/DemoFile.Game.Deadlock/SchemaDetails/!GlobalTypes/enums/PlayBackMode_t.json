@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "Random",
+      "RandomNoRepeats",
+      "RandomAvoidLast",
+      "Sequential",
+      "RandomWeights"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

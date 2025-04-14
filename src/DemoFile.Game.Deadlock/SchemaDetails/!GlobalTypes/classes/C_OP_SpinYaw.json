@@ -1,0 +1,9 @@
+{
+  "parent": "CGeneralSpin",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

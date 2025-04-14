@@ -1,0 +1,28 @@
+{
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataRoot"
+    },
+    {
+      "name": "MVDataNodeType"
+    },
+    {
+      "name": "MFgdFromSchemaEditablePolymorphicThisClass"
+    },
+    {
+      "name": "MVDataFileExtension"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "VSND Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Voice Container Base"
+    }
+  ],
+  "fields": []
+}

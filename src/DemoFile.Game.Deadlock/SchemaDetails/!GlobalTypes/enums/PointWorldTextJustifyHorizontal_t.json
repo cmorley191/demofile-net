@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_LEFT",
+      "POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_CENTER",
+      "POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_RIGHT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

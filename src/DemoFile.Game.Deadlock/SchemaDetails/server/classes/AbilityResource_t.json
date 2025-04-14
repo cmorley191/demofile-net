@@ -1,0 +1,21 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flLatchTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flLatchValue",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

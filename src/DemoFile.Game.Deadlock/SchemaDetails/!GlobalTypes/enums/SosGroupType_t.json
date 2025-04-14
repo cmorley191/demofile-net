@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SOS_GROUPTYPE_DYNAMIC",
+      "SOS_GROUPTYPE_STATIC"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

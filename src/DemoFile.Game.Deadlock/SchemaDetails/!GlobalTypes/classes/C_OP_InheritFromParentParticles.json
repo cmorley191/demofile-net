@@ -1,0 +1,16 @@
+{
+  "parent": "CParticleFunctionOperator",
+  "metadata": [
+    {
+      "name": "MParticleMaxVersion",
+      "value": 8
+    },
+    {
+      "name": "MParticleReplacementOp"
+    },
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

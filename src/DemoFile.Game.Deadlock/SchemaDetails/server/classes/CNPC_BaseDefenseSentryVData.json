@@ -1,0 +1,9 @@
+{
+  "parent": "CNPC_SimpleAnimatingAIVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

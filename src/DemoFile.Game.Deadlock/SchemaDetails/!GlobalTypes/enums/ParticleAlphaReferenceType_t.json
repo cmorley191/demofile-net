@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_ALPHA_REFERENCE_ALPHA_ALPHA",
+      "PARTICLE_ALPHA_REFERENCE_OPAQUE_ALPHA",
+      "PARTICLE_ALPHA_REFERENCE_ALPHA_OPAQUE",
+      "PARTICLE_ALPHA_REFERENCE_OPAQUE_OPAQUE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

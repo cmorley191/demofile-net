@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Modifier_InvisVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

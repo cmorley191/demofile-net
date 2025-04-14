@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SPAWN_DEBUG_RESTRICT_NONE",
+      "SPAWN_DEBUG_RESTRICT_IGNORE_MANAGER_DISTANCE_REQS",
+      "SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_DISTANCE_LOS_REQS",
+      "SPAWN_DEBUG_RESTRICT_IGNORE_TEMPLATE_COOLDOWN_LIMITS",
+      "SPAWN_DEBUG_RESTRICT_IGNORE_TARGET_COOLDOWN_LIMITS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ]
+  }
+}

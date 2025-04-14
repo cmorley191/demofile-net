@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eSplinePushAlong",
+      "k_eSplinePushAway",
+      "k_eSplinePushTowards"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

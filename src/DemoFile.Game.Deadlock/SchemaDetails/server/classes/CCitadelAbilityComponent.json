@@ -1,0 +1,225 @@
+{
+  "parent": "CEntityComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vecAbilities",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CCitadelBaseAbility > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CCitadelBaseAbility >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CCitadelBaseAbility",
+            "category": 5
+          }
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "abilitiesChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_vecUniversalItems",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlStringToken >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlStringToken",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_arPendingAsyncAbilityReservationSlots",
+      "type": {
+        "name": "CNetworkUtlVectorBase< int32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_arPendingAsyncAbilityReservationAbilityIDs",
+      "type": {
+        "name": "CNetworkUtlVectorBase< int32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Abilities"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_hSelectedAbility",
+      "type": {
+        "name": "CHandle< CCitadelBaseAbility >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CCitadelBaseAbility",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "AbiCompSelectedAbilityChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_hPreviouslySelectedAbility",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bPreviousAbilityQueued",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flTimeScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "AbiCompTimeScaleChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flParticleTimeScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "AbiCompParticleTimeScaleChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bInInterruptState",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_ResourceStamina",
+      "type": {
+        "name": "AbilityResource_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_ResourceAbility",
+      "type": {
+        "name": "AbilityResource_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

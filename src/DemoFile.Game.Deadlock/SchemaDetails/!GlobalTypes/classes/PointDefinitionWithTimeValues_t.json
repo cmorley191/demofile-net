@@ -1,0 +1,9 @@
+{
+  "parent": "PointDefinition_t",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

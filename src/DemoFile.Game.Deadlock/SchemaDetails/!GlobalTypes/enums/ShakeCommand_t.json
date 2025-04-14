@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SHAKE_START",
+      "SHAKE_STOP",
+      "SHAKE_AMPLITUDE",
+      "SHAKE_FREQUENCY",
+      "SHAKE_START_RUMBLEONLY",
+      "SHAKE_START_NORUMBLE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

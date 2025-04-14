@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_SELECTION_FIRST",
+      "PARTICLE_SELECTION_LAST",
+      "PARTICLE_SELECTION_NUMBER"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

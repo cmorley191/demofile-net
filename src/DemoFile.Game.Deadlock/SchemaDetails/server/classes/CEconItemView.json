@@ -1,0 +1,78 @@
+{
+  "parent": "IEconItemInterface",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iItemDefinitionIndex",
+      "type": {
+        "name": "item_definition_index_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iEntityQuality",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iEntityLevel",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iItemID",
+      "type": {
+        "name": "itemid_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iAccountID",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iInventoryPosition",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bInitialized",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nOverrideStyle",
+      "type": {
+        "name": "style_index_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_AttributeList",
+      "type": {
+        "name": "CAttributeList",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

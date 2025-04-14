@@ -1,0 +1,43 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EXPLOSION_TYPE_DEFAULT",
+      "EXPLOSION_TYPE_GRENADE",
+      "EXPLOSION_TYPE_MOLOTOV",
+      "EXPLOSION_TYPE_FIREWORKS",
+      "EXPLOSION_TYPE_GASCAN",
+      "EXPLOSION_TYPE_GASCYLINDER",
+      "EXPLOSION_TYPE_EXPLOSIVEBARREL",
+      "EXPLOSION_TYPE_ELECTRICAL",
+      "EXPLOSION_TYPE_EMP",
+      "EXPLOSION_TYPE_SHRAPNEL",
+      "EXPLOSION_TYPE_SMOKEGRENADE",
+      "EXPLOSION_TYPE_FLASHBANG",
+      "EXPLOSION_TYPE_TRIPMINE",
+      "EXPLOSION_TYPE_ICE",
+      "EXPLOSION_TYPE_NONE",
+      "EXPLOSION_TYPE_CUSTOM",
+      "EXPLOSION_TYPE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CParticleFunctionOperator",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

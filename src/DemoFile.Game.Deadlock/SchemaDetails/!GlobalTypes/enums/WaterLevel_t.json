@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "WL_NotInWater",
+      "WL_Feet",
+      "WL_Waist",
+      "WL_Chest",
+      "WL_FullyUnderwater",
+      "WL_Count"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

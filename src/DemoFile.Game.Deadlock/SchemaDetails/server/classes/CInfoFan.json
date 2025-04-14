@@ -1,0 +1,39 @@
+{
+  "parent": "CPointEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_fFanForceMaxRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fFanForceMinRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flCurveDistRange",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_FanForceCurveString",
+      "type": {
+        "name": "CUtlSymbolLarge",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

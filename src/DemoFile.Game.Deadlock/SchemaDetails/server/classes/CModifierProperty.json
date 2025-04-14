@@ -1,0 +1,75 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bAllowModifiersOnDeadEntities",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nDisabledGroups",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bvEnabledStateMask",
+      "type": {
+        "name": "uint32[7]",
+        "category": 3,
+        "arraySize": 7,
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "modifierStatesChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bvDisabledStateMask",
+      "type": {
+        "name": "uint32[7]",
+        "category": 3,
+        "arraySize": 7,
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "modifierStatesChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bvEnabledPredictedStateMask",
+      "type": {
+        "name": "uint32[7]",
+        "category": 3,
+        "arraySize": 7,
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "modifierStatesChanged"
+        }
+      ]
+    }
+  ]
+}

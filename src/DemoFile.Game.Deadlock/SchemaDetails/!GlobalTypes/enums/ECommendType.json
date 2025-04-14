@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eInvalid",
+      "k_eGeneric",
+      "k_eFriendly",
+      "k_eTeamwork",
+      "k_eSkilled"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

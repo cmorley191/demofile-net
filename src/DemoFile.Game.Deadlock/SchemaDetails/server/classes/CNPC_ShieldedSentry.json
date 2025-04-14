@@ -1,0 +1,35 @@
+{
+  "parent": "CNPC_SimpleAnimatingAI",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CCitadelMinimapComponent",
+      "type": {
+        "name": "CCitadelMinimapComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelMinimapComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_flAttackRange",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

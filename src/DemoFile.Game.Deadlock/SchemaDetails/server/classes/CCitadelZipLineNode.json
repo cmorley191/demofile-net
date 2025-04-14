@@ -1,0 +1,167 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vecConnections",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CCitadelZipLineNode > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CCitadelZipLineNode >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CCitadelZipLineNode",
+            "category": 5
+          }
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "connectionsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vTangentIn",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vTangentOut",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flCumulativeDistance",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iNodeIndex",
+      "type": {
+        "name": "int16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eCaptureState",
+      "type": {
+        "name": "int16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iPrimaryLane",
+      "type": {
+        "name": "int16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nRopesParity",
+      "type": {
+        "name": "int16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bCornerNode",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bCapturable",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bAlwaysUsable",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bOneWay",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bDisableZippingToByPlayers",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bUseForMinimapDrawing",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hGuardingBoss",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flRopeRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

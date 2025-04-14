@@ -1,0 +1,29 @@
+{
+  "align": 2,
+  "items": {
+    "names": [
+      "EWeaponAttribute_None",
+      "EWeaponAttribute_RapidFire",
+      "EWeaponAttribute_BurstFire",
+      "EWeaponAttribute_Spreadshot",
+      "EWeaponAttribute_BeamWeapon",
+      "EWeaponAttribute_CloseRange",
+      "EWeaponAttribute_MediumRange",
+      "EWeaponAttribute_LongRange",
+      "EWeaponAttribute_HeavyHitter",
+      "EWeaponAttribute_Projectile"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nModelID",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hMaterialBase",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hMaterialDamageOverlay",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_solid",
+      "type": {
+        "name": "ShardSolid_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecPanelSize",
+      "type": {
+        "name": "Vector2D",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecStressPositionA",
+      "type": {
+        "name": "Vector2D",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecStressPositionB",
+      "type": {
+        "name": "Vector2D",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecPanelVertices",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector2D >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector2D",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vInitialPanelVertices",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector4D >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector4D",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flGlassHalfThickness",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHasParent",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bParentFrozen",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_SurfacePropStringToken",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

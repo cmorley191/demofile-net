@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FLAG0_SHIFT_INTERPENETRATE",
+      "FLAG0_SHIFT_CONSTRAIN",
+      "FLAG0_SHIFT_BREAKABLE_FORCE",
+      "FLAG0_SHIFT_BREAKABLE_TORQUE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

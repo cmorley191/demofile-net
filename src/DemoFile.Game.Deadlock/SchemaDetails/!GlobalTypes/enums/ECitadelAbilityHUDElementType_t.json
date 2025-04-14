@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_ABILITY_HUD_ELEMENT_TYPE_GUN",
+      "CITADEL_ABILITY_HUD_ELEMENT_TYPE_UNIT_TARGET",
+      "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+      "CITADEL_ABILITY_HUD_ELEMENT_TYPE_HIDDEN"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

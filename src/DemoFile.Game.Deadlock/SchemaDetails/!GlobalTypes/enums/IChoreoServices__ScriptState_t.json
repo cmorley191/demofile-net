@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SCRIPT_PLAYING",
+      "SCRIPT_WAIT",
+      "SCRIPT_POST_IDLE",
+      "SCRIPT_CLEANUP",
+      "SCRIPT_MOVE_TO_MARK"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

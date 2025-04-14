@@ -1,0 +1,286 @@
+{
+  "parent": "CBaseCombatCharacter",
+  "metadata": [
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CBasePlayerPawn"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CBasePlayerPawn"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "FogController"
+    },
+    {
+      "name": "MNetworkIncludeByUserGroup",
+      "value": "Player"
+    },
+    {
+      "name": "MNetworkIncludeByUserGroup",
+      "value": "Water"
+    },
+    {
+      "name": "MNetworkIncludeByUserGroup",
+      "value": "LocalPlayerExclusive"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    },
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_vecX",
+        "name": "CNetworkOriginCellCoordQuantizedVector"
+      }
+    },
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_vecY",
+        "name": "CNetworkOriginCellCoordQuantizedVector"
+      }
+    },
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_vecZ",
+        "name": "CNetworkOriginCellCoordQuantizedVector"
+      }
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pWeaponServices"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pItemServices"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pAutoaimServices"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pObserverServices"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pWaterServices"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pUseServices"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pFlashlightServices"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_pMovementServices"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CBasePlayerPawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_pWeaponServices",
+      "type": {
+        "name": "CPlayer_WeaponServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_WeaponServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pItemServices",
+      "type": {
+        "name": "CPlayer_ItemServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_ItemServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pAutoaimServices",
+      "type": {
+        "name": "CPlayer_AutoaimServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_AutoaimServices",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_pObserverServices",
+      "type": {
+        "name": "CPlayer_ObserverServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_ObserverServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pWaterServices",
+      "type": {
+        "name": "CPlayer_WaterServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_WaterServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pUseServices",
+      "type": {
+        "name": "CPlayer_UseServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_UseServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pFlashlightServices",
+      "type": {
+        "name": "CPlayer_FlashlightServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_FlashlightServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pCameraServices",
+      "type": {
+        "name": "CPlayer_CameraServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_CameraServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pMovementServices",
+      "type": {
+        "name": "CPlayer_MovementServices*",
+        "category": 1,
+        "inner": {
+          "name": "CPlayer_MovementServices",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_ServerViewAngleChanges",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< ViewAngleServerChange_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "ViewAngleServerChange_t",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_iHideHUD",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_skybox3d",
+      "type": {
+        "name": "sky3dparams_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flDeathTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hController",
+      "type": {
+        "name": "CHandle< CBasePlayerController >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBasePlayerController",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hDefaultController",
+      "type": {
+        "name": "CHandle< CBasePlayerController >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBasePlayerController",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

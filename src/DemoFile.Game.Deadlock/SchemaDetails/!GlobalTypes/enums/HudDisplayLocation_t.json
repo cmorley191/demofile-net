@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DISPLAY_HUD_NONE",
+      "DISPLAY_HUD_LEFT",
+      "DISPLAY_HUD_CENTER"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

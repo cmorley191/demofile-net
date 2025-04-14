@@ -1,0 +1,14 @@
+{
+  "parent": "CBaseTrigger",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bAlignCameraOnAutoDismount",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "FeTaperedCapsuleRigid_t",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "OutputType_AnimationCycle",
+      "OutputType_RotationX",
+      "OutputType_RotationY",
+      "OutputType_RotationZ"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataNodeType"
+    },
+    {
+      "name": "MFgdFromSchemaEditablePolymorphicThisClass"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Analysis Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Does Not Play Sound, member of CVoiceContainerDefaultDefault"
+    }
+  ],
+  "fields": []
+}

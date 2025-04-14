@@ -1,0 +1,143 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_pEntity"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_flSimulationTime"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_flCreateTime"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iTeamNum"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nNextThinkTick"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_fFlags"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CBasePlayerController"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CBasePlayerController"
+    },
+    {
+      "name": "MNetworkIncludeByUserGroup",
+      "value": "LocalPlayerExclusive"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_nTickBase",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 1
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_hPawn",
+      "type": {
+        "name": "CHandle< CBasePlayerPawn >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBasePlayerPawn",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnPawnChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bKnownTeamMismatch",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iConnected",
+      "type": {
+        "name": "PlayerConnectedState",
+        "category": 6
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnConnectionStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_iszPlayerName",
+      "type": {
+        "name": "char[128]",
+        "category": 3,
+        "arraySize": 128,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnPlayerControllerNameChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_steamID",
+      "type": {
+        "name": "uint64",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "fixed64"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnSteamIDChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_iDesiredFOV",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

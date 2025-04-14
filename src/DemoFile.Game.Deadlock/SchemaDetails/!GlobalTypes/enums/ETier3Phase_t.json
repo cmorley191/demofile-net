@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ETier3Phase_Phase1",
+      "ETier3Phase_Phase2"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

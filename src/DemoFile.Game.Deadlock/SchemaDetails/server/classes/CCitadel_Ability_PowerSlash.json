@@ -1,0 +1,19 @@
+{
+  "parent": "CCitadelBaseYamatoAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nPowerLevel",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

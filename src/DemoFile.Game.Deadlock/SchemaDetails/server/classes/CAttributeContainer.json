@@ -1,0 +1,31 @@
+{
+  "parent": "CAttributeManager",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_ProviderType"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_hOuter"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iReapplyProvisionParity"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_Item"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_Item",
+      "type": {
+        "name": "CEconItemView",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

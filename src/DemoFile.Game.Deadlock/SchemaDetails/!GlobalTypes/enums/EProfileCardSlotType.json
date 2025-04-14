@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EProfileCardSlotType_Empty",
+      "k_EProfileCardSlotType_Stat",
+      "k_EProfileCardSlotType_Hero"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Additive Synth Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "This is a static additive synth that can scale components of the synth based on how many instances are running."
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,35 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_COLOR_BLEND_MULTIPLY",
+      "PARTICLE_COLOR_BLEND_MULTIPLY2X",
+      "PARTICLE_COLOR_BLEND_DIVIDE",
+      "PARTICLE_COLOR_BLEND_ADD",
+      "PARTICLE_COLOR_BLEND_SUBTRACT",
+      "PARTICLE_COLOR_BLEND_MOD2X",
+      "PARTICLE_COLOR_BLEND_SCREEN",
+      "PARTICLE_COLOR_BLEND_MAX",
+      "PARTICLE_COLOR_BLEND_MIN",
+      "PARTICLE_COLOR_BLEND_REPLACE",
+      "PARTICLE_COLOR_BLEND_AVERAGE",
+      "PARTICLE_COLOR_BLEND_NEGATE",
+      "PARTICLE_COLOR_BLEND_LUMINANCE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

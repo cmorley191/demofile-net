@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eInactive",
+      "eWaitingToBecomeInactive",
+      "eWaitingToBecomeActive",
+      "eWaitingToFinish",
+      "eWaitingForScriptedSequence",
+      "eRestartingFromScriptedSequence",
+      "eFinished"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

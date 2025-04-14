@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EFireMode_None",
+      "EFireMode_Primary",
+      "EFireMode_Secondary"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

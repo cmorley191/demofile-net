@@ -1,0 +1,27 @@
+{
+  "parent": "CBaseAnimGraph",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_lifeState"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iHealth"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_nHitIndex",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

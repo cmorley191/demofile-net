@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_PING_LOCATION_NONE",
+      "CITADEL_PING_LOCATION_ON_ROOF",
+      "CITADEL_PING_LOCATION_ON_BRIDGE",
+      "CITADEL_PING_LOCATION_TOP_OF_MID",
+      "CITADEL_PING_LOCATION_IN_MID",
+      "CITADEL_PING_LOCATION_TOP_OF_GARAGE",
+      "CITADEL_PING_LOCATION_UNDER_GARAGE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

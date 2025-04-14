@@ -1,0 +1,20 @@
+{
+  "parent": "CSoundEventEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vecCornerPairsNetworked",
+      "type": {
+        "name": "CNetworkUtlVectorBase< SoundeventPathCornerPairNetworked_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "SoundeventPathCornerPairNetworked_t",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

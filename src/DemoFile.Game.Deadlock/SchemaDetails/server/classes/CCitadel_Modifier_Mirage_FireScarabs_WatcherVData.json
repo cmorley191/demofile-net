@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Modifier_StatStealBaseVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

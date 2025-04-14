@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EProfileSortGamesPlayed",
+      "EProfileSortRankedPerformance"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

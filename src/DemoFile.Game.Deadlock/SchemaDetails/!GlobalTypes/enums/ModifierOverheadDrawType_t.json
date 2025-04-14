@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "OVERHEAD_DRAW_NEVER",
+      "OVERHEAD_DRAW_FOR_EVERYONE",
+      "OVERHEAD_DRAW_FOR_CASTER_ONLY",
+      "OVERHEAD_DRAW_FOR_CASTER_TEAM_ONLY",
+      "OVERHEAD_DRAW_FOR_PARENT_TEAM_ONLY",
+      "OVERHEAD_DRAW_OWNERS_OF_APPLYING_ABILITY"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

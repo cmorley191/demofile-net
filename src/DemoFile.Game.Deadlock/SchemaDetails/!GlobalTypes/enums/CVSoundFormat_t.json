@@ -1,0 +1,17 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "PCM16",
+      "PCM8",
+      "MP3",
+      "ADPCM"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eInvalid",
+      "ePrimary",
+      "eSecondary",
+      "eCount"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

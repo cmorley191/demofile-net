@@ -1,0 +1,124 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hSequence",
+      "type": {
+        "name": "HSequence",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSerializer",
+          "value": "minusone"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "sequenceOpSequenceChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flPrevCycle",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 15
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 8
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "m_flCycle"
+        }
+      ]
+    },
+    {
+      "name": "m_flCycle",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 15
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 8
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "m_flCycle"
+        }
+      ]
+    },
+    {
+      "name": "m_flWeight",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CPulseCell_BaseFlow",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODEL_HITBOX_TYPE_STANDARD",
+      "MODEL_HITBOX_TYPE_RAW_BONES",
+      "MODEL_HITBOX_TYPE_RENDERBOUNDS",
+      "MODEL_HITBOX_TYPE_SNAPSHOT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

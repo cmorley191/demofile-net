@@ -1,0 +1,39 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_Transforms",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CTransform >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CTransform",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnTransformChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_hOwner",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

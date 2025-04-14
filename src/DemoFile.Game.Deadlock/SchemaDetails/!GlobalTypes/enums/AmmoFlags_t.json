@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "AMMO_FORCE_DROP_IF_CARRIED",
+      "AMMO_RESERVE_STAYS_WITH_WEAPON",
+      "AMMO_FLAG_MAX"
+    ],
+    "values": [
+      1,
+      2,
+      2
+    ]
+  }
+}

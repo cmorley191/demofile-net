@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EDenyToDenier",
+      "EDenyToDenierNearbyTeammates",
+      "EDenyToDenierTeam",
+      "EDenyToNobody",
+      "EDenyInLaningPhase",
+      "EDenyTypesCount"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

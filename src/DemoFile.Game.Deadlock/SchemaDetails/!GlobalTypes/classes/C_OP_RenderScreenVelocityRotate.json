@@ -1,0 +1,12 @@
+{
+  "parent": "CParticleFunctionRenderer",
+  "metadata": [
+    {
+      "name": "MObsoleteParticleFunction"
+    },
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

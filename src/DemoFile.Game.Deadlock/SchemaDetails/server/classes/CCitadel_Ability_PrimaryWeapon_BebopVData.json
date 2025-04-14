@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Ability_PrimaryWeaponVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

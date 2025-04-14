@@ -1,0 +1,24 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hCtrl",
+      "type": {
+        "name": "CHandle< CFogController >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CFogController",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "PlayerFogController"
+        }
+      ]
+    }
+  ]
+}

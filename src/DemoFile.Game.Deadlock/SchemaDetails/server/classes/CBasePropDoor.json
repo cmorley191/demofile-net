@@ -1,0 +1,91 @@
+{
+  "parent": "CDynamicProp",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flAnimTime"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flexWeight"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_blinktoggle"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flPoseParameter"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_animationController.m_flPlaybackRate"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "overlay_vars"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_spawnflags"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_eDoorState",
+      "type": {
+        "name": "DoorState_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bLocked",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bNoNPCs",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_closedPosition",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_closedAngles",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hMaster",
+      "type": {
+        "name": "CHandle< CBasePropDoor >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBasePropDoor",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

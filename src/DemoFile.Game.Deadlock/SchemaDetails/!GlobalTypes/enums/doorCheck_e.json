@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DOOR_CHECK_FORWARD",
+      "DOOR_CHECK_BACKWARD",
+      "DOOR_CHECK_FULL"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

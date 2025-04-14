@@ -1,0 +1,18 @@
+{
+  "parent": "CPulseCell_BaseFlow",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    }
+  ],
+  "fields": []
+}

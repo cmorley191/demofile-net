@@ -1,0 +1,43 @@
+{
+  "parent": "CParticleSystem",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_iEffectIndex"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iTeamNum"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_iFriendlyEffectIndex",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIParticleSystemDefinition >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIParticleSystemDefinition",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iEnemyEffectIndex",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIParticleSystemDefinition >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIParticleSystemDefinition",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP",
+      "INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP",
+      "INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

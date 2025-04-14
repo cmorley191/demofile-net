@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_ENDCAP_ALWAYS_ON",
+      "PARTICLE_ENDCAP_ENDCAP_OFF",
+      "PARTICLE_ENDCAP_ENDCAP_ON"
+    ],
+    "values": [
+      -1,
+      0,
+      1
+    ]
+  }
+}

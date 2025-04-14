@@ -1,0 +1,14 @@
+{
+  "parent": "CCitadel_BreakablePropPickup",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iGoldReward",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

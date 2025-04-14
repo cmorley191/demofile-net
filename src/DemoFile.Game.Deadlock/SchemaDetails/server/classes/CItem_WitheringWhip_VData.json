@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Item_TrackingProjectileApplyModifierVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

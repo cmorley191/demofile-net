@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_SET_REPLACE_VALUE",
+      "PARTICLE_SET_SCALE_INITIAL_VALUE",
+      "PARTICLE_SET_ADD_TO_INITIAL_VALUE",
+      "PARTICLE_SET_RAMP_CURRENT_VALUE",
+      "PARTICLE_SET_SCALE_CURRENT_VALUE",
+      "PARTICLE_SET_ADD_TO_CURRENT_VALUE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

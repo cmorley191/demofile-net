@@ -1,0 +1,166 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bDisabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bUpdateOnClient",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nInputType",
+      "type": {
+        "name": "ValueRemapperInputType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hRemapLineStart",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hRemapLineEnd",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flMaximumChangePerSecond",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flDisengageDistance",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flEngageDistance",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bRequiresUseKey",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nOutputType",
+      "type": {
+        "name": "ValueRemapperOutputType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hOutputEntities",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBaseEntity > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBaseEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHapticsType",
+      "type": {
+        "name": "ValueRemapperHapticsType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nMomentumType",
+      "type": {
+        "name": "ValueRemapperMomentumType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flMomentumModifier",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flSnapValue",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nRatchetType",
+      "type": {
+        "name": "ValueRemapperRatchetType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flInputOffset",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

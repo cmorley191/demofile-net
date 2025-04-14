@@ -1,0 +1,9 @@
+{
+  "parent": "CAI_NPC_TrooperVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

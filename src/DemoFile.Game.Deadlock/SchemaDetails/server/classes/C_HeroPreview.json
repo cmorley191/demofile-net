@@ -1,0 +1,27 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CCitadelHeroComponent",
+      "type": {
+        "name": "CCitadelHeroComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelHeroComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelHeroComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelHeroComponent"
+        }
+      ]
+    }
+  ]
+}

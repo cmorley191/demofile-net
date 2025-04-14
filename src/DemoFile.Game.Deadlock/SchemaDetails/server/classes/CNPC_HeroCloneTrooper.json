@@ -1,0 +1,20 @@
+{
+  "parent": "CAI_CitadelNPC",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hOwner",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

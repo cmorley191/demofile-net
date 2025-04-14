@@ -1,0 +1,41 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eCitadelTeamObjective_Core",
+      "k_eCitadelTeamObjective_Tier1_Lane1",
+      "k_eCitadelTeamObjective_Tier1_Lane2",
+      "k_eCitadelTeamObjective_Tier1_Lane3",
+      "k_eCitadelTeamObjective_Tier1_Lane4",
+      "k_eCitadelTeamObjective_Tier2_Lane1",
+      "k_eCitadelTeamObjective_Tier2_Lane2",
+      "k_eCitadelTeamObjective_Tier2_Lane3",
+      "k_eCitadelTeamObjective_Tier2_Lane4",
+      "k_eCitadelTeamObjective_Titan",
+      "k_eCitadelTeamObjective_TitanShieldGenerator_1",
+      "k_eCitadelTeamObjective_TitanShieldGenerator_2",
+      "k_eCitadelTeamObjective_BarrackBoss_Lane1",
+      "k_eCitadelTeamObjective_BarrackBoss_Lane2",
+      "k_eCitadelTeamObjective_BarrackBoss_Lane3",
+      "k_eCitadelTeamObjective_BarrackBoss_Lane4"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+}

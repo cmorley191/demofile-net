@@ -1,0 +1,43 @@
+{
+  "parent": "CBaseTrigger",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_MaxWeight",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_FadeDuration",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Weight",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_lookupFilename",
+      "type": {
+        "name": "char[512]",
+        "category": 3,
+        "arraySize": 512,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

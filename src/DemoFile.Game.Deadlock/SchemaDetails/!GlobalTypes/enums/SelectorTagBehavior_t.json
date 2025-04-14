@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SelectorTagBehavior_OnWhileCurrent",
+      "SelectorTagBehavior_OffWhenFinished",
+      "SelectorTagBehavior_OffBeforeFinished"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

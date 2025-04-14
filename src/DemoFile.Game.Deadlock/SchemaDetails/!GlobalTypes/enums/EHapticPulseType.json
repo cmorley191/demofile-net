@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "VR_HAND_HAPTIC_PULSE_LIGHT",
+      "VR_HAND_HAPTIC_PULSE_MEDIUM",
+      "VR_HAND_HAPTIC_PULSE_STRONG"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

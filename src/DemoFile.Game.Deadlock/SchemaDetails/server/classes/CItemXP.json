@@ -1,0 +1,27 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_timeLaunch",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnLaunchTimeChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flAttackableTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "Overlay",
+      "Additive",
+      "ModelSpace"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

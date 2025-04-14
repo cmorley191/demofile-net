@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_TRACE_MISS_BEHAVIOR_NONE",
+      "PARTICLE_TRACE_MISS_BEHAVIOR_KILL",
+      "PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

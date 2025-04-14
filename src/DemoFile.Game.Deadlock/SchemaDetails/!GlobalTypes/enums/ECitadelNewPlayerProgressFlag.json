@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eNewPlayerProgress_GettingStarted",
+      "k_eNewPlayerProgress_HeroTraining",
+      "k_eNewPlayerProgress_LaneTraining"
+    ],
+    "values": [
+      1,
+      2,
+      3
+    ]
+  }
+}

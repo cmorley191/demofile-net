@@ -1,0 +1,117 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hParent",
+      "type": {
+        "name": "CGameSceneNodeHandle",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSerializer",
+          "value": "gameSceneNode"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "gameSceneNodeHierarchyParentChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkVarEmbeddedFieldOffsetDelta",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "m_vecOrigin",
+      "type": {
+        "name": "CNetworkOriginCellCoordQuantizedVector",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Origin"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "gameSceneNodeLocalOriginChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_angRotation",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle_precise"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "gameSceneNodeStepSimulationAnglesSerializer"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "gameSceneNodeLocalAnglesChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "gameSceneNodeLocalScaleChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_name",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hierarchyAttachName",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "gameSceneNodeHierarchyAttachmentChanged"
+        }
+      ]
+    }
+  ]
+}

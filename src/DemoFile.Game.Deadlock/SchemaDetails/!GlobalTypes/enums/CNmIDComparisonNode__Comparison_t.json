@@ -1,0 +1,13 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "Matches",
+      "DoesntMatch"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

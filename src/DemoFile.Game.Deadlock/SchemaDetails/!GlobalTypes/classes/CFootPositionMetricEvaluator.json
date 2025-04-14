@@ -1,0 +1,9 @@
+{
+  "parent": "CMotionMetricEvaluator",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

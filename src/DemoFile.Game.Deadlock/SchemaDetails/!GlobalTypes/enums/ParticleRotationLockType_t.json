@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_ROTATION_LOCK_NONE",
+      "PARTICLE_ROTATION_LOCK_ROTATIONS",
+      "PARTICLE_ROTATION_LOCK_NORMAL"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

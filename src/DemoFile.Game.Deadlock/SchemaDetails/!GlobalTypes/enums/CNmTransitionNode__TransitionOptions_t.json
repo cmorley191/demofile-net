@@ -1,0 +1,25 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "None",
+      "ClampDuration",
+      "Synchronized",
+      "MatchSourceTime",
+      "MatchSyncEventIndex",
+      "MatchSyncEventID",
+      "MatchSyncEventPercentage",
+      "PreferClosestSyncEventID"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_PIN_DISTANCE_NONE",
+      "PARTICLE_PIN_DISTANCE_NEIGHBOR",
+      "PARTICLE_PIN_DISTANCE_FARTHEST",
+      "PARTICLE_PIN_DISTANCE_FIRST",
+      "PARTICLE_PIN_DISTANCE_LAST",
+      "PARTICLE_PIN_DISTANCE_CENTER",
+      "PARTICLE_PIN_DISTANCE_CP",
+      "PARTICLE_PIN_DISTANCE_CP_PAIR_EITHER",
+      "PARTICLE_PIN_DISTANCE_CP_PAIR_BOTH",
+      "PARTICLE_PIN_SPEED",
+      "PARTICLE_PIN_COLLECTION_AGE",
+      "PARTICLE_PIN_FLOAT_VALUE"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+}

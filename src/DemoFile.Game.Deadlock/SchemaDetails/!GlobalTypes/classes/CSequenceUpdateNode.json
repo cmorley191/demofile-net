@@ -1,0 +1,9 @@
+{
+  "parent": "CSequenceUpdateNodeBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

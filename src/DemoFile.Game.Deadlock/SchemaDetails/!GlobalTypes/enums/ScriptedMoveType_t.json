@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SCRIPTED_MOVETYPE_NONE",
+      "SCRIPTED_MOVETYPE_TO_WITH_DURATION",
+      "SCRIPTED_MOVETYPE_TO_WITH_MOVESPEED",
+      "SCRIPTED_MOVETYPE_SWEEP_TO_AT_MOVEMENT_SPEED"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

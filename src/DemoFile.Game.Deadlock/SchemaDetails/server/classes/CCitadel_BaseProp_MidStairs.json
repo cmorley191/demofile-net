@@ -1,0 +1,35 @@
+{
+  "parent": "CPointEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CCitadelMinimapComponent",
+      "type": {
+        "name": "CCitadelMinimapComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelMinimapComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_eLocation",
+      "type": {
+        "name": "EMidStairsLocation_t",
+        "category": 6
+      },
+      "metadata": []
+    }
+  ]
+}

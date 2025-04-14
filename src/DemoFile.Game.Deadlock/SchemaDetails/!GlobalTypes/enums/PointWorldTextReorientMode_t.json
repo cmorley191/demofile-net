@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "POINT_WORLD_TEXT_REORIENT_NONE",
+      "POINT_WORLD_TEXT_REORIENT_AROUND_UP"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

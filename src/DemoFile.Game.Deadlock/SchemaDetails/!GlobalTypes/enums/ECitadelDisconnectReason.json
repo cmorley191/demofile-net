@@ -1,0 +1,27 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelDisconnectReason_UserLeaveMatch",
+      "k_ECitadelDisconnectReason_UserQuitApp",
+      "k_ECitadelDisconnectReason_UserCancel",
+      "k_ECitadelDisconnectReason_Goodbye",
+      "k_ECitadelDisconnectReason_BadMessage",
+      "k_ECitadelDisconnectReason_GameDestroyedUnexpectedly",
+      "k_ECitadelDisconnectReason_ChangingServer",
+      "k_ECitadelDisconnectReason_OldConnection",
+      "k_ECitadelDisconnectReason_GoodbyeUnrecognizedGame"
+    ],
+    "values": [
+      1001,
+      1002,
+      1003,
+      1004,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  }
+}

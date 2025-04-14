@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelLobbyTeam_Team0",
+      "k_ECitadelLobbyTeam_Team1",
+      "k_ECitadelLobbyTeam_Spectator"
+    ],
+    "values": [
+      0,
+      1,
+      16
+    ]
+  }
+}

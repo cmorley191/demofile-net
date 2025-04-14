@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BPE_StringCommand",
+      "BPE_Teleport",
+      "BPE_Diagnostic"
+    ],
+    "values": [
+      128,
+      130,
+      16384
+    ]
+  }
+}

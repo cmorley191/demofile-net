@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BC_DEFAULT",
+      "BC_EMPTY",
+      "BC_PROP_GROUP_OVERRIDE",
+      "BC_PARTICLE_SYSTEM_OVERRIDE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

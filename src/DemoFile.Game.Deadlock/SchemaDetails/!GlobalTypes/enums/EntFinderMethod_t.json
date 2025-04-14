@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ENT_FIND_METHOD_NEAREST",
+      "ENT_FIND_METHOD_FARTHEST",
+      "ENT_FIND_METHOD_RANDOM"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

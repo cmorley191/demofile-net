@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eLobbyServerState_Assign",
+      "k_eLobbyServerState_InGame",
+      "k_eLobbyServerState_PostMatch",
+      "k_eLobbyServerState_SignedOut",
+      "k_eLobbyServerState_Abandoned"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

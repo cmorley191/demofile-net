@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "GOALTYPE_NONE",
+      "GOALTYPE_ENTITY",
+      "GOALTYPE_PATHCORNER",
+      "GOALTYPE_LOCATION",
+      "GOALTYPE_COVER",
+      "GOALTYPE_LOS",
+      "GOALTYPE_INVALID"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

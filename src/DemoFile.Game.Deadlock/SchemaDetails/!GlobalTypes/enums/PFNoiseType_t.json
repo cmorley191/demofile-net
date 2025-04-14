@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PF_NOISE_TYPE_PERLIN",
+      "PF_NOISE_TYPE_SIMPLEX",
+      "PF_NOISE_TYPE_WORLEY",
+      "PF_NOISE_TYPE_CURL"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

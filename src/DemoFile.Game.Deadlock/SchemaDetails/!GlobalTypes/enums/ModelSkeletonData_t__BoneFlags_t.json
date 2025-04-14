@@ -1,0 +1,53 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FLAG_NO_BONE_FLAGS",
+      "FLAG_BONEFLEXDRIVER",
+      "FLAG_CLOTH",
+      "FLAG_PHYSICS",
+      "FLAG_ATTACHMENT",
+      "FLAG_ANIMATION",
+      "FLAG_MESH",
+      "FLAG_HITBOX",
+      "FLAG_BONE_USED_BY_VERTEX_LOD0",
+      "FLAG_BONE_USED_BY_VERTEX_LOD1",
+      "FLAG_BONE_USED_BY_VERTEX_LOD2",
+      "FLAG_BONE_USED_BY_VERTEX_LOD3",
+      "FLAG_BONE_USED_BY_VERTEX_LOD4",
+      "FLAG_BONE_USED_BY_VERTEX_LOD5",
+      "FLAG_BONE_USED_BY_VERTEX_LOD6",
+      "FLAG_BONE_USED_BY_VERTEX_LOD7",
+      "FLAG_BONE_MERGE_READ",
+      "FLAG_BONE_MERGE_WRITE",
+      "FLAG_ALL_BONE_FLAGS",
+      "BLEND_PREALIGNED",
+      "FLAG_RIGIDLENGTH",
+      "FLAG_PROCEDURAL"
+    ],
+    "values": [
+      0,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768,
+      65536,
+      131072,
+      262144,
+      524288,
+      1048575,
+      1048576,
+      2097152,
+      4194304
+    ]
+  }
+}

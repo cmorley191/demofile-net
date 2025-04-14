@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CRATE_SPECIFIC_ITEM",
+      "CRATE_TYPE_COUNT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

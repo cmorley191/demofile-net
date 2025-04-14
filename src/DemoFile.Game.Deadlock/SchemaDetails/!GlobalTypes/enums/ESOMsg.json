@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ESOMsg_Create",
+      "k_ESOMsg_Update",
+      "k_ESOMsg_Destroy",
+      "k_ESOMsg_CacheSubscribed",
+      "k_ESOMsg_CacheUnsubscribed",
+      "k_ESOMsg_UpdateMultiple",
+      "k_ESOMsg_CacheSubscriptionRefresh",
+      "k_ESOMsg_CacheSubscribedUpToDate"
+    ],
+    "values": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29
+    ]
+  }
+}

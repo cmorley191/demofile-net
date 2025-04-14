@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "GCProtoBufMsgSrc_Unspecified",
+      "GCProtoBufMsgSrc_FromSystem",
+      "GCProtoBufMsgSrc_FromSteamID",
+      "GCProtoBufMsgSrc_FromGC",
+      "GCProtoBufMsgSrc_ReplySystem",
+      "GCProtoBufMsgSrc_SpoofedSteamID"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

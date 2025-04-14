@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_SCRIPTED_EVENT_INVALID",
+      "MODIFIER_SCRIPTED_EVENT_COUNT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

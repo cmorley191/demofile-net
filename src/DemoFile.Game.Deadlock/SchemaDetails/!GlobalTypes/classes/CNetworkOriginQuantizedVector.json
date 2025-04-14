@@ -1,0 +1,99 @@
+{
+  "metadata": [
+    {
+      "name": "MNetworkVarsAtomic"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_vecX",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 19
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -16384
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 16384
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkOriginQuantizedVector"
+        }
+      ]
+    },
+    {
+      "name": "m_vecY",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 19
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -16384
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 16384
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkOriginQuantizedVector"
+        }
+      ]
+    },
+    {
+      "name": "m_vecZ",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 19
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -16384
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 16384
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkOriginQuantizedVector"
+        }
+      ]
+    }
+  ]
+}

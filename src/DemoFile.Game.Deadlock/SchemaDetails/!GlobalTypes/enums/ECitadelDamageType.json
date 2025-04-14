@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_DAMAGETYPE_NONE",
+      "CITADEL_DAMAGETYPE_BULLET",
+      "CITADEL_DAMAGETYPE_ABILITY",
+      "CITADEL_DAMAGETYPE_MELEE",
+      "CITADEL_DAMAGETYPE_ENVIRONMENTAL",
+      "CITADEL_DAMAGETYPE_POISON",
+      "CITADEL_DAMAGETYPE_WEAKPOINT_BONUS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

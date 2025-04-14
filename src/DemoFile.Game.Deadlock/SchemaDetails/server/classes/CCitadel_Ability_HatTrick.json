@@ -1,0 +1,20 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hProjectile",
+      "type": {
+        "name": "CHandle< CCitadelProjectile >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CCitadelProjectile",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

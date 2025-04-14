@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PROVIDER_GENERIC",
+      "PROVIDER_WEAPON"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

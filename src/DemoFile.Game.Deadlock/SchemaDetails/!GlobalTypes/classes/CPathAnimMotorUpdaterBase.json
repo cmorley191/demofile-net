@@ -1,0 +1,9 @@
+{
+  "parent": "CAnimMotorUpdaterBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

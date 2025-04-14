@@ -1,0 +1,9 @@
+{
+  "parent": "CAI_CitadelNPCVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

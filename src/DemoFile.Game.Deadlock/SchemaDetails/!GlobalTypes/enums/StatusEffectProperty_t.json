@@ -1,0 +1,43 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EStatusEffect_None",
+      "EStatusEffect_EMP",
+      "EStatusEffect_Stun",
+      "EStatusEffect_Freeze",
+      "EStatusEffect_Burn",
+      "EStatusEffect_Bleed",
+      "EStatusEffect_Sleep",
+      "EStatusEffect_Tethered",
+      "EStatusEffect_Immobilized",
+      "EStatusEffect_Disarmed",
+      "EStatusEffect_Invisible",
+      "EStatusEffect_Stacks",
+      "EStatusEffect_InfiniteClip",
+      "EStatusEffect_BulletDebuff",
+      "EStatusEffect_Buff",
+      "EStatusEffect_Petrify",
+      "EStatusEffect_Count"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+}

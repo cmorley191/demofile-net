@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_AUDIO_LOOP_START_SOUND",
+      "CITADEL_AUDIO_LOOP_LOOP_SOUND",
+      "CITADEL_AUDIO_LOOP_STOP_SOUND"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

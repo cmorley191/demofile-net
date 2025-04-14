@@ -1,0 +1,13 @@
+{
+  "parent": "CHandshakeAnimTagBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Movement Handshake Tag"
+    }
+  ],
+  "fields": []
+}

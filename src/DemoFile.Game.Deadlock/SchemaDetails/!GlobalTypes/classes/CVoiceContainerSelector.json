@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Selector"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Plays a selected vsnd on playback."
+    }
+  ],
+  "fields": []
+}

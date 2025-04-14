@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PORTRAIT_SOUND_MODE_INVALID",
+      "PORTRAIT_SOUND_MODE_NO_SOUNDS",
+      "PORTRAIT_SOUND_MODE_ONLY_TAUNT_SOUNDS",
+      "PORTRAIT_SOUND_MODE_ALL_SOUNDS"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

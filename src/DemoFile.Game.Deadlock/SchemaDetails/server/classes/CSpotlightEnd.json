@@ -1,0 +1,22 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flLightScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Radius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

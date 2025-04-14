@@ -1,0 +1,17 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "AGGREGATE_INSTANCE_STREAM_NONE",
+      "AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16",
+      "AGGREGATE_INSTANCE_STREAM_VERTEXTINT_UNORM8",
+      "AGGREGATE_INSTANCE_STREAM_VERTEXBLEND_UNORM8"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4
+    ]
+  }
+}

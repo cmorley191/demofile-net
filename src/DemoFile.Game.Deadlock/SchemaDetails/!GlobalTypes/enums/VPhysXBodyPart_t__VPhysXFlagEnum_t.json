@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FLAG_STATIC",
+      "FLAG_KINEMATIC",
+      "FLAG_JOINT",
+      "FLAG_MASS",
+      "FLAG_ALWAYS_DYNAMIC_ON_CLIENT",
+      "FLAG_DISABLE_CCD"
+    ],
+    "values": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ]
+  }
+}

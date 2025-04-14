@@ -1,0 +1,13 @@
+{
+  "parent": "CAnimGraphSettingsGroup",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Networking"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PORTRAIT_DISPLAY_MODE_INVALID",
+      "PORTRAIT_DISPLAY_MODE_LOADOUT",
+      "PORTRAIT_DISPLAY_MODE_LOADOUT_DIRE",
+      "PORTRAIT_DISPLAY_MODE_LOADOUT_SMALL",
+      "PORTRAIT_DISPLAY_MODE_TREASURE_SMALL"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_timestamp",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nWorldGroupId",
+      "type": {
+        "name": "WorldGroupId_t",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

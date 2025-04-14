@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Blender"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Blends two containers."
+    }
+  ],
+  "fields": []
+}

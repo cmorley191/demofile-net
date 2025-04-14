@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SPAWN_DEBUG_OVERRIDE_NONE",
+      "SPAWN_DEBUG_OVERRIDE_FORCE_ENABLED",
+      "SPAWN_DEBUG_OVERRIDE_FORCE_DISABLED"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

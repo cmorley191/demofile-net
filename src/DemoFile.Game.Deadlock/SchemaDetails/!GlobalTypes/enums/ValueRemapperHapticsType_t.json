@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "HaticsType_Default",
+      "HaticsType_None"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

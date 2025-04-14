@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelMatchMode_Invalid",
+      "k_ECitadelMatchMode_Unranked",
+      "k_ECitadelMatchMode_PrivateLobby",
+      "k_ECitadelMatchMode_CoopBot",
+      "k_ECitadelMatchMode_Ranked",
+      "k_ECitadelMatchMode_ServerTest",
+      "k_ECitadelMatchMode_Tutorial",
+      "k_ECitadelMatchMode_HeroLabs"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

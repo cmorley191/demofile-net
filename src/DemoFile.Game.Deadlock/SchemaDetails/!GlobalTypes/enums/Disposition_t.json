@@ -1,0 +1,29 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "D_ER",
+      "D_HT",
+      "D_FR",
+      "D_LI",
+      "D_NU",
+      "D_ERROR",
+      "D_HATE",
+      "D_FEAR",
+      "D_LIKE",
+      "D_NEUTRAL"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

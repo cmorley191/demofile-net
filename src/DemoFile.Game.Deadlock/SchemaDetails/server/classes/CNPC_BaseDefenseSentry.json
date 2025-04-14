@@ -1,0 +1,24 @@
+{
+  "parent": "CNPC_SimpleAnimatingAI",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_bTakesDamage"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nTakeDamageFlags"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_vecUnitStatusOffset",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

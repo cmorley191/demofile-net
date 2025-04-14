@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_UNIT_TARGET_FLAG_NONE",
+      "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE",
+      "CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
+      "CITADEL_UNIT_TARGET_FLAG_NO_DORMANT_NEUTRALS"
+    ],
+    "values": [
+      0,
+      2,
+      4,
+      8
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "CBaseToggle",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_fFlags"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_vecVelocity"
+    },
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_fFlags",
+        "name": "CBaseEntity"
+      }
+    }
+  ],
+  "fields": []
+}

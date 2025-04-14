@@ -1,0 +1,18 @@
+{
+  "parent": "CParticleInput",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyCustomEditor"
+    },
+    {
+      "name": "MClassIsParticleModel"
+    },
+    {
+      "name": "MParticleCustomFieldDefaultValue"
+    }
+  ],
+  "fields": []
+}

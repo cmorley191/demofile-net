@@ -1,0 +1,14 @@
+{
+  "parent": "CTriggerOnce",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bTestOcclusion",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

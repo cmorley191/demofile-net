@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PANNER_TYPE_LINEAR",
+      "PANNER_TYPE_EQUAL_POWER"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

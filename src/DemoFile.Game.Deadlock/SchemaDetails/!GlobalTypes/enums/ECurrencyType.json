@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ECurrencyInvalid",
+      "EGold",
+      "EAbilityPoints",
+      "EAbilityUnlocks",
+      "EDeathPenaltyGold",
+      "ECurrencyCount"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

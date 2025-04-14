@@ -1,0 +1,15 @@
+{
+  "align": 2,
+  "items": {
+    "names": [
+      "ANIMSCRIPT_TYPE_INVALID",
+      "ANIMSCRIPT_FUSE_GENERAL",
+      "ANIMSCRIPT_FUSE_STATEMACHINE"
+    ],
+    "values": [
+      -1,
+      0,
+      1
+    ]
+  }
+}

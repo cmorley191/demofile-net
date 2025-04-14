@@ -1,0 +1,13 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "WRITABLE",
+      "READ_ONLY"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelBotDifficulty_None",
+      "k_ECitadelBotDifficulty_Easy",
+      "k_ECitadelBotDifficulty_Medium",
+      "k_ECitadelBotDifficulty_Hard",
+      "k_ECitadelBotDifficulty_Nightmare",
+      "k_ECitadelBotDifficulty_Guided"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

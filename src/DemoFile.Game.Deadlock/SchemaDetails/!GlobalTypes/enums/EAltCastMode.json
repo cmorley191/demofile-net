@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EAltCast_PressAndHold",
+      "EAltCast_DoubleTap",
+      "EAltCast_ModifierKey",
+      "EAltCastMaxValue"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      2
+    ]
+  }
+}

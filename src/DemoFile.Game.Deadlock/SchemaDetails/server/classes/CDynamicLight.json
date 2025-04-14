@@ -1,0 +1,88 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_Flags",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_LightStyle",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Radius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Exponent",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_InnerAngle",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 360
+        }
+      ]
+    },
+    {
+      "name": "m_OuterAngle",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 360
+        }
+      ]
+    },
+    {
+      "name": "m_SpotRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

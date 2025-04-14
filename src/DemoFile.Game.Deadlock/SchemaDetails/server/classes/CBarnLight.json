@@ -1,0 +1,999 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_bEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nColorMode",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_Color",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flColorTemperature",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flBrightness",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flBrightnessScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nDirectLight",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nBakedShadowIndex",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nLuminaireShape",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flLuminaireSize",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flLuminaireAnisotropy",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_LightStyleString",
+      "type": {
+        "name": "CUtlString",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "StyleChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flLightStyleStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_QueuedLightStyleStrings",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlString >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlString",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_LightStyleEvents",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CUtlString >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CUtlString",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_LightStyleTargets",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBaseModelEntity > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBaseModelEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseModelEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hLightCookie",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeCTextureBase >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeCTextureBase",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flShape",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flSoftX",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flSoftY",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flSkirt",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flSkirtNear",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vSizeParams",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        },
+        {
+          "name": "MNetworkBitCount",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flRange",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        },
+        {
+          "name": "MNetworkBitCount",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_vShear",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        },
+        {
+          "name": "MNetworkBitCount",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_nBakeSpecularToCubemaps",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vBakeSpecularToCubemapsSize",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        },
+        {
+          "name": "MNetworkBitCount",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_nCastShadows",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nShadowMapSize",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nShadowPriority",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bContactShadow",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bForceShadowsEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nBounceLight",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flBounceScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flMinRoughness",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vAlternateColor",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_fAlternateColorBrightness",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nFog",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogStrength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nFogShadows",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFogScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bFogMixedShadows",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFadeSizeStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flFadeSizeEnd",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flShadowFadeSizeStart",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flShadowFadeSizeEnd",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bPrecomputedFieldsValid",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedBoundsMins",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedBoundsMaxs",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBOrigin",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBAngles",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBExtent",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nPrecomputedSubFrusta",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBOrigin0",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBAngles0",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBExtent0",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBOrigin1",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBAngles1",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBExtent1",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBOrigin2",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBAngles2",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBExtent2",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBOrigin3",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBAngles3",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBExtent3",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBOrigin4",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBAngles4",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBExtent4",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBOrigin5",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBAngles5",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vPrecomputedOBBExtent5",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_VisClusters",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint16 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint16",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    }
+  ]
+}

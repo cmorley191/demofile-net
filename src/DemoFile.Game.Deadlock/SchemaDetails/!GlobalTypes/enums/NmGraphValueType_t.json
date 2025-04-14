@@ -1,0 +1,27 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "Unknown",
+      "Bool",
+      "ID",
+      "Float",
+      "Vector",
+      "Target",
+      "BoneMask",
+      "Pose",
+      "Special"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

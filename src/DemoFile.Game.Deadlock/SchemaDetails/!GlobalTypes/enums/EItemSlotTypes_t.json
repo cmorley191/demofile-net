@@ -1,0 +1,27 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "EItemSlotType_Invalid",
+      "EItemSlotType_WeaponMod",
+      "EItemSlotType_Armor",
+      "EItemSlotType_Tech",
+      "EItemSlotType_Universal",
+      "EItemSlotType_UniversalLocked",
+      "EItemSlotType_All",
+      "EItemSlotType_Favorites",
+      "EMaxItemSlotTypes"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

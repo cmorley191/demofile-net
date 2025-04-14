@@ -1,0 +1,22 @@
+{
+  "parent": "CCitadelProjectile",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_tDieTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

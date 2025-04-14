@@ -1,0 +1,54 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_hModel"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_ShardDesc",
+      "type": {
+        "name": "ice_path_shard_model_desc_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_qForward",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnStartTimeChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flEndTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnEndTimeChanged"
+        }
+      ]
+    }
+  ]
+}

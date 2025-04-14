@@ -1,0 +1,66 @@
+{
+  "parent": "CAI_CitadelNPC",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iLane",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_angTargeting1",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle"
+        }
+      ]
+    },
+    {
+      "name": "m_angTargeting2",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle"
+        }
+      ]
+    },
+    {
+      "name": "m_nElectricBeamCasts",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eAliveState",
+      "type": {
+        "name": "ETier3State_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_ePhase",
+      "type": {
+        "name": "ETier3Phase_t",
+        "category": 6
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_hDecalMaterial",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnDecalDimensionsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flHeight",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnDecalDimensionsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flDepth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnDecalDimensionsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nRenderOrder",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bProjectOnWorld",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bProjectOnCharacters",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bProjectOnWater",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flDepthSortBias",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

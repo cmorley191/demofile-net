@@ -1,0 +1,14 @@
+{
+  "parent": "CBaseFlex",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_AttributeManager",
+      "type": {
+        "name": "CAttributeContainer",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

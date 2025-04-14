@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SOS_STOPTYPE_NONE",
+      "SOS_STOPTYPE_TIME",
+      "SOS_STOPTYPE_OPVAR"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

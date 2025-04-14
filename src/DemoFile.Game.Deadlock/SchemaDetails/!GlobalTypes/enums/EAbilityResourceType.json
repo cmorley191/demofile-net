@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EResourceType_None",
+      "EResourceType_Rage"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

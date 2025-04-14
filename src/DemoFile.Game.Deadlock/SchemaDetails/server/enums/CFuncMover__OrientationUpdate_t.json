@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ORIENTATION_FORWARD_PATH",
+      "ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH",
+      "ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT",
+      "ORIENTATION_MATCH_CONTROL_POINT",
+      "ORIENTATION_FIXED",
+      "ORIENTATION_FACE_PLAYER",
+      "ORIENTATION_FORWARD_MOVEMENT_DIRECTION",
+      "ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

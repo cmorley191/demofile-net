@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "POSETYPE_STATIC",
+      "POSETYPE_DYNAMIC",
+      "POSETYPE_INVALID"
+    ],
+    "values": [
+      0,
+      1,
+      255
+    ]
+  }
+}

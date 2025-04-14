@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ST_ENTNAME",
+      "ST_CLASSNAME"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

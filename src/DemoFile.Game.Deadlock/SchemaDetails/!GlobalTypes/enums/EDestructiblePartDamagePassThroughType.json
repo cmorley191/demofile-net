@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "Normal",
+      "Absorb"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

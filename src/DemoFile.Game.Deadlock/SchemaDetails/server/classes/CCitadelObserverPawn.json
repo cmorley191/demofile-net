@@ -1,0 +1,67 @@
+{
+  "parent": "CCitadelPlayerPawnBase",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_baseLayer.m_hSequence"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_blinktoggle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flAnimTime"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flCycle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flEncodedController"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flPoseParameter"
+    },
+    {
+      "name": "MNetworkVarTypeOverride",
+      "value": {
+        "type": "CCitadelPlayer_ObserverServices",
+        "name": "m_pObserverServices"
+      }
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_pObserverServices"
+    },
+    {
+      "name": "MNetworkVarTypeOverride",
+      "value": {
+        "type": "CCitadelPlayer_CameraServices",
+        "name": "m_pCameraServices"
+      }
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_pCameraServices"
+    },
+    {
+      "name": "MNetworkVarTypeOverride",
+      "value": {
+        "type": "CCitadelObserver_MovementServices",
+        "name": "m_pMovementServices"
+      }
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_pMovementServices"
+    }
+  ],
+  "fields": []
+}

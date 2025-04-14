@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLEDETAIL_LOW",
+      "PARTICLEDETAIL_MEDIUM",
+      "PARTICLEDETAIL_HIGH",
+      "PARTICLEDETAIL_ULTRA"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ENTITY_DISSOLVE_INVALID",
+      "ENTITY_DISSOLVE_NORMAL",
+      "ENTITY_DISSOLVE_ELECTRICAL",
+      "ENTITY_DISSOLVE_ELECTRICAL_LIGHT",
+      "ENTITY_DISSOLVE_CORE"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

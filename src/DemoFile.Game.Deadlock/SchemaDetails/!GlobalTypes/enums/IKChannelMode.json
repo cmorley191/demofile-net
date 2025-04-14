@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TwoBone",
+      "TwoBone_Translate",
+      "OneBone",
+      "OneBone_Translate"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

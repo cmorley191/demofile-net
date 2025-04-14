@@ -1,0 +1,22 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_ItemSlotType",
+      "type": {
+        "name": "EAbilitySlots_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_StolenAbilityID",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

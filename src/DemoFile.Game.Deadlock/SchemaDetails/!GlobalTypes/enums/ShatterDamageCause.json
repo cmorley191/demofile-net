@@ -1,0 +1,19 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "SHATTERDAMAGE_BULLET",
+      "SHATTERDAMAGE_MELEE",
+      "SHATTERDAMAGE_THROWN",
+      "SHATTERDAMAGE_SCRIPT",
+      "SHATTERDAMAGE_EXPLOSIVE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

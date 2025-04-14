@@ -1,0 +1,9 @@
+{
+  "parent": "CAnimActionUpdater",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

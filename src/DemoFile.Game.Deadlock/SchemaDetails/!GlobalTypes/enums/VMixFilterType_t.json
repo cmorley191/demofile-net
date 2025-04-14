@@ -1,0 +1,29 @@
+{
+  "align": 2,
+  "items": {
+    "names": [
+      "FILTER_UNKNOWN",
+      "FILTER_LOWPASS",
+      "FILTER_HIGHPASS",
+      "FILTER_BANDPASS",
+      "FILTER_NOTCH",
+      "FILTER_PEAKING_EQ",
+      "FILTER_LOW_SHELF",
+      "FILTER_HIGH_SHELF",
+      "FILTER_ALLPASS",
+      "FILTER_PASSTHROUGH"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

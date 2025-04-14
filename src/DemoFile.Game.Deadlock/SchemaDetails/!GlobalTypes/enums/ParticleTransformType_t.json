@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PT_TYPE_INVALID",
+      "PT_TYPE_NAMED_VALUE",
+      "PT_TYPE_CONTROL_POINT",
+      "PT_TYPE_CONTROL_POINT_RANGE",
+      "PT_TYPE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FILTER_AND",
+      "FILTER_OR"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

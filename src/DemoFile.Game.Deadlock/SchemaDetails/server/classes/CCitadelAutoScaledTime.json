@@ -1,0 +1,13 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

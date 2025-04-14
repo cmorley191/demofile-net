@@ -1,0 +1,9 @@
+{
+  "parent": "C_INIT_RandomNamedModelElement",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

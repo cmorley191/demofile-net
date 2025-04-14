@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MATERIAL_ATTRIBUTE_TAG_VALUE",
+      "MATERIAL_ATTRIBUTE_TAG_COLOR"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

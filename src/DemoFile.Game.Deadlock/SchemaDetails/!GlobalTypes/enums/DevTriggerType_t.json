@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "Invalid",
+      "SpawnIdol",
+      "SpawnNeutrals"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

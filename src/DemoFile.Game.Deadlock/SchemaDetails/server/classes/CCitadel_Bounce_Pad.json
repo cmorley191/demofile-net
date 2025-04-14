@@ -1,0 +1,22 @@
+{
+  "parent": "CCitadelAnimatingModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flUpFactor",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flBounceVelocity",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

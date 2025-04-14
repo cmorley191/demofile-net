@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TRS_FALSE",
+      "TRS_TRUE",
+      "TRS_NONE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

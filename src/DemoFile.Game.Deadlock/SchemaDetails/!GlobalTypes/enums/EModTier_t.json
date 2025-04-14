@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "EModTier_Invalid",
+      "EModTier_1",
+      "EModTier_2",
+      "EModTier_3",
+      "EModTier_4",
+      "EMaxModTier"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

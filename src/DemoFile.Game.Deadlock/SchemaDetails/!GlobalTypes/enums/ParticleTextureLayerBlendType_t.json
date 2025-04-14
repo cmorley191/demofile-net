@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SPRITECARD_TEXTURE_BLEND_MULTIPLY",
+      "SPRITECARD_TEXTURE_BLEND_MOD2X",
+      "SPRITECARD_TEXTURE_BLEND_REPLACE",
+      "SPRITECARD_TEXTURE_BLEND_ADD",
+      "SPRITECARD_TEXTURE_BLEND_SUBTRACT",
+      "SPRITECARD_TEXTURE_BLEND_AVERAGE",
+      "SPRITECARD_TEXTURE_BLEND_LUMINANCE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

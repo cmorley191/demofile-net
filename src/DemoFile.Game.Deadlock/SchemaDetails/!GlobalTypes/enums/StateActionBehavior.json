@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "STATETAGBEHAVIOR_ACTIVE_WHILE_CURRENT",
+      "STATETAGBEHAVIOR_FIRE_ON_ENTER",
+      "STATETAGBEHAVIOR_FIRE_ON_EXIT",
+      "STATETAGBEHAVIOR_FIRE_ON_ENTER_AND_EXIT",
+      "STATETAGBEHAVIOR_ACTIVE_WHILE_FULLY_BLENDED"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

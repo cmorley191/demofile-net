@@ -1,0 +1,14 @@
+{
+  "parent": "CBaseAnimGraph",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iHealth"
+    }
+  ],
+  "fields": []
+}

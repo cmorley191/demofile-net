@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "bi_RebroadcastGameEvent",
+      "bi_RebroadcastSource",
+      "bi_GameEvent",
+      "bi_PredictionEvent"
+    ],
+    "values": [
+      16,
+      17,
+      18,
+      19
+    ]
+  }
+}

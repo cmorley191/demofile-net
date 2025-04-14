@@ -1,0 +1,44 @@
+{
+  "parent": "CPhysicsProp",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iHealth"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_CCitadelMinimapComponent",
+      "type": {
+        "name": "CCitadelMinimapComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelMinimapComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_eLootType",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

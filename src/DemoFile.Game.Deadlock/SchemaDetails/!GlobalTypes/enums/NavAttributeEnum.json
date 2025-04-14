@@ -1,0 +1,49 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "NAV_MESH_AVOID",
+      "NAV_MESH_STAIRS",
+      "NAV_MESH_NON_ZUP",
+      "NAV_MESH_SHORT_HEIGHT",
+      "NAV_MESH_NON_ZUP_TRANSITION",
+      "NAV_MESH_CROUCH",
+      "NAV_MESH_JUMP",
+      "NAV_MESH_PRECISE",
+      "NAV_MESH_NO_JUMP",
+      "NAV_MESH_STOP",
+      "NAV_MESH_RUN",
+      "NAV_MESH_WALK",
+      "NAV_MESH_TRANSIENT",
+      "NAV_MESH_DONT_HIDE",
+      "NAV_MESH_STAND",
+      "NAV_MESH_NO_HOSTAGES",
+      "NAV_MESH_NO_MERGE",
+      "NAV_MESH_OBSTACLE_TOP",
+      "NAV_ATTR_FIRST_GAME_INDEX",
+      "NAV_ATTR_LAST_INDEX"
+    ],
+    "values": [
+      128,
+      4096,
+      32768,
+      65536,
+      131072,
+      65536,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      256,
+      512,
+      1024,
+      2048,
+      8192,
+      16384,
+      19,
+      31
+    ]
+  }
+}

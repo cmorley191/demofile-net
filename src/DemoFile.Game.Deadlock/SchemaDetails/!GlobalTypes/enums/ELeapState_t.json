@@ -1,0 +1,19 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ELeapState_None",
+      "ELeapState_Startup",
+      "ELeapState_BoostingUp",
+      "ELeapState_CrashingDown",
+      "ELeapState_Land"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

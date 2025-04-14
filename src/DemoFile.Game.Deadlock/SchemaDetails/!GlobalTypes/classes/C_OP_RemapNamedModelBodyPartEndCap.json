@@ -1,0 +1,9 @@
+{
+  "parent": "C_OP_RemapNamedModelElementEndCap",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

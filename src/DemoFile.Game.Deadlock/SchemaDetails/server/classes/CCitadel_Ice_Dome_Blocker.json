@@ -1,0 +1,14 @@
+{
+  "parent": "CBaseAnimGraph",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flTurnSolidTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

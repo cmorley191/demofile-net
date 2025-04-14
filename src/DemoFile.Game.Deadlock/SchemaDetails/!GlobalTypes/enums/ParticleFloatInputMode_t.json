@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PF_INPUT_MODE_INVALID",
+      "PF_INPUT_MODE_CLAMPED",
+      "PF_INPUT_MODE_LOOPED",
+      "PF_INPUT_MODE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

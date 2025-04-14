@@ -1,0 +1,9 @@
+{
+  "parent": "CBoneConstraintBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SingleBlendTime",
+      "PerChoiceBlendTimes"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

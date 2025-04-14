@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eContinuous",
+      "eDiscretized_180",
+      "eDiscretized_90",
+      "eDiscretized_45"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

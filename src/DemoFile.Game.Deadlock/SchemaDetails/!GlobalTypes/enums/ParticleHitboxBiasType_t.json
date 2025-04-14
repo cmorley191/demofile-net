@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_HITBOX_BIAS_ENTITY",
+      "PARTICLE_HITBOX_BIAS_HITBOX"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "CNPC_Trooper",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CCitadelPlayerClipComponent",
+      "type": {
+        "name": "CCitadelPlayerClipComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelPlayerClipComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelPlayerClipComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelPlayerClipComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_flFadeOutStart",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFadeOutEnd",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

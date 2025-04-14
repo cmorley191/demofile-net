@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Wind Generator Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "This is a synth meant to generate whoosh noises."
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,100 @@
+{
+  "parent": "CCitadelAnimatingModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_bTakesDamage"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nTakeDamageFlags"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_CCitadelMinimapComponent",
+      "type": {
+        "name": "CCitadelMinimapComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelMinimapComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelMinimapComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_CCitadelAbilityComponent",
+      "type": {
+        "name": "CCitadelAbilityComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelAbilityComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelAbilityComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelAbilityComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_vecWeakPoints",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< WeakPoint_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "WeakPoint_t",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bDestroyed",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "DestroyedChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bActive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFinal",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

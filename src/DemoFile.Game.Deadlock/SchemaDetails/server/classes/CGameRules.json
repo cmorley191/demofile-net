@@ -1,0 +1,29 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nTotalPausedTicks",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nPauseStartTick",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bGamePaused",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

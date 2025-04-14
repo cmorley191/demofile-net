@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_REMOVE_ALL",
+      "MODIFIER_REMOVE_ENEMY",
+      "MODIFIER_REMOVE_ALLY",
+      "MODIFIER_REMOVE_INTRINSIC"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

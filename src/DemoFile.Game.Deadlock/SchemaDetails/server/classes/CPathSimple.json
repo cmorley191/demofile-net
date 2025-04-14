@@ -1,0 +1,40 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_CPathQueryComponent",
+      "type": {
+        "name": "CPathQueryComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CPathQueryComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CPathQueryComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CPathQueryComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_pathString",
+      "type": {
+        "name": "CUtlString",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

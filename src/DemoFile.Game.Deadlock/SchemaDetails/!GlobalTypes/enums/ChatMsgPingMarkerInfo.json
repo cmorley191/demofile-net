@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EPingMarkerInfo_ShowMarkerAndSound",
+      "k_EPingMarkerInfo_ShowMarkerOnSender",
+      "k_EPingMarkerInfo_HideMarkerAndSound",
+      "k_EPingMarkerInfo_OnlyShowMarker",
+      "k_EPingMarkerInfo_OnlyPlaySound"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

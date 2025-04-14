@@ -1,0 +1,34 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_pEntity",
+      "type": {
+        "name": "CEntityIdentity*",
+        "category": 1,
+        "inner": {
+          "name": "CEntityIdentity",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 56
+        }
+      ]
+    },
+    {
+      "name": "m_CScriptComponent",
+      "type": {
+        "name": "CScriptComponent*",
+        "category": 1,
+        "inner": {
+          "name": "CScriptComponent",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_RR_FILTER_BROADCAST",
+      "MODIFIER_RR_FILTER_SINGLE"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

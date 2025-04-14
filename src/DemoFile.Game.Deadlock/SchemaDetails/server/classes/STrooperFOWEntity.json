@@ -1,0 +1,39 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nEntIndex",
+      "type": {
+        "name": "CEntityIndex",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nTeam",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nPositionXY",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnFieldXYChanged"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ANIM_LOOP_MODE_INVALID",
+      "ANIM_LOOP_MODE_NOT_LOOPING",
+      "ANIM_LOOP_MODE_LOOPING",
+      "ANIM_LOOP_MODE_USE_SEQUENCE_SETTINGS",
+      "ANIM_LOOP_MODE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

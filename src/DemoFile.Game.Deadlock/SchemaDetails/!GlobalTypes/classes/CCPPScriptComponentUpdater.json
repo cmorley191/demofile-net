@@ -1,0 +1,9 @@
+{
+  "parent": "CAnimComponentUpdater",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,33 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "HULL_HUMAN",
+      "HULL_SMALL_CENTERED",
+      "HULL_WIDE_HUMAN",
+      "HULL_TINY",
+      "HULL_MEDIUM",
+      "HULL_TINY_CENTERED",
+      "HULL_LARGE",
+      "HULL_LARGE_CENTERED",
+      "HULL_MEDIUM_TALL",
+      "HULL_SMALL",
+      "NUM_HULLS",
+      "HULL_NONE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Modifier_ChainLightningVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

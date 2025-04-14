@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "OnReset",
+      "OnCycleEnd",
+      "OnResetOrCycleEnd"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "CSoundEventEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vMins",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vMaxs",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

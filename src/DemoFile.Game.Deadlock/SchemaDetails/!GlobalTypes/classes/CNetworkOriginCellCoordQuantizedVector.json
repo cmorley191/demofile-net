@@ -1,0 +1,194 @@
+{
+  "metadata": [
+    {
+      "name": "MNetworkVarsAtomic"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_cellX",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnCellChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 31
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "cellx"
+        }
+      ]
+    },
+    {
+      "name": "m_cellY",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnCellChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 31
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "celly"
+        }
+      ]
+    },
+    {
+      "name": "m_cellZ",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnCellChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 31
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "cellz"
+        }
+      ]
+    },
+    {
+      "name": "m_nOutsideWorld",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecX",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 15
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1024
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnCellChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 31
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "posx"
+        }
+      ]
+    },
+    {
+      "name": "m_vecY",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 15
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1024
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnCellChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 31
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "posy"
+        }
+      ]
+    },
+    {
+      "name": "m_vecZ",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 15
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1024
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnCellChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 31
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "posz"
+        }
+      ]
+    }
+  ]
+}

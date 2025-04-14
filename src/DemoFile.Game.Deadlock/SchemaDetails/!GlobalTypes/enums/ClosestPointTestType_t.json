@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_CLOSEST_TYPE_BOX",
+      "PARTICLE_CLOSEST_TYPE_CAPSULE",
+      "PARTICLE_CLOSEST_TYPE_HYBRID"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

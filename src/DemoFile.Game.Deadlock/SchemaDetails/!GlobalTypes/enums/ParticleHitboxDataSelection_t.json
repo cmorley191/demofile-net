@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_HITBOX_AVERAGE_SPEED",
+      "PARTICLE_HITBOX_COUNT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

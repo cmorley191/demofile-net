@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "touch_none",
+      "touch_player_only",
+      "touch_npc_only",
+      "touch_player_or_npc",
+      "touch_player_or_npc_or_physicsprop"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "metadata": [
+    {
+      "name": "MNetworkVarsAtomic"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_vecX",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 18
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -4096
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 4096
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkVelocityVector"
+        }
+      ]
+    },
+    {
+      "name": "m_vecY",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 18
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -4096
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 4096
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkVelocityVector"
+        }
+      ]
+    },
+    {
+      "name": "m_vecZ",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 18
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -4096
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 4096
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkVelocityVector"
+        }
+      ]
+    }
+  ]
+}

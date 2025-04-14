@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PM_TYPE_INVALID",
+      "PM_TYPE_NAMED_VALUE_MODEL",
+      "PM_TYPE_NAMED_VALUE_EHANDLE",
+      "PM_TYPE_CONTROL_POINT",
+      "PM_TYPE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EAttackType_None",
+      "EAttackType_Light",
+      "EAttackType_Heavy",
+      "EAttackType_HeavyAir",
+      "EAttackType_Slide"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

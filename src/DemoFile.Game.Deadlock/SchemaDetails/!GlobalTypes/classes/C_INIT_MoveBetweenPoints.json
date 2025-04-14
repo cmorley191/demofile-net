@@ -1,0 +1,9 @@
+{
+  "parent": "CParticleFunctionInitializer",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

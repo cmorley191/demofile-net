@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ECON_ENTITY_PARTICLES_ENABLED",
+      "ECON_ENTITY_PARTICLES_DISABLED",
+      "ECON_ENTITY_PARTICLES_DISABLED_BUT_PLAY_ENDCAPS_TO_STOP"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

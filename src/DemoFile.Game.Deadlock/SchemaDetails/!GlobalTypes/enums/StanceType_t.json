@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "STANCE_CURRENT",
+      "STANCE_DEFAULT",
+      "STANCE_CROUCHING",
+      "STANCE_PRONE",
+      "NUM_STANCES"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

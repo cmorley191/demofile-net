@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ELashGrappleState_None",
+      "ELashGrappleState_LiftingUp",
+      "ELashGrappleState_HangingInAir"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

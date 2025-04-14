@@ -1,0 +1,14 @@
+{
+  "parent": "CBodyComponentSkeletonInstance",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_animationController",
+      "type": {
+        "name": "CBaseAnimGraphController",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

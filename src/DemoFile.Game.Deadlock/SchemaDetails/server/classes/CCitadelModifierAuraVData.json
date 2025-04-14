@@ -1,0 +1,9 @@
+{
+  "parent": "CModifierVData_BaseAura",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

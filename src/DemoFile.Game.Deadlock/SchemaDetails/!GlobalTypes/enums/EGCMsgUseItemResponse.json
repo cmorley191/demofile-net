@@ -1,0 +1,37 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EGCMsgUseItemResponse_ItemUsed",
+      "k_EGCMsgUseItemResponse_GiftNoOtherPlayers",
+      "k_EGCMsgUseItemResponse_ServerError",
+      "k_EGCMsgUseItemResponse_MiniGameAlreadyStarted",
+      "k_EGCMsgUseItemResponse_ItemUsed_ItemsGranted",
+      "k_EGCMsgUseItemResponse_DropRateBonusAlreadyGranted",
+      "k_EGCMsgUseItemResponse_NotInLowPriorityPool",
+      "k_EGCMsgUseItemResponse_NotHighEnoughLevel",
+      "k_EGCMsgUseItemResponse_EventNotActive",
+      "k_EGCMsgUseItemResponse_ItemUsed_EventPointsGranted",
+      "k_EGCMsgUseItemResponse_MissingRequirement",
+      "k_EGCMsgUseItemResponse_EmoticonUnlock_NoNew",
+      "k_EGCMsgUseItemResponse_EmoticonUnlock_Complete",
+      "k_EGCMsgUseItemResponse_ItemUsed_Compendium"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nEntIndex",
+      "type": {
+        "name": "CEntityIndex",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nTeam",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eClass",
+      "type": {
+        "name": "Class_T",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iLane",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eHeight",
+      "type": {
+        "name": "EMinimapHeight",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bVisibleOnMap",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bBackdoorProtectionActive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nTickHidden",
+      "type": {
+        "name": "GameTick_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_strEntityName",
+      "type": {
+        "name": "CUtlString",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHealthPercent",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nPositionX",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_nPositionY",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    }
+  ]
+}

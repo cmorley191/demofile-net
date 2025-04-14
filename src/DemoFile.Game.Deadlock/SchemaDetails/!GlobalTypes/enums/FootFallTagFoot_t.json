@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FOOT1",
+      "FOOT2",
+      "FOOT3",
+      "FOOT4",
+      "FOOT5",
+      "FOOT6",
+      "FOOT7",
+      "FOOT8"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "NORMAL",
+      "SLOWED",
+      "BUFFED"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

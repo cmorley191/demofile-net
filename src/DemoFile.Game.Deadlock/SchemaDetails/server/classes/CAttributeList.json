@@ -1,0 +1,24 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_Attributes",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< CEconItemAttribute >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "CEconItemAttribute",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CUtlVector< CEconItemAttribute >"
+        }
+      ]
+    }
+  ]
+}

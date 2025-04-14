@@ -1,0 +1,26 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iAttributeDefinitionIndex",
+      "type": {
+        "name": "attrib_definition_index_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flValue",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkAlias",
+          "value": "m_iRawValue32"
+        }
+      ]
+    }
+  ]
+}

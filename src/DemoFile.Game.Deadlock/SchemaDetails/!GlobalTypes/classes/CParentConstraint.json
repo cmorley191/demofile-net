@@ -1,0 +1,9 @@
+{
+  "parent": "CBaseConstraint",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

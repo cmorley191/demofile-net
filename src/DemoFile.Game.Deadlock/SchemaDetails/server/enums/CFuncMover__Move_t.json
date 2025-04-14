@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MOVE_LOOP",
+      "MOVE_OSCILLATE",
+      "MOVE_STOP_AT_END"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

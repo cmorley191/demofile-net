@@ -1,0 +1,12 @@
+{
+  "parent": "CParticleFloatInput",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyCustomEditor"
+    }
+  ],
+  "fields": []
+}

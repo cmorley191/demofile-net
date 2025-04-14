@@ -1,0 +1,43 @@
+{
+  "parent": "CBreakableProp",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flAnimTime"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flexWeight"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_blinktoggle"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flPoseParameter"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_animationController.m_flPlaybackRate"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "overlay_vars"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_spawnflags"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_bAwake",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

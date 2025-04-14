@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EButtonSide_Top",
+      "EButtonSide_Right",
+      "EButtonSide_Bottom",
+      "EButtonSide_Left",
+      "EButtonSide_Center"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

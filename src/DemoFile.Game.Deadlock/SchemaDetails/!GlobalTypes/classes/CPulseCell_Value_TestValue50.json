@@ -1,0 +1,26 @@
+{
+  "parent": "CPulseCell_BaseValue",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "[Test] Int Value 50"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Test node that just generates the integer 50. Nothing to see here!"
+    }
+  ],
+  "fields": []
+}

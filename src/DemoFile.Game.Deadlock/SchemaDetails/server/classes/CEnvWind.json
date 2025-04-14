@@ -1,0 +1,14 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_EnvWindShared",
+      "type": {
+        "name": "CEnvWindShared",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

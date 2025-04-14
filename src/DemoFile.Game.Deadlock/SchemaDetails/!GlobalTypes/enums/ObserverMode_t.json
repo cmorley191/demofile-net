@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "OBS_MODE_NONE",
+      "OBS_MODE_FIXED",
+      "OBS_MODE_IN_EYE",
+      "OBS_MODE_CHASE",
+      "OBS_MODE_ROAMING",
+      "OBS_MODE_DIRECTED",
+      "NUM_OBSERVER_MODES"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

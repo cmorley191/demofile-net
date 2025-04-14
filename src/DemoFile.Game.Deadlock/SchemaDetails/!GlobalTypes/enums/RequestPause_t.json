@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "RP_PAUSE",
+      "RP_UNPAUSE",
+      "RP_TOGGLEPAUSE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

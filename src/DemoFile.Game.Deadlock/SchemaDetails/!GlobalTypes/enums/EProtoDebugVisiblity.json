@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EProtoDebugVisibility_Always",
+      "k_EProtoDebugVisibility_Server",
+      "k_EProtoDebugVisibility_ValveServer",
+      "k_EProtoDebugVisibility_GC",
+      "k_EProtoDebugVisibility_Never"
+    ],
+    "values": [
+      0,
+      70,
+      80,
+      90,
+      100
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CSosGroupBranchPattern",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

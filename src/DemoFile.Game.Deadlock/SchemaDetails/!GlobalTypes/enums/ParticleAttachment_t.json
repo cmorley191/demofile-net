@@ -1,0 +1,45 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PATTACH_INVALID",
+      "PATTACH_ABSORIGIN",
+      "PATTACH_ABSORIGIN_FOLLOW",
+      "PATTACH_CUSTOMORIGIN",
+      "PATTACH_CUSTOMORIGIN_FOLLOW",
+      "PATTACH_POINT",
+      "PATTACH_POINT_FOLLOW",
+      "PATTACH_EYES_FOLLOW",
+      "PATTACH_OVERHEAD_FOLLOW",
+      "PATTACH_WORLDORIGIN",
+      "PATTACH_ROOTBONE_FOLLOW",
+      "PATTACH_RENDERORIGIN_FOLLOW",
+      "PATTACH_MAIN_VIEW",
+      "PATTACH_WATERWAKE",
+      "PATTACH_CENTER_FOLLOW",
+      "PATTACH_CUSTOM_GAME_STATE_1",
+      "PATTACH_HEALTHBAR",
+      "MAX_PATTACH_TYPES"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+}

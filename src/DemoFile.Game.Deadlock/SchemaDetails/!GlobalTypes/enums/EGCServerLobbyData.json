@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EServerLobbyData_PlayerMMR",
+      "k_EServerLobbyData_PlayerInfo",
+      "k_EServerLobbyData_PostMatchSurvey",
+      "k_EServerLobbyData_AutoTest"
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

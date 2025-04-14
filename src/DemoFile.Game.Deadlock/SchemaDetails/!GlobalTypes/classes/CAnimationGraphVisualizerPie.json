@@ -1,0 +1,9 @@
+{
+  "parent": "CAnimationGraphVisualizerPrimitiveBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

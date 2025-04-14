@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LFO_SHAPE_SINE",
+      "LFO_SHAPE_SQUARE",
+      "LFO_SHAPE_TRI",
+      "LFO_SHAPE_SAW",
+      "LFO_SHAPE_NOISE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

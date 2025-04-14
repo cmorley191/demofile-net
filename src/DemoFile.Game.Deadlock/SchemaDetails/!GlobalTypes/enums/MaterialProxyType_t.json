@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MATERIAL_PROXY_STATUS_EFFECT",
+      "MATERIAL_PROXY_TINT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

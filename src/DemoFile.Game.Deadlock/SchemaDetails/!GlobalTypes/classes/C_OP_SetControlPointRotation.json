@@ -1,0 +1,9 @@
+{
+  "parent": "CParticleFunctionPreEmission",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,27 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ITEM_FLAG_NONE",
+      "ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO",
+      "ITEM_FLAG_NOAUTORELOAD",
+      "ITEM_FLAG_NOAUTOSWITCHEMPTY",
+      "ITEM_FLAG_LIMITINWORLD",
+      "ITEM_FLAG_EXHAUSTIBLE",
+      "ITEM_FLAG_DOHITLOCATIONDMG",
+      "ITEM_FLAG_NOAMMOPICKUPS",
+      "ITEM_FLAG_NOITEMPICKUP"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SPRITECARD_SHADER_BASE",
+      "SPRITECARD_SHADER_CUSTOM"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

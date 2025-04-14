@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EMsgGameServerToClientConnectionStatus",
+      "k_EMsgGameServerToClientInitialGameState",
+      "k_EMsgGameServerToClientGameCompleted",
+      "k_EMsgGameServerToClientGoodbye"
+    ],
+    "values": [
+      10,
+      12,
+      13,
+      15
+    ]
+  }
+}

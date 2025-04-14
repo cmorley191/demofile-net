@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Text",
+      "ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Sphere",
+      "ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Line",
+      "ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Pie",
+      "ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Axis"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

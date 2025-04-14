@@ -1,0 +1,33 @@
+{
+  "parent": "CBaseTrigger",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_strStartTouchEventName",
+      "type": {
+        "name": "CUtlString",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_strEndTouchEventName",
+      "type": {
+        "name": "CUtlString",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_strTriggerID",
+      "type": {
+        "name": "CUtlString",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

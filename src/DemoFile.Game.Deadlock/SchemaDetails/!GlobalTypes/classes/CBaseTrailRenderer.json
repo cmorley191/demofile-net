@@ -1,0 +1,9 @@
+{
+  "parent": "CBaseRendererSource2",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

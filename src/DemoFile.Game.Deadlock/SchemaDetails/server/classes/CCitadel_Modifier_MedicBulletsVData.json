@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Modifier_BaseBulletPreRollProcVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

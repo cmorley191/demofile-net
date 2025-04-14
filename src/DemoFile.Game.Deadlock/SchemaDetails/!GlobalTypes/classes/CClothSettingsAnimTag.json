@@ -1,0 +1,13 @@
+{
+  "parent": "CAnimTagBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Cloth Settings Tag"
+    }
+  ],
+  "fields": []
+}

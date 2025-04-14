@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SYNC_WAIT_FOR_COMPLETION",
+      "ASYNC_FIRE_AND_FORGET"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

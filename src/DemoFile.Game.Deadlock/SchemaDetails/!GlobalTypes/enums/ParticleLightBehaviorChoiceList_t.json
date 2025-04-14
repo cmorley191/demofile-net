@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION",
+      "PARTICLE_LIGHT_BEHAVIOR_ROPE",
+      "PARTICLE_LIGHT_BEHAVIOR_TRAILS"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

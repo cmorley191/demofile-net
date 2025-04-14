@@ -1,0 +1,9 @@
+{
+  "parent": "CLeafUpdateNode",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

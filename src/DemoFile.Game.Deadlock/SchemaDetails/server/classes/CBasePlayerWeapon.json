@@ -1,0 +1,139 @@
+{
+  "parent": "CBaseAnimGraph",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flexWeight"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_blinktoggle"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nNextThinkTick"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flPoseParameter"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flCycle"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "overlay_vars"
+    },
+    {
+      "name": "MNetworkUserGroupProxy",
+      "value": "CBasePlayerWeapon"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_nNextPrimaryAttackTick",
+      "type": {
+        "name": "GameTick_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalWeaponExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flNextPrimaryAttackTickRatio",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalWeaponExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_nNextSecondaryAttackTick",
+      "type": {
+        "name": "GameTick_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalWeaponExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flNextSecondaryAttackTickRatio",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalWeaponExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_iClip1",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSerializer",
+          "value": "minusone"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_iClip2",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSerializer",
+          "value": "minusone"
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalWeaponExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_pReserveAmmo",
+      "type": {
+        "name": "int32[2]",
+        "category": 3,
+        "arraySize": 2,
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalWeaponExclusive"
+        }
+      ]
+    }
+  ]
+}

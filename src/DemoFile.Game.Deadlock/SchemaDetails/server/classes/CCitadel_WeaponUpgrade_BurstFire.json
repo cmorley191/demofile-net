@@ -1,0 +1,14 @@
+{
+  "parent": "CCitadel_Item",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nFastFireEndTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

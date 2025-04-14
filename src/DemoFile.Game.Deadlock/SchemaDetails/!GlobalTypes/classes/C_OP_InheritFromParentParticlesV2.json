@@ -1,0 +1,13 @@
+{
+  "parent": "CParticleFunctionOperator",
+  "metadata": [
+    {
+      "name": "MParticleMinVersion",
+      "value": 9
+    },
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

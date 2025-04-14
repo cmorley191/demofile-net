@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_ATTRIBUTE_NONE",
+      "MODIFIER_ATTRIBUTE_PERMANENT",
+      "MODIFIER_ATTRIBUTE_MULTIPLE",
+      "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE",
+      "MODIFIER_ATTRIBUTE_AURA_PRIORITY",
+      "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
+      "MODIFIER_ATTRIBUTE_INTRINSIC",
+      "MODIFIER_ATTRIBUTE_TRANSFER_TO_RAGDOLL"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ]
+  }
+}

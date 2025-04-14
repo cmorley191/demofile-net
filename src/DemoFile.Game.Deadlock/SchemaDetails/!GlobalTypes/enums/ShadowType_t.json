@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SHADOWS_NONE",
+      "SHADOWS_SIMPLE"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

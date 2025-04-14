@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "VOICEDATA_FORMAT_STEAM",
+      "VOICEDATA_FORMAT_ENGINE",
+      "VOICEDATA_FORMAT_OPUS"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

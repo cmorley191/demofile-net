@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_VRHAND_LEFT",
+      "PARTICLE_VRHAND_RIGHT",
+      "PARTICLE_VRHAND_CP",
+      "PARTICLE_VRHAND_CP_OBJECT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

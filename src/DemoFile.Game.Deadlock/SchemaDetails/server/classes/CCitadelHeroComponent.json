@@ -1,0 +1,32 @@
+{
+  "parent": "CEntityComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nHeroID",
+      "type": {
+        "name": "HeroID_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnHeroChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nHeroLoading",
+      "type": {
+        "name": "HeroID_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BLOOM_BLEND_ADD",
+      "BLOOM_BLEND_SCREEN",
+      "BLOOM_BLEND_BLUR"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

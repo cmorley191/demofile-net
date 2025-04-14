@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_OUTPUT_BLEND_MODE_ALPHA",
+      "PARTICLE_OUTPUT_BLEND_MODE_ADD",
+      "PARTICLE_OUTPUT_BLEND_MODE_BLEND_ADD",
+      "PARTICLE_OUTPUT_BLEND_MODE_HALF_BLEND_ADD",
+      "PARTICLE_OUTPUT_BLEND_MODE_NEG_HALF_BLEND_ADD",
+      "PARTICLE_OUTPUT_BLEND_MODE_MOD2X",
+      "PARTICLE_OUTPUT_BLEND_MODE_LIGHTEN"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

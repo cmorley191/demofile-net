@@ -1,0 +1,77 @@
+{
+  "parent": "CPlayerPawnComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hMyWeapons",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBasePlayerWeapon > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBasePlayerWeapon >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBasePlayerWeapon",
+            "category": 5
+          }
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnMyWeaponsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_hActiveWeapon",
+      "type": {
+        "name": "CHandle< CBasePlayerWeapon >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBasePlayerWeapon",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hLastWeapon",
+      "type": {
+        "name": "CHandle< CBasePlayerWeapon >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBasePlayerWeapon",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_iAmmo",
+      "type": {
+        "name": "uint16[32]",
+        "category": 3,
+        "arraySize": 32,
+        "inner": {
+          "name": "uint16",
+          "category": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

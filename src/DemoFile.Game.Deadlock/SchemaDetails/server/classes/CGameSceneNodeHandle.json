@@ -1,0 +1,23 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hOwner",
+      "type": {
+        "name": "CEntityHandle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_name",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

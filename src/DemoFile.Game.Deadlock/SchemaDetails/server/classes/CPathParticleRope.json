@@ -1,0 +1,174 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flParticleSpacing",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flSlack",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "parametersChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "parametersChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_ColorTint",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "parametersChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nEffectState",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "effectStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_iEffectIndex",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIParticleSystemDefinition >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIParticleSystemDefinition",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_PathNodes_Position",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_PathNodes_TangentIn",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_PathNodes_TangentOut",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_PathNodes_Color",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_PathNodes_PinEnabled",
+      "type": {
+        "name": "CNetworkUtlVectorBase< bool >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "bool",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "pinStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_PathNodes_RadiusScale",
+      "type": {
+        "name": "CNetworkUtlVectorBase< float32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "float32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

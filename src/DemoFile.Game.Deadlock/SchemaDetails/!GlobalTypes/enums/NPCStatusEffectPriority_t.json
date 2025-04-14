@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "STATUS_PRIORITY_NOT_USED",
+      "STATUS_PRIORITY_LOW",
+      "STATUS_PRIORITY_MEDIUM",
+      "STATUS_PRIORITY_HIGH",
+      "STATUS_PRIORITY_HIGHEST"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

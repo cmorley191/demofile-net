@@ -1,0 +1,188 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_collisionAttribute",
+      "type": {
+        "name": "VPhysicsCollisionAttribute_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CollisionAttributeChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vecMins",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateOBB"
+        }
+      ]
+    },
+    {
+      "name": "m_vecMaxs",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateOBB"
+        }
+      ]
+    },
+    {
+      "name": "m_usSolidFlags",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateSolidFlags"
+        }
+      ]
+    },
+    {
+      "name": "m_nSolidType",
+      "type": {
+        "name": "SolidType_t",
+        "category": 6
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateSolidType"
+        }
+      ]
+    },
+    {
+      "name": "m_triggerBloat",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "MarkSurroundingBoundsDirty"
+        }
+      ]
+    },
+    {
+      "name": "m_nSurroundType",
+      "type": {
+        "name": "SurroundingBoundsType_t",
+        "category": 6
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "MarkSurroundingBoundsDirty"
+        }
+      ]
+    },
+    {
+      "name": "m_CollisionGroup",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nEnablePhysics",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateEnablePhysics"
+        }
+      ]
+    },
+    {
+      "name": "m_vecSpecifiedSurroundingMins",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "MarkSurroundingBoundsDirty"
+        }
+      ]
+    },
+    {
+      "name": "m_vecSpecifiedSurroundingMaxs",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "MarkSurroundingBoundsDirty"
+        }
+      ]
+    },
+    {
+      "name": "m_vCapsuleCenter1",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateCapsule"
+        }
+      ]
+    },
+    {
+      "name": "m_vCapsuleCenter2",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateCapsule"
+        }
+      ]
+    },
+    {
+      "name": "m_flCapsuleRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnUpdateCapsule"
+        }
+      ]
+    }
+  ]
+}

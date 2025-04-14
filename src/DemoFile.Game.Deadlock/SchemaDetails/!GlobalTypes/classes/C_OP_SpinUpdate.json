@@ -1,0 +1,9 @@
+{
+  "parent": "CSpinUpdateBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

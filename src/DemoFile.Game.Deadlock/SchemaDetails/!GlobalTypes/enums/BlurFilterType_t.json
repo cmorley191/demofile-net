@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BLURFILTER_GAUSSIAN",
+      "BLURFILTER_BOX"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

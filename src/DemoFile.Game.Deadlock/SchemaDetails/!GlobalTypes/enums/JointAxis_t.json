@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "JOINT_AXIS_X",
+      "JOINT_AXIS_Y",
+      "JOINT_AXIS_Z",
+      "JOINT_AXIS_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CAnimParameterBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

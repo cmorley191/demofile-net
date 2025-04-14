@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ELassoHoldPosition_Center",
+      "ELassoHoldPosition_Left",
+      "ELassoHoldPosition_Right"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

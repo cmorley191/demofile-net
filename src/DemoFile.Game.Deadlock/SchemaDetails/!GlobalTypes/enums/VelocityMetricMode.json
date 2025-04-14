@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "DirectionOnly",
+      "MagnitudeOnly",
+      "DirectionAndMagnitude"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

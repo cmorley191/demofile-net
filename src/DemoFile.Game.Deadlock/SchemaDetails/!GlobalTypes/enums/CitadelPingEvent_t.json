@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_PING_EVENT_LOCATION_PING",
+      "CITADEL_PING_MINIMAP_LOCATION_PING",
+      "CITADEL_PING_EVENT_BASE_UNDER_ATTACK",
+      "CITADEL_PING_EVENT_ENTITY_PING",
+      "CITADEL_PING_CRATE_SPAWN",
+      "CITADEL_PING_OBJECTIVE_SPAWN",
+      "CITADEL_PING_NEUTRAL_SPAWN"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

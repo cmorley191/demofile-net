@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "kNPC_Vault_State_Idle",
+      "kNPC_Vault_State_Active",
+      "kNPC_Vault_State_Critical",
+      "kNPC_Vault_State_DestroySuccessLight",
+      "kNPC_Vault_State_DestroySuccessHeavy",
+      "kNPC_Vault_State_DestroyFailure",
+      "kNPC_Vault_State_DestroyDead"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

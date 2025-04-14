@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CANNOT_PLAY",
+      "CAN_PLAY_NOW",
+      "CAN_PLAY_ENQUEUED"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

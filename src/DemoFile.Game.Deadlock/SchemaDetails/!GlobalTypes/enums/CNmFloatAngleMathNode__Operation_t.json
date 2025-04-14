@@ -1,0 +1,17 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ClampTo180",
+      "ClampTo360",
+      "FlipHemisphere",
+      "FlipHemisphereNegate"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

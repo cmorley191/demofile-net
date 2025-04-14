@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_FALLOFF_CONSTANT",
+      "PARTICLE_FALLOFF_LINEAR",
+      "PARTICLE_FALLOFF_EXPONENTIAL"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

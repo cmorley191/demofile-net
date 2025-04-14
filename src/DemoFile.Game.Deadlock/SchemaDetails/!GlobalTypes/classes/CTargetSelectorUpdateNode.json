@@ -1,0 +1,9 @@
+{
+  "parent": "CAnimUpdateNodeBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

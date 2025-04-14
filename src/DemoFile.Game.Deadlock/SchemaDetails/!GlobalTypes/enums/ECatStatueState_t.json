@@ -1,0 +1,19 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ECatStatue_None",
+      "ECatStatue_Shoulder",
+      "ECatStatue_ProjectileOut",
+      "ECatStatue_InWorld",
+      "ECatStatue_InCooldown"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

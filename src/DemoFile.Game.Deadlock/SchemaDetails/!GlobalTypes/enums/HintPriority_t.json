@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "HINT_PRIORITY_LOW",
+      "HINT_PRIORITY_MEDIUM",
+      "HINT_PRIORITY_HIGH",
+      "HINT_PRIORITY_CRITICAL"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

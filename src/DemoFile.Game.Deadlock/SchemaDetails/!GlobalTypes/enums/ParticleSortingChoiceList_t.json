@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_SORTING_NEAREST",
+      "PARTICLE_SORTING_CREATION_TIME"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

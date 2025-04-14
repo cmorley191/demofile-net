@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadelYamatoBaseVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

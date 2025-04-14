@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "None",
+      "IntrinsicallyProvidedInModifier",
+      "IntrinsicallyProvidedInAbility",
+      "ConditionallyApplied"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4
+    ]
+  }
+}

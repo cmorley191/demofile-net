@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EButtonHintType_SingleButton",
+      "EButtonHintType_TwoDifferentButtons",
+      "EButtonHintType_TwoButtonCombo"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

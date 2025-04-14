@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ZERO",
+      "ONE",
+      "TWO"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

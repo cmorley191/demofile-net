@@ -1,0 +1,40 @@
+{
+  "parent": "CPlayer_MovementServices_Humanoid",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vPositionDeltaVelocity",
+      "type": {
+        "name": "CNetworkVelocityVector",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_bToggleDuckActive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    }
+  ]
+}

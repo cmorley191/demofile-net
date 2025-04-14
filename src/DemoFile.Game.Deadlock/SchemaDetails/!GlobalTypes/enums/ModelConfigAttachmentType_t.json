@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODEL_CONFIG_ATTACHMENT_INVALID",
+      "MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT",
+      "MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE",
+      "MODEL_CONFIG_ATTACHMENT_BONEMERGE",
+      "MODEL_CONFIG_ATTACHMENT_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

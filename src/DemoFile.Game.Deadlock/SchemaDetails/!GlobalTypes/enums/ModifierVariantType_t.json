@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "Variant_Null",
+      "Variant_Bool",
+      "Variant_Float",
+      "Variant_String",
+      "Variant_Entity",
+      "Variant_Vector",
+      "Variant_Quaternion",
+      "Variant_StructPtr"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

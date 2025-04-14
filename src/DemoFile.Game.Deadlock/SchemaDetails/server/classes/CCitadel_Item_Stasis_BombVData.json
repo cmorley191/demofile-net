@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Item_BubbleVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

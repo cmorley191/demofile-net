@@ -1,0 +1,350 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByUserGroup",
+      "value": "Origin"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nModelIndex"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nRenderFX"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nRenderMode"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_clrRender"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "CGameSceneNode::m_hParent"
+    },
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_clrRender"
+      }
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_flFrameRate",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 10
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -25
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 25
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "m_flHDRColorScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nNumBeamEnts",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hBaseMaterial",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHaloIndex",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nBeamType",
+      "type": {
+        "name": "BeamType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nBeamFlags",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hAttachEntity",
+      "type": {
+        "name": "CHandle< CBaseEntity >[10]",
+        "category": 3,
+        "arraySize": 10,
+        "inner": {
+          "name": "CHandle< CBaseEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nAttachIndex",
+      "type": {
+        "name": "AttachmentHandle_t[10]",
+        "category": 3,
+        "arraySize": 10,
+        "inner": {
+          "name": "AttachmentHandle_t",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 10
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 102.3
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "m_fEndWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 10
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 102.3
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "m_fFadeLength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fHaloScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fAmplitude",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 64
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "m_fStartFrame",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 256
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "m_fSpeed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "m_flFrame",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 20
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 256
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_nClipStyle",
+      "type": {
+        "name": "BeamClipStyle_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bTurnedOff",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecEndPos",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    }
+  ]
+}

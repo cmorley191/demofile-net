@@ -1,0 +1,44 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bHasUsedCopiedUlt",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bHasCopiedUlt",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsModelSwapped",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_pCopyUltimateAbility",
+      "type": {
+        "name": "CHandle< CCitadelBaseAbility >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CCitadelBaseAbility",
+          "category": 5
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

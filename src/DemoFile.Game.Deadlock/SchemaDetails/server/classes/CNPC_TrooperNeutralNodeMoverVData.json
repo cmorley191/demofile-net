@@ -1,0 +1,9 @@
+{
+  "parent": "CNPC_TrooperNeutralVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

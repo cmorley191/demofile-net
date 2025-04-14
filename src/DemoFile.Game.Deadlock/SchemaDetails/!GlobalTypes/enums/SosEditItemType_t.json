@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SOS_EDIT_ITEM_TYPE_SOUNDEVENTS",
+      "SOS_EDIT_ITEM_TYPE_SOUNDEVENT",
+      "SOS_EDIT_ITEM_TYPE_LIBRARYSTACKS",
+      "SOS_EDIT_ITEM_TYPE_STACK",
+      "SOS_EDIT_ITEM_TYPE_OPERATOR",
+      "SOS_EDIT_ITEM_TYPE_FIELD"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

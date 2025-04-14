@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "FOOTSOUND_Left",
+      "FOOTSOUND_Right",
+      "FOOTSOUND_UseOverrideSound"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

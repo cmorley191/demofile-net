@@ -1,0 +1,9 @@
+{
+  "parent": "CBaseLockonAbilityVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

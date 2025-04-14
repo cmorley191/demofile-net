@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "GCConnectionStatus_HAVE_SESSION",
+      "GCConnectionStatus_GC_GOING_DOWN",
+      "GCConnectionStatus_NO_SESSION",
+      "GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE",
+      "GCConnectionStatus_NO_STEAM",
+      "GCConnectionStatus_SUSPENDED",
+      "GCConnectionStatus_STEAM_GOING_DOWN"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

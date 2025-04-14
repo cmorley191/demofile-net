@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EAction_AddOp",
+      "k_EAction_ClearAllOps",
+      "k_EAction_ClearOpsForContext"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PF_NOISE_MODIFIER_NONE",
+      "PF_NOISE_MODIFIER_LINES",
+      "PF_NOISE_MODIFIER_CLUMPS",
+      "PF_NOISE_MODIFIER_RINGS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

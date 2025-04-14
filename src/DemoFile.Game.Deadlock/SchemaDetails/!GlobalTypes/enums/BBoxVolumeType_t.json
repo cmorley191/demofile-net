@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BBOX_VOLUME",
+      "BBOX_DIMENSIONS",
+      "BBOX_MINS_MAXS"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

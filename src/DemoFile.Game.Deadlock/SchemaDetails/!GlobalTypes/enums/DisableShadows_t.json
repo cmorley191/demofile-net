@@ -1,0 +1,17 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "kDisableShadows_None",
+      "kDisableShadows_All",
+      "kDisableShadows_Baked",
+      "kDisableShadows_Realtime"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

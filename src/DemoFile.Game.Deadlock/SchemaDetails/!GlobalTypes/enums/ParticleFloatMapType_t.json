@@ -1,0 +1,27 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PF_MAP_TYPE_INVALID",
+      "PF_MAP_TYPE_DIRECT",
+      "PF_MAP_TYPE_MULT",
+      "PF_MAP_TYPE_REMAP",
+      "PF_MAP_TYPE_REMAP_BIASED",
+      "PF_MAP_TYPE_CURVE",
+      "PF_MAP_TYPE_NOTCHED",
+      "PF_MAP_TYPE_ROUND",
+      "PF_MAP_TYPE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

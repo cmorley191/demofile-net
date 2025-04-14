@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "LeftFootDown",
+      "LeftFootPassing",
+      "LeftPhase",
+      "RightFootDown",
+      "RightFootPassing",
+      "RightPhase"
+    ],
+    "values": [
+      0,
+      1,
+      4,
+      2,
+      3,
+      5
+    ]
+  }
+}

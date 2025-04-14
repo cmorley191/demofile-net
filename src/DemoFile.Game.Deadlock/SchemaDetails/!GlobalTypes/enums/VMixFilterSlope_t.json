@@ -1,0 +1,27 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "FILTER_SLOPE_1POLE_6dB",
+      "FILTER_SLOPE_1POLE_12dB",
+      "FILTER_SLOPE_1POLE_18dB",
+      "FILTER_SLOPE_1POLE_24dB",
+      "FILTER_SLOPE_12dB",
+      "FILTER_SLOPE_24dB",
+      "FILTER_SLOPE_36dB",
+      "FILTER_SLOPE_48dB",
+      "FILTER_SLOPE_MAX"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      7
+    ]
+  }
+}

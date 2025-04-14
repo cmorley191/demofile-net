@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "REPLAY_EVENT_CANCEL",
+      "REPLAY_EVENT_DEATH",
+      "REPLAY_EVENT_GENERIC",
+      "REPLAY_EVENT_STUCK_NEED_FULL_UPDATE",
+      "REPLAY_EVENT_VICTORY"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

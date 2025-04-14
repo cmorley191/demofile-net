@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EAttachmentSource_WeaponMuzzles",
+      "EAttachmentSource_Custom"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

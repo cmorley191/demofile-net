@@ -1,0 +1,9 @@
+{
+  "parent": "CCycleBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

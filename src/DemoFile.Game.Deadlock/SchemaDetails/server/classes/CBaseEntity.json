@@ -1,0 +1,517 @@
+{
+  "parent": "CEntityInstance",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_bClientSideRagdoll"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_iMaxHealth"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "Water"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "Player"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "LocalPlayerExclusive"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_spawnflags"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_bTakesDamage"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_nTakeDamageFlags"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flSpeed"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_CBodyComponent",
+      "type": {
+        "name": "CBodyComponent*",
+        "category": 1,
+        "inner": {
+          "name": "CBodyComponent",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CBodyComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CBodyComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CBodyComponent"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "name": "m_iHealth",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSerializer",
+          "value": "ClampHealth"
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Player"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_iMaxHealth",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_lifeState",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Player"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_bTakesDamage",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nTakeDamageFlags",
+      "type": {
+        "name": "TakeDamageFlags_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nPlatformType",
+      "type": {
+        "name": "EntityPlatformTypes_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_MoveCollide",
+      "type": {
+        "name": "MoveCollide_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_MoveType",
+      "type": {
+        "name": "MoveType_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nSubclassID",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        }
+      ]
+    },
+    {
+      "name": "m_flAnimTime",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 0
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "animTimeSerializer"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        }
+      ]
+    },
+    {
+      "name": "m_flSimulationTime",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 1
+        },
+        {
+          "name": "MNetworkSerializer",
+          "value": "simulationTimeSerializer"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        }
+      ]
+    },
+    {
+      "name": "m_flCreateTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bClientSideRagdoll",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_ubInterpolationFrame",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iTeamNum",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flSpeed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_spawnflags",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nNextThinkTick",
+      "type": {
+        "name": "GameTick_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_fFlags",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Player"
+        }
+      ]
+    },
+    {
+      "name": "m_vecVelocity",
+      "type": {
+        "name": "CNetworkVelocityVector",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_pModifierProp",
+      "type": {
+        "name": "CModifierProperty*",
+        "category": 1,
+        "inner": {
+          "name": "CModifierProperty",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hEffectEntity",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hOwnerEntity",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_fEffects",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnEffectsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_hGroundEntity",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Player"
+        }
+      ]
+    },
+    {
+      "name": "m_nGroundBodyIndex",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Player"
+        }
+      ]
+    },
+    {
+      "name": "m_flFriction",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 4
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 1
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flElasticity",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_flGravityScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flTimeScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_flWaterLevel",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Water"
+        },
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 1
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "m_bAnimatedEveryTick",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flNavIgnoreUntilTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

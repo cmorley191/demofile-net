@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "LoopTrigger"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Continuously retriggers a sound and optionally fades to the new instance."
+    }
+  ],
+  "fields": []
+}

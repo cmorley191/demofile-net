@@ -1,0 +1,13 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "BulletShield",
+      "TechShield"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

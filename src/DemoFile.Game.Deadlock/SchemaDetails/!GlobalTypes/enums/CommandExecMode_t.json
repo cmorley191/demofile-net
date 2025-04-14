@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EXEC_MANUAL",
+      "EXEC_LEVELSTART",
+      "EXEC_PERIODIC",
+      "EXEC_MODES_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

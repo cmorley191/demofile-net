@@ -1,0 +1,23 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_skyboxData",
+      "type": {
+        "name": "sky3dparams_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_skyboxSlotToken",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

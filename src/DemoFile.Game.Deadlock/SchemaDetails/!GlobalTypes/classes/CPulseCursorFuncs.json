@@ -1,0 +1,12 @@
+{
+  "metadata": [
+    {
+      "name": "MPulseLibraryBindings"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Library for interacting with pulse cursors."
+    }
+  ],
+  "fields": []
+}

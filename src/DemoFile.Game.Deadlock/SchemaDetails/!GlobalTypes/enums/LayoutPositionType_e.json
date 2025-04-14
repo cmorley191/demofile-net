@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LAYOUTPOSITIONTYPE_VIEWPORT_RELATIVE",
+      "LAYOUTPOSITIONTYPE_FRACTIONAL",
+      "LAYOUTPOSITIONTYPE_NONE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

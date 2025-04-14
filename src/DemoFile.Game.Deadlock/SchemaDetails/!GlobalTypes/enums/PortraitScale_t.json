@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PORTRAIT_SCALE_INVALID",
+      "PORTRAIT_SCALE_LOADOUT",
+      "PORTRAIT_SCALE_ALTERNATE_LOADOUT",
+      "PORTRAIT_SCALE_WORLD",
+      "PORTRAIT_SCALE_SPECTATOR_LOADOUT",
+      "PORTRAIT_SCALE_VERSUS_LOADOUT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

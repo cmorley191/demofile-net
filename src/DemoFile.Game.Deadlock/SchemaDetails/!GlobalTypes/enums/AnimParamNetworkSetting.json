@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "Auto",
+      "AlwaysNetwork",
+      "NeverNetwork"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

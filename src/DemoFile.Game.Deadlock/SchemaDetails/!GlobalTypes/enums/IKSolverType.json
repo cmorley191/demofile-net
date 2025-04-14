@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IKSOLVER_Perlin",
+      "IKSOLVER_TwoBone",
+      "IKSOLVER_Fabrik",
+      "IKSOLVER_DogLeg3Bone",
+      "IKSOLVER_CCD",
+      "IKSOLVER_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

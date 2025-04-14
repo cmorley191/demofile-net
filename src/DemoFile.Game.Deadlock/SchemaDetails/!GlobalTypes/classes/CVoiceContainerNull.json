@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Null Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Plays a single channel of silence."
+    }
+  ],
+  "fields": []
+}

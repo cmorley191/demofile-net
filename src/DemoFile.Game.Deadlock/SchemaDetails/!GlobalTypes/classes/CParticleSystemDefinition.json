@@ -1,0 +1,9 @@
+{
+  "parent": "IParticleSystemDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

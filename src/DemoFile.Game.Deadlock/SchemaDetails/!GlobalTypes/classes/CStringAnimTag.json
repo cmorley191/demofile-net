@@ -1,0 +1,13 @@
+{
+  "parent": "CAnimTagBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Internal Tag"
+    }
+  ],
+  "fields": []
+}

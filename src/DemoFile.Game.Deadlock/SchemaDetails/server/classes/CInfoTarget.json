@@ -1,0 +1,9 @@
+{
+  "parent": "CPointEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": []
+}

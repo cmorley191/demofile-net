@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LIGHT_STYLE_OLD",
+      "LIGHT_STYLE_NEW"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

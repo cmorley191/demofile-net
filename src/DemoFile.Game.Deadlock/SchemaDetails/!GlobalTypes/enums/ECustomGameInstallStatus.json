@@ -1,0 +1,29 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECustomGameInstallStatus_Unknown",
+      "k_ECustomGameInstallStatus_Ready",
+      "k_ECustomGameInstallStatus_Busy",
+      "k_ECustomGameInstallStatus_FailedGeneric",
+      "k_ECustomGameInstallStatus_FailedInternalError",
+      "k_ECustomGameInstallStatus_RequestedTimestampTooOld",
+      "k_ECustomGameInstallStatus_RequestedTimestampTooNew",
+      "k_ECustomGameInstallStatus_CRCMismatch",
+      "k_ECustomGameInstallStatus_FailedSteam",
+      "k_ECustomGameInstallStatus_FailedCanceled"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
+    ]
+  }
+}

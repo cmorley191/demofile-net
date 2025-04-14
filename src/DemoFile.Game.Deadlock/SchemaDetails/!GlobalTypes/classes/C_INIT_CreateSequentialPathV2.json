@@ -1,0 +1,13 @@
+{
+  "parent": "CParticleFunctionInitializer",
+  "metadata": [
+    {
+      "name": "MParticleMinVersion",
+      "value": 8
+    },
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

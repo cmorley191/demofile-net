@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EQuickCast_Default",
+      "EQuickCast_Enabled",
+      "EQuickCast_Disable",
+      "EQuickCast_OnMouseUp",
+      "EQuickMaxValue"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      3
+    ]
+  }
+}

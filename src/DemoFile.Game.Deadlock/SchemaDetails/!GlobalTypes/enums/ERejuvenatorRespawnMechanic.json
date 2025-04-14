@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "RejuvenatorRespawnMechanic_FixedDelay",
+      "RejuvenatorRespawnMechanic_PercentOfNormal"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

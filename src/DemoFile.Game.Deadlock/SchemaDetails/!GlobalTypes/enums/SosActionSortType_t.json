@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SOS_SORTTYPE_HIGHEST",
+      "SOS_SORTTYPE_LOWEST"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

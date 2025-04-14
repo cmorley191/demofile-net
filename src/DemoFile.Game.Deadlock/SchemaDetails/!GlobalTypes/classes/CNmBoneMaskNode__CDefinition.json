@@ -1,0 +1,9 @@
+{
+  "parent": "CNmBoneMaskValueNode::CDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

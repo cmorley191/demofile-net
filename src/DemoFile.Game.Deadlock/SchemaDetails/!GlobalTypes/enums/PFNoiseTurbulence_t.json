@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PF_NOISE_TURB_NONE",
+      "PF_NOISE_TURB_HIGHLIGHT",
+      "PF_NOISE_TURB_FEEDBACK",
+      "PF_NOISE_TURB_LOOPY",
+      "PF_NOISE_TURB_CONTRAST",
+      "PF_NOISE_TURB_ALTERNATE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_ID",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Values",
+      "type": {
+        "name": "Vector4D",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

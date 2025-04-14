@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "OBSERVER_INTERP_NONE",
+      "OBSERVER_INTERP_TRAVELING",
+      "OBSERVER_INTERP_SETTLING"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

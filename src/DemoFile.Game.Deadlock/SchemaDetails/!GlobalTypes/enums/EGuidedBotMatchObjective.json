@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EGuidedBotMatchObjective_LaningMetrics",
+      "EGuidedBotMatchObjective_PowerUp",
+      "EGuidedBotMatchObjective_KillGuardian",
+      "EGuidedBotMatchObjective_Complete"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

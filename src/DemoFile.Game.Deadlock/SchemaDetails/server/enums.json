@@ -1,0 +1,10 @@
+[
+  "CBaseNPCMaker::VisibilityCriterion_t",
+  "CBaseNPCMaker::ThreeStateDist_t",
+  "CAI_GoalEntity::SearchType_t",
+  "CLogicBranchList::LogicBranchListenerLastState_t",
+  "CPhysicsProp::CrateType_t",
+  "CFuncMover::Move_t",
+  "CFuncMover::OrientationUpdate_t",
+  "CFuncMover::TransitionToPathNodeAction_t"
+]

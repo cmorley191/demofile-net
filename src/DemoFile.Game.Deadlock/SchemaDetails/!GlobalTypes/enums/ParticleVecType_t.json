@@ -1,0 +1,47 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PVEC_TYPE_INVALID",
+      "PVEC_TYPE_LITERAL",
+      "PVEC_TYPE_LITERAL_COLOR",
+      "PVEC_TYPE_NAMED_VALUE",
+      "PVEC_TYPE_PARTICLE_VECTOR",
+      "PVEC_TYPE_PARTICLE_VELOCITY",
+      "PVEC_TYPE_CP_VALUE",
+      "PVEC_TYPE_CP_RELATIVE_POSITION",
+      "PVEC_TYPE_CP_RELATIVE_DIR",
+      "PVEC_TYPE_CP_RELATIVE_RANDOM_DIR",
+      "PVEC_TYPE_FLOAT_COMPONENTS",
+      "PVEC_TYPE_FLOAT_INTERP_CLAMPED",
+      "PVEC_TYPE_FLOAT_INTERP_OPEN",
+      "PVEC_TYPE_FLOAT_INTERP_GRADIENT",
+      "PVEC_TYPE_RANDOM_UNIFORM",
+      "PVEC_TYPE_RANDOM_UNIFORM_OFFSET",
+      "PVEC_TYPE_CP_DELTA",
+      "PVEC_TYPE_CLOSEST_CAMERA_POSITION",
+      "PVEC_TYPE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+}

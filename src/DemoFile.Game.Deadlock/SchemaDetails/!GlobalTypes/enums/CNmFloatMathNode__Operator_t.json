@@ -1,0 +1,19 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "Add",
+      "Sub",
+      "Mul",
+      "Div",
+      "Mod"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

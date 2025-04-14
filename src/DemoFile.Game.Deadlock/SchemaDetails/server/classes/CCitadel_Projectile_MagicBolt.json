@@ -1,0 +1,14 @@
+{
+  "parent": "CCitadelProjectile",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "bIsCloneProjectile",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

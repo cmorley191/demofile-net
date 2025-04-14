@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TIMELINE_COMPRESSION_SUM",
+      "TIMELINE_COMPRESSION_COUNT_PER_INTERVAL",
+      "TIMELINE_COMPRESSION_AVERAGE",
+      "TIMELINE_COMPRESSION_AVERAGE_BLEND",
+      "TIMELINE_COMPRESSION_TOTAL"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

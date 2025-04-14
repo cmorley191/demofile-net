@@ -1,0 +1,30 @@
+{
+  "parent": "CAI_CitadelNPC",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bShieldActive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bPlayingIdle",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iVaultState",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

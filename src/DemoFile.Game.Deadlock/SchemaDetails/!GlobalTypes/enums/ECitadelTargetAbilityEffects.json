@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_TARGET_ABILITY_BEHAVIOR_NONE",
+      "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE",
+      "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

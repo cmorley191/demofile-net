@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IN_COMBAT_RUN",
+      "OUT_OF_COMBAT_RUN",
+      "OUT_OF_COMBAT_SPRINT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

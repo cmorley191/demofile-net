@@ -1,0 +1,17 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "EMoveExecute_TryPlayerMove",
+      "EMoveExecute_FullWalkMove",
+      "EMoveExecute_NoclipMove",
+      "EMoveExecute_FlyMove"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

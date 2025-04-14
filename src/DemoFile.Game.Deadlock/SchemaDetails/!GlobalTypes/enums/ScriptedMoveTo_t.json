@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eWait",
+      "eMoveWithGait",
+      "eTeleport",
+      "eWaitFacing",
+      "eObsoleteBackCompat1",
+      "eObsoleteBackCompat2"
+    ],
+    "values": [
+      0,
+      3,
+      4,
+      5,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "AMMO_POSITION_INVALID",
+      "AMMO_POSITION_PRIMARY",
+      "AMMO_POSITION_SECONDARY",
+      "AMMO_POSITION_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

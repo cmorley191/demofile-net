@@ -1,0 +1,15 @@
+{
+  "parent": "CFuncBrush",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_EffectName",
+      "type": {
+        "name": "CUtlSymbolLarge",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

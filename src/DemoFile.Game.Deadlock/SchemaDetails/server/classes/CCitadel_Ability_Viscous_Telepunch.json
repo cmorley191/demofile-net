@@ -1,0 +1,40 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vecTeleportPosition",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecTeleportPositionNormal",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eTelepunchState",
+      "type": {
+        "name": "ETelepunchState_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flNextStateTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

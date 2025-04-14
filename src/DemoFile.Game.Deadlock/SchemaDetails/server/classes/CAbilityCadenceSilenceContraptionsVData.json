@@ -1,0 +1,9 @@
+{
+  "parent": "CBaseDashCastAbilityVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

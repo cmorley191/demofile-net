@@ -1,0 +1,30 @@
+{
+  "parent": "CCitadelModelEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bAllowRotatingUp",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFixedPosition",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flShieldOffset",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

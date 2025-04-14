@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TrainVelocity_Instantaneous",
+      "TrainVelocity_LinearBlend",
+      "TrainVelocity_EaseInEaseOut"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

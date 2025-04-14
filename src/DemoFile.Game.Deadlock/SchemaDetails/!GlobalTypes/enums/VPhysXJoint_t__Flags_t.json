@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "JOINT_FLAGS_NONE",
+      "JOINT_FLAGS_BODY1_FIXED",
+      "JOINT_FLAGS_USE_BLOCK_SOLVER"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

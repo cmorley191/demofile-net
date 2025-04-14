@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eAuraShapeTypeSphere",
+      "k_eAuraShapeTypeEntityBased"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

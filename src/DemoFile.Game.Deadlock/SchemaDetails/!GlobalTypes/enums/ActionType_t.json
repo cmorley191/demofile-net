@@ -1,0 +1,29 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SOS_ACTION_NONE",
+      "SOS_ACTION_LIMITER",
+      "SOS_ACTION_TIME_LIMIT",
+      "SOS_ACTION_TIME_BLOCK_LIMITER",
+      "SOS_ACTION_SET_SOUNDEVENT_PARAM",
+      "SOS_ACTION_SOUNDEVENT_CLUSTER",
+      "SOS_ACTION_SOUNDEVENT_PRIORITY",
+      "SOS_ACTION_COUNT_ENVELOPE",
+      "SOS_ACTION_SOUNDEVENT_COUNT",
+      "SOS_ACTION_SOUNDEVENT_MIN_MAX_VALUES"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

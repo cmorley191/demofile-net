@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECameraOp_Maintain",
+      "k_ECameraOp_Approach",
+      "k_ECameraOp_Spring",
+      "k_ECameraOp_Lerp",
+      "k_ECameraOp_Lag"
+    ],
+    "values": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

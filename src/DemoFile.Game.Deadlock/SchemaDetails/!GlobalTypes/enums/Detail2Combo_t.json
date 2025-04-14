@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DETAIL_2_COMBO_UNINITIALIZED",
+      "DETAIL_2_COMBO_OFF",
+      "DETAIL_2_COMBO_ADD",
+      "DETAIL_2_COMBO_ADD_SELF_ILLUM",
+      "DETAIL_2_COMBO_MOD2X",
+      "DETAIL_2_COMBO_MUL",
+      "DETAIL_2_COMBO_CROSSFADE"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

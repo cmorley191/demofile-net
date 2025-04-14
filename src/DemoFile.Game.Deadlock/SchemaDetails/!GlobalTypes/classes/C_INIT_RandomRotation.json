@@ -1,0 +1,9 @@
+{
+  "parent": "CGeneralRandomRotation",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ANIMATION_PROCESSING_SERVER_SIMULATION",
+      "ANIMATION_PROCESSING_CLIENT_SIMULATION",
+      "ANIMATION_PROCESSING_CLIENT_PREDICTION",
+      "ANIMATION_PROCESSING_CLIENT_INTERPOLATION",
+      "ANIMATION_PROCESSING_CLIENT_RENDER",
+      "ANIMATION_PROCESSING_MAX"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

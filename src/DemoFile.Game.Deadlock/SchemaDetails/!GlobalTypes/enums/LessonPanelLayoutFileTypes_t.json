@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "LAYOUT_HAND_DEFAULT",
+      "LAYOUT_WORLD_DEFAULT",
+      "LAYOUT_CUSTOM"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

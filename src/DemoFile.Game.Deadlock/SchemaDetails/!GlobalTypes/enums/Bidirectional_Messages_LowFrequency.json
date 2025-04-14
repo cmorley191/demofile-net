@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "bi_RelayInfo",
+      "bi_RelayPacket"
+    ],
+    "values": [
+      700,
+      701
+    ]
+  }
+}

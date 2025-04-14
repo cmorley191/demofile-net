@@ -1,0 +1,52 @@
+{
+  "parent": "CGameSceneNode",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_modelState",
+      "type": {
+        "name": "CModelState",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsAnimationEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bUseParentRenderBounds",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_materialGroup",
+      "type": {
+        "name": "CUtlStringToken",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "skeletonMaterialGroupChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nHitboxSet",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

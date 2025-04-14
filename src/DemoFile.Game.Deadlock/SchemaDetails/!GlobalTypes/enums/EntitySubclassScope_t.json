@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SUBCLASS_SCOPE_NONE",
+      "SUBCLASS_SCOPE_MISC",
+      "SUBCLASS_SCOPE_PRECIPITATION",
+      "SUBCLASS_SCOPE_MODIFIERS",
+      "SUBCLASS_SCOPE_NPC_UNITS",
+      "SUBCLASS_SCOPE_ABILITIES",
+      "SUBCLASS_SCOPE_SCALE_FUNCTIONS",
+      "SUBCLASS_SCOPE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

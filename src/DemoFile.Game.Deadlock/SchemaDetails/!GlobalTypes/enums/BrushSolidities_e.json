@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BRUSHSOLID_TOGGLE",
+      "BRUSHSOLID_NEVER",
+      "BRUSHSOLID_ALWAYS"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

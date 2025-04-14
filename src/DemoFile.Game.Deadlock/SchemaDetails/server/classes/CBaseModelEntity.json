@@ -1,0 +1,260 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CRenderComponent",
+      "type": {
+        "name": "CRenderComponent*",
+        "category": 1,
+        "inner": {
+          "name": "CRenderComponent",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CRenderComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CRenderComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CRenderComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_CHitboxComponent",
+      "type": {
+        "name": "CHitboxComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CHitboxComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CHitboxComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CHitboxComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_nRenderMode",
+      "type": {
+        "name": "RenderMode_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nRenderFX",
+      "type": {
+        "name": "RenderFx_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_clrRender",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnColorChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_vecRenderAttributes",
+      "type": {
+        "name": "CUtlVectorEmbeddedNetworkVar< EntityRenderAttribute_t >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CUtlVectorEmbeddedNetworkVar",
+        "inner": {
+          "name": "EntityRenderAttribute_t",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnRenderAttributesChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bRenderToCubemaps",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bNoInterpolate",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Collision",
+      "type": {
+        "name": "CCollisionProperty",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Glow",
+      "type": {
+        "name": "CGlowProperty",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flGlowBackfaceMult",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fadeMinDist",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fadeMaxDist",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFadeScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flShadowStrength",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nObjectCulling",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nAddDecal",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vDecalPosition",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vDecalForwardAxis",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flDecalHealBloodRate",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flDecalHealHeightRate",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_ConfigEntitiesToPropagateMaterialDecalsTo",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBaseModelEntity > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBaseModelEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseModelEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecViewOffset",
+      "type": {
+        "name": "CNetworkViewOffsetVector",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkUserGroup",
+          "value": "Player"
+        }
+      ]
+    }
+  ]
+}

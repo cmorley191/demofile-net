@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "RatchetType_Absolute",
+      "RatchetType_EachEngage"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

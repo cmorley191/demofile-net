@@ -1,0 +1,15 @@
+{
+  "parent": "CLogicalEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_fadeColor",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

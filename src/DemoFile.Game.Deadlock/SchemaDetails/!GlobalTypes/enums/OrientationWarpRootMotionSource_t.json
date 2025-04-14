@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eAnimationOrProcedural",
+      "eAnimationOnly",
+      "eProceduralOnly"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

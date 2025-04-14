@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Modifier_SilencedVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

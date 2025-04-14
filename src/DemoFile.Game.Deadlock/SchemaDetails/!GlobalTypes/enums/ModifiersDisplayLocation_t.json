@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_DISPLAY_LOCAITON_ALL",
+      "MODIFIER_DISPLAY_HEALTHBAR",
+      "MODIFIER_DISPLAY_BOTTOM_LEFT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

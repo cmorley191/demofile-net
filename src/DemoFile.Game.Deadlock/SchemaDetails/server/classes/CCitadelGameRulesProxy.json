@@ -1,0 +1,27 @@
+{
+  "parent": "CGameRulesProxy",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_pGameRules",
+      "type": {
+        "name": "CCitadelGameRules*",
+        "category": 1,
+        "inner": {
+          "name": "CCitadelGameRules",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelGamerules*"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    }
+  ]
+}

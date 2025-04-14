@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PFUNC_VISUALIZATION_SPHERE_WIREFRAME",
+      "PFUNC_VISUALIZATION_SPHERE_SOLID",
+      "PFUNC_VISUALIZATION_BOX",
+      "PFUNC_VISUALIZATION_RING",
+      "PFUNC_VISUALIZATION_PLANE",
+      "PFUNC_VISUALIZATION_LINE",
+      "PFUNC_VISUALIZATION_CYLINDER"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CParticleFunctionEmitter",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

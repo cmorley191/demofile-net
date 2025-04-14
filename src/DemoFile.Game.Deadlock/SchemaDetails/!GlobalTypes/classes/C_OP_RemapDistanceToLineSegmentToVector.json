@@ -1,0 +1,9 @@
+{
+  "parent": "C_OP_RemapDistanceToLineSegmentBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

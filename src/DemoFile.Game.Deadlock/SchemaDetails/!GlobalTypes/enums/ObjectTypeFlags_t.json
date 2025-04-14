@@ -1,0 +1,39 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "OBJECT_TYPE_NONE",
+      "OBJECT_TYPE_MODEL",
+      "OBJECT_TYPE_BLOCK_LIGHT",
+      "OBJECT_TYPE_NO_SHADOWS",
+      "OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND",
+      "OBJECT_TYPE_DISABLED_IN_LOW_QUALITY",
+      "OBJECT_TYPE_NO_SUN_SHADOWS",
+      "OBJECT_TYPE_RENDER_WITH_DYNAMIC",
+      "OBJECT_TYPE_RENDER_TO_CUBEMAPS",
+      "OBJECT_TYPE_MODEL_HAS_LODS",
+      "OBJECT_TYPE_OVERLAY",
+      "OBJECT_TYPE_PRECOMPUTED_VISMEMBERS",
+      "OBJECT_TYPE_STATIC_CUBE_MAP",
+      "OBJECT_TYPE_DISABLE_VIS_CULLING",
+      "OBJECT_TYPE_BAKED_GEOMETRY"
+    ],
+    "values": [
+      0,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      8192,
+      16384,
+      32768,
+      65536,
+      131072
+    ]
+  }
+}

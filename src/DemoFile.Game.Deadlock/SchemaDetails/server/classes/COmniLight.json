@@ -1,0 +1,45 @@
+{
+  "parent": "CBarnLight",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flInnerAngle",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flOuterAngle",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bShowLight",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "RenderingChanged"
+        }
+      ]
+    }
+  ]
+}

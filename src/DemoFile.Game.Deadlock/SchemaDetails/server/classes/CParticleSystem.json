@@ -1,0 +1,187 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByUserGroup",
+      "value": "Origin"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "CGameSceneNode::m_angRotation"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_hOwnerEntity"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "CGameSceneNode::m_hParent"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "CGameSceneNode::m_hierarchyAttachName"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nameStringableIndex"
+    },
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_szSnapshotFileName",
+      "type": {
+        "name": "char[512]",
+        "category": 3,
+        "arraySize": 512,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bActive",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFrozen",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFreezeTransitionDuration",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nStopType",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bAnimateDuringGameplayPause",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iEffectIndex",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIParticleSystemDefinition >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIParticleSystemDefinition",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flPreSimTime",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vServerControlPoints",
+      "type": {
+        "name": "Vector[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iServerControlPointAssignments",
+      "type": {
+        "name": "uint8[4]",
+        "category": 3,
+        "arraySize": 4,
+        "inner": {
+          "name": "uint8",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hControlPointEnts",
+      "type": {
+        "name": "CHandle< CBaseEntity >[64]",
+        "category": 3,
+        "arraySize": 64,
+        "inner": {
+          "name": "CHandle< CBaseEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bNoSave",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bNoFreeze",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bNoRamp",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

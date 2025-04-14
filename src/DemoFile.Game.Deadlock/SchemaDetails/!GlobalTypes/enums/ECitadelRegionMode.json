@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelRegionMode_ROW",
+      "k_ECitadelRegionMode_Europe",
+      "k_ECitadelRegionMode_SEAsia",
+      "k_ECitadelRegionMode_SAmerica",
+      "k_ECitadelRegionMode_Russia",
+      "k_ECitadelRegionMode_Oceania"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

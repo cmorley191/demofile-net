@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_ENTRY_TYPE_ACTIVE",
+      "MODIFIER_ENTRY_TYPE_REMOVED"
+    ],
+    "values": [
+      1,
+      2
+    ]
+  }
+}

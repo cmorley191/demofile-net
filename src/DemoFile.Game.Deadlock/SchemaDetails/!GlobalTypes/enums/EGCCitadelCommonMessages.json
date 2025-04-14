@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EMsgAnyToGCReportAsserts",
+      "k_EMsgAnyToGCReportAssertsResponse"
+    ],
+    "values": [
+      7000,
+      7001
+    ]
+  }
+}

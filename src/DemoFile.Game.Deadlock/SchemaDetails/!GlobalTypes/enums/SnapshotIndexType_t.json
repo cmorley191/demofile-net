@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SNAPSHOT_INDEX_INCREMENT",
+      "SNAPSHOT_INDEX_DIRECT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "CCitadelBaseShivAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flTotalPendingDamage",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    }
+  ]
+}

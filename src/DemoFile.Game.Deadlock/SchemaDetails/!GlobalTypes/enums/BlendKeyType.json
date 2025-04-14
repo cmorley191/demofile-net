@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BlendKey_UserValue",
+      "BlendKey_Velocity",
+      "BlendKey_Distance",
+      "BlendKey_RemainingDistance"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

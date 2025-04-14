@@ -1,0 +1,9 @@
+{
+  "parent": "CNmPoseNode::CDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

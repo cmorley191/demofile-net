@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "Blend2DMode_General",
+      "Blend2DMode_Directional"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

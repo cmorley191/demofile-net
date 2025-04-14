@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ELaneColor_Invalid",
+      "k_ELaneColor_Yellow",
+      "k_ELaneColor_Green",
+      "k_ELaneColor_Blue",
+      "k_ELaneColor_Purple"
+    ],
+    "values": [
+      0,
+      1,
+      3,
+      4,
+      6
+    ]
+  }
+}

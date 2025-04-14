@@ -1,0 +1,53 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_EMsgServerToGCMatchSignoutPermission",
+      "k_EMsgServerToGCMatchSignoutPermissionResponse",
+      "k_EMsgServerToGCMatchSignout",
+      "k_EMsgServerToGCMatchSignoutResponse",
+      "k_EMsgGCToServerAddSpectator",
+      "k_EMsgGCToServerAddSpectatorResponse",
+      "k_EMsgServerToGCIdlePing",
+      "k_EMsgGCToServerRequestPing",
+      "k_EMsgGCToServerAllocateForMatch",
+      "k_EMsgGCToServerAllocateForMatchResponse",
+      "k_EMsgServerToGCEnterMatchmaking",
+      "k_EMsgGCToServerCancelAllocateForMatch",
+      "k_EMsgServerToGCUpdateLobbyServerState",
+      "k_EMsgServerToGCAbandonMatch",
+      "k_EMsgServerToGCAbandonMatchResponse",
+      "k_EMsgServerToGCTestConnection",
+      "k_EMsgServerToGCTestConnectionResponse",
+      "k_EMsgGCToServerSetServerConVar",
+      "k_EMsgGCToServerSetServerConVarResponse",
+      "k_EMsgServerToGCUpdateMatchInfo",
+      "k_EMsgServerToGCReportCheater",
+      "k_EMsgServerToGCReportCheaterResponse"
+    ],
+    "values": [
+      10012,
+      10013,
+      10014,
+      10015,
+      10016,
+      10017,
+      10018,
+      10019,
+      10021,
+      10022,
+      10023,
+      10024,
+      10025,
+      10026,
+      10027,
+      10028,
+      10029,
+      10039,
+      10040,
+      10041,
+      10042,
+      10043
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "HITBOX_LERP_LIFETIME",
+      "HITBOX_LERP_CONSTANT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

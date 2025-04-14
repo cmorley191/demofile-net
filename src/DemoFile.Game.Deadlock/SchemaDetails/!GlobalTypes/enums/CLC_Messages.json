@@ -1,0 +1,39 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "clc_ClientInfo",
+      "clc_Move",
+      "clc_VoiceData",
+      "clc_BaselineAck",
+      "clc_RespondCvarValue",
+      "clc_FileCRCCheck",
+      "clc_LoadingProgress",
+      "clc_SplitPlayerConnect",
+      "clc_SplitPlayerDisconnect",
+      "clc_ServerStatus",
+      "clc_RequestPause",
+      "clc_CmdKeyValues",
+      "clc_RconServerDetails",
+      "clc_HltvReplay",
+      "clc_Diagnostic"
+    ],
+    "values": [
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+}

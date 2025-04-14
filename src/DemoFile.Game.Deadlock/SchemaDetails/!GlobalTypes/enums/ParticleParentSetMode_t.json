@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_SET_PARENT_NO",
+      "PARTICLE_SET_PARENT_IMMEDIATE",
+      "PARTICLE_SET_PARENT_ROOT"
+    ],
+    "values": [
+      0,
+      1,
+      1
+    ]
+  }
+}

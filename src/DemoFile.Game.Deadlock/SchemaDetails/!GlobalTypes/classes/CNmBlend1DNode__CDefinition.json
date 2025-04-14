@@ -1,0 +1,9 @@
+{
+  "parent": "CNmParameterizedBlendNode::CDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT",
+      "PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_OFF",
+      "PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_ON"
+    ],
+    "values": [
+      -1,
+      0,
+      1
+    ]
+  }
+}

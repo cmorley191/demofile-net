@@ -1,0 +1,29 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "USE_OBB_COLLISION_BOUNDS",
+      "USE_BEST_COLLISION_BOUNDS",
+      "USE_HITBOXES",
+      "USE_SPECIFIED_BOUNDS",
+      "USE_GAME_CODE",
+      "USE_ROTATION_EXPANDED_BOUNDS",
+      "USE_ROTATION_EXPANDED_ORIENTED_BOUNDS",
+      "USE_COLLISION_BOUNDS_NEVER_VPHYSICS",
+      "USE_ROTATION_EXPANDED_SEQUENCE_BOUNDS",
+      "SURROUNDING_TYPE_BIT_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      3
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "parent": "CSkeletonAnimationController",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_animGraphNetworkedVars",
+      "type": {
+        "name": "CAnimGraphNetworkedVariables",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hSequence",
+      "type": {
+        "name": "HSequence",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkSerializer",
+          "value": "minusone"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetworkedSequenceChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flSeqStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetworkedAnimationChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flSeqFixedCycle",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetworkedAnimationChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_nAnimLoopMode",
+      "type": {
+        "name": "AnimLoopMode_t",
+        "category": 6
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetworkedAnimationChanged"
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "m_flPlaybackRate",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 8
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -4
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 12
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 5
+        },
+        {
+          "name": "MNetworkPriority",
+          "value": 32
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetworkedAnimationChanged"
+        }
+      ]
+    }
+  ]
+}

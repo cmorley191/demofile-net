@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EDelayReason_Reload",
+      "EDelayReason_BebopSpinUp",
+      "EDelayReason_ViscousChargeShotRecovery",
+      "EDelayReason_WraithSpinUp",
+      "EDelayReason_Disarmed",
+      "EDelayReasonCount"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

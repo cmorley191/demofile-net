@@ -1,0 +1,29 @@
+{
+  "parent": "CPulseCell_WaitForCursorsWithTagBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Cursor Queue"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Causes each execution cursor to wait for the completion of all prior cursors that have visited this node. Use this to safely support multiple triggers to areas of the graph that take time to complete."
+    },
+    {
+      "name": "MPulseEditorHeaderIcon"
+    }
+  ],
+  "fields": []
+}

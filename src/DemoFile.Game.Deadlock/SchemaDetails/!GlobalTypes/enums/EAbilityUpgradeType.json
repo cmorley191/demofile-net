@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EAddToBase",
+      "EMultiplyBase",
+      "EAddToScale",
+      "EMultiplyScale",
+      "EAbilityUpgradeTypeCount"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

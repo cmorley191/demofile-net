@@ -1,0 +1,18 @@
+{
+  "parent": "CEntitySubclassVDataBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MVDataRoot"
+    },
+    {
+      "name": "MVDataNodeType"
+    },
+    {
+      "name": "MVDataOverlayType"
+    }
+  ],
+  "fields": []
+}

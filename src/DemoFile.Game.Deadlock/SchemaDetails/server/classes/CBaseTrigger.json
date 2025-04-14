@@ -1,0 +1,19 @@
+{
+  "parent": "CBaseToggle",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_spawnflags"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_bDisabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

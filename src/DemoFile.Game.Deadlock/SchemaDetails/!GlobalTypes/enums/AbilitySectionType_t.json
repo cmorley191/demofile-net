@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EArea_Innate",
+      "EArea_Passive",
+      "EArea_Active"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

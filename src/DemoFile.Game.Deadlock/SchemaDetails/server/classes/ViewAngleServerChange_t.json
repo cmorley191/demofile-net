@@ -1,0 +1,35 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "nType",
+      "type": {
+        "name": "FixAngleSet_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "qAngle",
+      "type": {
+        "name": "QAngle",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "qangle_precise"
+        }
+      ]
+    },
+    {
+      "name": "nIndex",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "CLogicalEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

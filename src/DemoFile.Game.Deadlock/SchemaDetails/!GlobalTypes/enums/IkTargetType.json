@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IkTarget_Attachment",
+      "IkTarget_Bone",
+      "IkTarget_Parameter_ModelSpace",
+      "IkTarget_Parameter_WorldSpace"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

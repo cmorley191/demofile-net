@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eAuto",
+      "eHigh",
+      "eMedium",
+      "eLow",
+      "eVeryLow",
+      "eNumLODs"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

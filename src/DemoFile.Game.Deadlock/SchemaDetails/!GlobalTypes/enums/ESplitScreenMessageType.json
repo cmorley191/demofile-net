@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MSG_SPLITSCREEN_ADDUSER",
+      "MSG_SPLITSCREEN_REMOVEUSER"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

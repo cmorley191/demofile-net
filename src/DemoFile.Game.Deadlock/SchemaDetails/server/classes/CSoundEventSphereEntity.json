@@ -1,0 +1,14 @@
+{
+  "parent": "CSoundEventEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flRadius",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

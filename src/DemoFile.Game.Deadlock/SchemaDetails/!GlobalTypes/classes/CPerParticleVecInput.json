@@ -1,0 +1,12 @@
+{
+  "parent": "CParticleVecInput",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyCustomEditor"
+    }
+  ],
+  "fields": []
+}

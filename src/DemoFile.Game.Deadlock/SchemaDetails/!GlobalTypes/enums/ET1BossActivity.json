@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IdleShielded",
+      "Stunned",
+      "Disarmed",
+      "Alert",
+      "RangeAttack",
+      "MeleeAttack",
+      "Dying"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

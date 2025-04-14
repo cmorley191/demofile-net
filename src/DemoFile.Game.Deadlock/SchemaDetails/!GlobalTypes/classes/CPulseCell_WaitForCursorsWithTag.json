@@ -1,0 +1,29 @@
+{
+  "parent": "CPulseCell_WaitForCursorsWithTagBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Wait For Cursors With Tag"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Causes this execution cursor to wait for the completion of other cursors with the given tag. Can optionally kill the tag while waiting."
+    },
+    {
+      "name": "MPulseEditorHeaderIcon"
+    }
+  ],
+  "fields": []
+}

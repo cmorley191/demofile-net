@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TEST_HULL_EVER_PASSABLE",
+      "TEST_HULL_CURRENTLY_PASSABLE"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

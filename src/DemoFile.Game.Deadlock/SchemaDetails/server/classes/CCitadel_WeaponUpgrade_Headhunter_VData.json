@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_WeaponUpgrade_HeadshotBooster_VData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

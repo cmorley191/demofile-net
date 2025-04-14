@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadelModifierAura_ConeVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

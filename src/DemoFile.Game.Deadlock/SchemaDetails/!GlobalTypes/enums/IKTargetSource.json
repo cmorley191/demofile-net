@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IKTARGETSOURCE_Bone",
+      "IKTARGETSOURCE_AnimgraphParameter",
+      "IKTARGETSOURCE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

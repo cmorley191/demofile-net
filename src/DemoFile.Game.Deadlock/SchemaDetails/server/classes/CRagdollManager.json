@@ -1,0 +1,14 @@
+{
+  "parent": "CBaseEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iCurrentMaxRagdollCount",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "HIERARCHY_NONE",
+      "HIERARCHY_BONE_MERGE",
+      "HIERARCHY_ATTACHMENT",
+      "HIERARCHY_ABSORIGIN",
+      "HIERARCHY_BONE",
+      "HIERARCHY_TYPE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

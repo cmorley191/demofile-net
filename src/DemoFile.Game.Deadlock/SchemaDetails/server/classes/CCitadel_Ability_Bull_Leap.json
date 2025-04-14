@@ -1,0 +1,69 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flBoostYaw",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecCrashPosition",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecCrashDirection",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eLeapState",
+      "type": {
+        "name": "ELeapState_t",
+        "category": 6
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnLeapStateChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_flStateEnterTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flNextStateTime",
+      "type": {
+        "name": "CCitadelAutoScaledTime",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flBoostEndTime",
+      "type": {
+        "name": "CCitadelAutoScaledTime",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

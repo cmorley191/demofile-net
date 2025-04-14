@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY",
+      "MODIFIER_DEBUFF_YES",
+      "MODIFIER_DEBUFF_NO"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

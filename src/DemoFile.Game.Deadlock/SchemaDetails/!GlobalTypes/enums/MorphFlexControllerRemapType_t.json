@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MORPH_FLEXCONTROLLER_REMAP_PASSTHRU",
+      "MORPH_FLEXCONTROLLER_REMAP_2WAY",
+      "MORPH_FLEXCONTROLLER_REMAP_NWAY",
+      "MORPH_FLEXCONTROLLER_REMAP_EYELID"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

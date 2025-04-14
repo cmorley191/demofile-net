@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_ECitadelRecipients_GlobalFriendlyTeam",
+      "k_ECitadelRecipients_RecipientAndPlayer",
+      "k_ECitadelRecipients_RecipientsAroundPlayer",
+      "k_ECitadelRecipients_GlobalAllChat"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

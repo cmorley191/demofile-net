@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Random Smapler Container"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Trash Synth"
+    }
+  ],
+  "fields": []
+}

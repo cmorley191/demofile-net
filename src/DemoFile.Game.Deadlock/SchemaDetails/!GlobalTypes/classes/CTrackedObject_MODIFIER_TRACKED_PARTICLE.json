@@ -1,0 +1,9 @@
+{
+  "parent": "IModifierTrackedObject",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

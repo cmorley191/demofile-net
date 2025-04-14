@@ -1,0 +1,27 @@
+{
+  "parent": "CBaseProp",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CPropDataComponent",
+      "type": {
+        "name": "CPropDataComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CPropDataComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CPropDataComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CPropDataComponent"
+        }
+      ]
+    }
+  ]
+}

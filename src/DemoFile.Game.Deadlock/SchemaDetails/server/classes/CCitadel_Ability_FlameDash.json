@@ -1,0 +1,22 @@
+{
+  "parent": "CCitadelBaseAbility",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flDashEndTime",
+      "type": {
+        "name": "CCitadelAutoScaledTime",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsSpeedBursting",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

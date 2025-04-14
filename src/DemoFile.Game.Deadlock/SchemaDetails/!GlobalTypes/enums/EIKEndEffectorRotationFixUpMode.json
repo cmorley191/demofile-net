@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "None",
+      "MatchTargetOrientation",
+      "LookAtTargetForward",
+      "MaintainParentOrientation",
+      "Count"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

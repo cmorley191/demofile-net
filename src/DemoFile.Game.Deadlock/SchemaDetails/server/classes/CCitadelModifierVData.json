@@ -1,0 +1,15 @@
+{
+  "parent": "CModifierVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertySuppressBaseClassField"
+    },
+    {
+      "name": "MPropertySuppressBaseClassField"
+    }
+  ],
+  "fields": []
+}

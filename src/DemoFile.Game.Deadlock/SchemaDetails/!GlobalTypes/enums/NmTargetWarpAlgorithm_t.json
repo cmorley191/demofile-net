@@ -1,0 +1,17 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "Lerp",
+      "Hermite",
+      "HermiteFeaturePreserving",
+      "Bezier"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

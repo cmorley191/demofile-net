@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ERopeClimb_None",
+      "ERopeClimb_Latching",
+      "ERopeClimb_Attached",
+      "ERopeClimb_Count"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "align": 2,
+  "items": {
+    "names": [
+      "EFlexSlot_Invalid",
+      "EFlexSlot_Kill2Tier1",
+      "EFlexSlot_Kill1Tier2",
+      "EFlexSlot_AllTier2",
+      "EFlexSlot_Generator"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ]
+  }
+}

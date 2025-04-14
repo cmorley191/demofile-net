@@ -1,0 +1,41 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PBF_None",
+      "PBF_BounceOffWall",
+      "PBF_StickToTarget",
+      "PBF_StickToWorld",
+      "PBF_NotTurnTowardVelocity",
+      "PBF_DetonateOnHitTarget",
+      "PBF_DetonateOnHitWorld",
+      "PBF_DetonateOnHitIgnoreArmingTime",
+      "PBF_StartDetonateTimeOnHitTarget",
+      "PBF_StartDetonateTimeOnHitWorld",
+      "PBF_DisableTouchOnHit",
+      "PBF_DisableRemoveOnTouchTrackedTarget",
+      "PBF_DisableTriggerProjectileImpactBehavior",
+      "PBF_DetonateOnLifetimeExpire",
+      "PBF_ValidateTargetLineOfSight",
+      "PBF_AllowHitOnNonTrackedTargets"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ]
+  }
+}

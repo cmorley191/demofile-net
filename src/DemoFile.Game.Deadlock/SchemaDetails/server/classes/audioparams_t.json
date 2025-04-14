@@ -1,0 +1,56 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "localSound",
+      "type": {
+        "name": "Vector[8]",
+        "category": 3,
+        "arraySize": 8,
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "soundscapeIndex",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "localBits",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "soundscapeEntityListIndex",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "soundEventHash",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

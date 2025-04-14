@@ -1,0 +1,637 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_PredNetBoolVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetBoolVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredBoolVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetByteVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint8 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint8",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetByteVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredByteVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetUInt16Variables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint16 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint16",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetUInt16VarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredUInt16Variables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetIntVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< int32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetIntVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredIntVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetUInt32Variables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetUInt32VarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredUInt32Variables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetUInt64Variables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint64 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint64",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetUInt64VarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredUInt64Variables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetFloatVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< float32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "float32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetFloatVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredFloatVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetVectorVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetVectorVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredVectorVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetQuaternionVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Quaternion >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Quaternion",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetQuaternionVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredQuaternionVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_PredNetGlobalSymbolVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CGlobalSymbol >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CGlobalSymbol",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetGlobalSymbolVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_PredGlobalSymbolVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetBoolVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOBoolVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetBoolVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetByteVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint8 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint8",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOByteVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetByteVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetUInt16Variables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint16 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint16",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOUInt16VarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetUInt16Variables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetIntVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< int32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOIntVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetIntVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetUInt32Variables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOUInt32VarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetUInt32Variables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetUInt64Variables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< uint64 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "uint64",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOUInt64VarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetUInt64Variables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetFloatVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< float32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "float32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOFloatVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetFloatVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetVectorVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Vector >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Vector",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOVectorVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetVectorVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetQuaternionVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< Quaternion >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "Quaternion",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOQuaternionVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetQuaternionVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_OwnerOnlyPredNetGlobalSymbolVariables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CGlobalSymbol >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CGlobalSymbol",
+          "category": 4,
+          "atomic": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkSendProxyRecipientsFilter"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnNetOOGlobalSymbolVarChanged"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "m_OwnerOnlyPredNetGlobalSymbolVariables"
+        }
+      ]
+    },
+    {
+      "name": "m_nBoolVariablesCount",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        }
+      ]
+    },
+    {
+      "name": "m_nOwnerOnlyBoolVariablesCount",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        }
+      ]
+    },
+    {
+      "name": "m_nRandomSeedOffset",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        }
+      ]
+    },
+    {
+      "name": "m_flLastTeleportTime",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "animationgraph"
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnTeleportTimeChanged"
+        }
+      ]
+    }
+  ]
+}

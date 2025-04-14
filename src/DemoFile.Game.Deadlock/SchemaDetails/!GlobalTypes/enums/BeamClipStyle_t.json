@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "kNOCLIP",
+      "kGEOCLIP",
+      "kMODELCLIP",
+      "kBEAMCLIPSTYLE_NUMBITS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      2
+    ]
+  }
+}

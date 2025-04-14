@@ -1,0 +1,27 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ANIMPARAM_UNKNOWN",
+      "ANIMPARAM_BOOL",
+      "ANIMPARAM_ENUM",
+      "ANIMPARAM_INT",
+      "ANIMPARAM_FLOAT",
+      "ANIMPARAM_VECTOR",
+      "ANIMPARAM_QUATERNION",
+      "ANIMPARAM_GLOBALSYMBOL",
+      "ANIMPARAM_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

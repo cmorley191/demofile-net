@@ -1,0 +1,194 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByUserGroup",
+      "value": "Origin"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "CGameSceneNode::m_hParent"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "CGameSceneNode::m_hierarchyAttachName"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nMinCPULevel"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nMaxCPULevel"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nMinGPULevel"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_nMaxGPULevel"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_RopeFlags",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Slack",
+      "type": {
+        "name": "int16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Width",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_TextureScale",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 10
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0.1
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "m_nSegments",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bConstrainBetweenEndpoints",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iRopeMaterialModelIndex",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeIMaterial2 >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeIMaterial2",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Subdiv",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nChangeCount",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_RopeLength",
+      "type": {
+        "name": "int16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_fLockedPoints",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flScrollSpeed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hStartPoint",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hEndPoint",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iStartAttachment",
+      "type": {
+        "name": "AttachmentHandle_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iEndAttachment",
+      "type": {
+        "name": "AttachmentHandle_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

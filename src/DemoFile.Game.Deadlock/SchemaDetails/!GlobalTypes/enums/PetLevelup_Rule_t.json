@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PETLEVELFROM_NOTHING",
+      "PETLEVELFROM_KILLEATER",
+      "PETLEVELFROM_COMPENDIUM_LEVEL",
+      "NUM_PETLEVELUPRULES"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

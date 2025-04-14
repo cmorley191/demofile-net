@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_LIGHT_TYPE_POINT",
+      "PARTICLE_LIGHT_TYPE_SPOT",
+      "PARTICLE_LIGHT_TYPE_FX",
+      "PARTICLE_LIGHT_TYPE_CAPSULE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

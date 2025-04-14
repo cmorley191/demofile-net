@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "POINT_WORLD_TEXT_JUSTIFY_VERTICAL_BOTTOM",
+      "POINT_WORLD_TEXT_JUSTIFY_VERTICAL_CENTER",
+      "POINT_WORLD_TEXT_JUSTIFY_VERTICAL_TOP"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

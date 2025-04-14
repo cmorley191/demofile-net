@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CHAT_IGNORE_NONE",
+      "CHAT_IGNORE_ALL",
+      "CHAT_IGNORE_TEAM"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

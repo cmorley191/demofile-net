@@ -1,0 +1,9 @@
+{
+  "parent": "CNmSpeedScaleBaseNode::CDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

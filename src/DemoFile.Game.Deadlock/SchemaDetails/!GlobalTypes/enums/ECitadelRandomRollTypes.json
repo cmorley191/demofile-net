@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ECitadelRandomRoll_BulletCritChance",
+      "ECitadelRandomRoll_BulletCritDebuffChance",
+      "ECitadelRandomRoll_BreakableGoldPickup",
+      "ECitadelRandomRoll_BreakablePowerupPickup",
+      "ECitadelRandomRoll_LastEnum"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "CEntitySubclassVDataBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ENTITY_NOT_DORMANT",
+      "ENTITY_DORMANT",
+      "ENTITY_SUSPENDED"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

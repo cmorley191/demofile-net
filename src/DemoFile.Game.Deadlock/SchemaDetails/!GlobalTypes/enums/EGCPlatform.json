@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eGCPlatform_None",
+      "k_eGCPlatform_PC",
+      "k_eGCPlatform_Mac",
+      "k_eGCPlatform_Linux",
+      "k_eGCPlatform_Android",
+      "k_eGCPlatform_iOS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

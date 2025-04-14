@@ -1,0 +1,9 @@
+{
+  "parent": "CExampleSchemaVData_PolymorphicBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

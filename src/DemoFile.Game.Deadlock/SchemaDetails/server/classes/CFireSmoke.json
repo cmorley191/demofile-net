@@ -1,0 +1,22 @@
+{
+  "parent": "CBaseFire",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nFlameModelIndex",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nFlameFromAboveModelIndex",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

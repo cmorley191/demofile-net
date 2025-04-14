@@ -1,0 +1,9 @@
+{
+  "parent": "CModelConfigElement",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

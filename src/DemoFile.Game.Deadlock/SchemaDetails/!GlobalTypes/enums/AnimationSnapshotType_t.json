@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ANIMATION_SNAPSHOT_SERVER_SIMULATION",
+      "ANIMATION_SNAPSHOT_CLIENT_SIMULATION",
+      "ANIMATION_SNAPSHOT_CLIENT_PREDICTION",
+      "ANIMATION_SNAPSHOT_CLIENT_INTERPOLATION",
+      "ANIMATION_SNAPSHOT_CLIENT_RENDER",
+      "ANIMATION_SNAPSHOT_FINAL_COMPOSITE",
+      "ANIMATION_SNAPSHOT_MAX"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

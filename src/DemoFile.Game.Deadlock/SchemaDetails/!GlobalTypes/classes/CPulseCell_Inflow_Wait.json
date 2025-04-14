@@ -1,0 +1,32 @@
+{
+  "parent": "CPulseCell_BaseYieldingInflow",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MCellForDomain"
+    },
+    {
+      "name": "MPulseCellMethodBindings"
+    },
+    {
+      "name": "MPulseCellOutflowHookInfo"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Wait"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Causes each execution cursor to pause at this node for a fixed period of time. Each cursor will wake up and resume execution when the time expires, unless aborted or early-woken."
+    },
+    {
+      "name": "MPulseEditorHeaderIcon"
+    },
+    {
+      "name": "MPulseEditorCanvasItemSpecKV3"
+    }
+  ],
+  "fields": []
+}

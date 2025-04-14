@@ -1,0 +1,9 @@
+{
+  "parent": "CUnaryUpdateNode",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

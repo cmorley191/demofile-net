@@ -1,0 +1,20 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_angRotation",
+        "name": "CGameSceneNode"
+      }
+    },
+    {
+      "name": "MNetworkOverride",
+      "value": {
+        "type": "m_flSimulationTime",
+        "name": "CBaseEntity"
+      }
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eAbsOrigin",
+      "eCenter",
+      "eEyes"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

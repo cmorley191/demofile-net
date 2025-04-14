@@ -1,0 +1,23 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_vMinBounds",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vMaxBounds",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    }
+  ]
+}

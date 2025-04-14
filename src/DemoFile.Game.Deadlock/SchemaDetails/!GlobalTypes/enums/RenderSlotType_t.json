@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "RENDER_SLOT_INVALID",
+      "RENDER_SLOT_PER_VERTEX",
+      "RENDER_SLOT_PER_INSTANCE"
+    ],
+    "values": [
+      -1,
+      0,
+      1
+    ]
+  }
+}

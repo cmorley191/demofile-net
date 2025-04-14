@@ -1,0 +1,31 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SQUAD_SLOT_NONE",
+      "SQUAD_SLOT_ATTACK1",
+      "SQUAD_SLOT_ATTACK2",
+      "SQUAD_SLOT_ATTACK3",
+      "SQUAD_SLOT_INVESTIGATE_SOUND",
+      "SQUAD_SLOT_EXCLUSIVE_HANDSIGN",
+      "SQUAD_SLOT_EXCLUSIVE_RELOAD",
+      "SQUAD_SLOT_SPECIAL_ATTACK",
+      "SQUAD_SLOT_ADVANCE_ON_ENEMY",
+      "SQUAD_SLOT_THROW_GRENADE",
+      "SQUAD_SLOT_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

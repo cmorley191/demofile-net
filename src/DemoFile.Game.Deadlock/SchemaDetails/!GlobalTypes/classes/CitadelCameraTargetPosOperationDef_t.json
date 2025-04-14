@@ -1,0 +1,9 @@
+{
+  "parent": "CitadelCameraOperationDef_t",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

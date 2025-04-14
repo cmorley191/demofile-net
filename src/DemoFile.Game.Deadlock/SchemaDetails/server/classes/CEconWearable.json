@@ -1,0 +1,9 @@
+{
+  "parent": "CEconEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": []
+}

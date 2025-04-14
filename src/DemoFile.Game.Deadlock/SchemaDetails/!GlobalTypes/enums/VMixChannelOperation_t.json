@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "VMIX_CHAN_STEREO",
+      "VMIX_CHAN_LEFT",
+      "VMIX_CHAN_RIGHT",
+      "VMIX_CHAN_SWAP",
+      "VMIX_CHAN_MONO",
+      "VMIX_CHAN_MID_SIDE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

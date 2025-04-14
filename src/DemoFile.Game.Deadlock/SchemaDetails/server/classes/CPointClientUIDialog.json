@@ -1,0 +1,25 @@
+{
+  "parent": "CBaseClientUIEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hActivator",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "OnDialogActivatorChanged"
+        }
+      ]
+    }
+  ]
+}

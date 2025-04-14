@@ -1,0 +1,99 @@
+{
+  "metadata": [
+    {
+      "name": "MNetworkVarsAtomic"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_vecX",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 10
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -64
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 64
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkViewOffsetVector"
+        }
+      ]
+    },
+    {
+      "name": "m_vecY",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 10
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": -64
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 64
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkViewOffsetVector"
+        }
+      ]
+    },
+    {
+      "name": "m_vecZ",
+      "type": {
+        "name": "CNetworkedQuantizedFloat",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkBitCount",
+          "value": 20
+        },
+        {
+          "name": "MNetworkMinValue",
+          "value": 0
+        },
+        {
+          "name": "MNetworkMaxValue",
+          "value": 128
+        },
+        {
+          "name": "MNetworkEncodeFlags",
+          "value": 4
+        },
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "CNetworkViewOffsetVector"
+        }
+      ]
+    }
+  ]
+}

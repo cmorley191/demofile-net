@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_DISABLE_GROUP_MIN",
+      "MODIFIER_DISABLE_GROUP_ACTIVE_WEAPON",
+      "MODIFIER_DISABLE_GROUP_TIME_LOCKED",
+      "MODIFIER_DISABLE_GROUP_MAX_BIT",
+      "MODIFIER_DISABLE_GROUP_MAX"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_QUICK_RESPONSE_NONE",
+      "CITADEL_QUICK_RESPONSE_DEFAULT",
+      "CITADEL_QUICK_RESPONSE_THANKS",
+      "CITADEL_QUICK_RESPONSE_YES",
+      "CITADEL_QUICK_RESPONSE_YES_NO",
+      "CITADEL_QUICK_RESPONSE_HEALING",
+      "CITADEL_QUICK_RESPONSE_SHOP_OR_DEFEND",
+      "CITADEL_QUICK_RESPONSE_HEADING_TO_LANE",
+      "CITADEL_QUICK_RESPONSE_GOOD_JOB",
+      "CITADEL_QUICK_RESPONSE_GREAT_KILL",
+      "CITADEL_QUICK_RESPONSE_UH_OH",
+      "CITADEL_QUICK_RESPONSE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

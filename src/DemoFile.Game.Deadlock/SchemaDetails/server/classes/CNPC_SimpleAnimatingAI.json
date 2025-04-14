@@ -1,0 +1,78 @@
+{
+  "parent": "CBaseAnimGraph",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iHealth"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iTeam"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flSimulationTime"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_blinktoggle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flAnimTime"
+    },
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "m_flCycle"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flEncodedController"
+    },
+    {
+      "name": "MNetworkExcludeByName",
+      "value": "m_flPoseParameter"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_hEnemy",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_CCitadelRegenComponent",
+      "type": {
+        "name": "CCitadelRegenComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelRegenComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelRegenComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelRegenComponent"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "parent": "CBasePlayerController",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_ePlayState",
+      "type": {
+        "name": "EPlayerPlayState",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchLastHits",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchOrbsSecured",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchOrbsDenied",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchDamageToGuardians",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchDamageToPlayers",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchDamageTaken",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchNetWorth",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchModsPurchased",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGuidedBotMatchAbilityUpgrades",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flGuideBotMatchLastTaskNagVO",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flGuideBotLastTimeTaskCompleted",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_eGuidedBotMatchObjective",
+      "type": {
+        "name": "EGuidedBotMatchObjective",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nCurrentRank",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nAssignedLane",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "AssignedLaneChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nOriginalLaneAssignment",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsKingPanda",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bBotDisconnectTakeover",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bInTeamChat",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "ChatGroupsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bInPartyChat",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "ChatGroupsChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_unHeroBuildID",
+      "type": {
+        "name": "HeroBuildID_t",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_bLaneSwapLocked",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecLaneSwapRequests",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBaseEntity > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBaseEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecLaneSwapRejects",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CBaseEntity > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CBaseEntity >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CBaseEntity",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_vecMutedPlayers",
+      "type": {
+        "name": "CNetworkUtlVectorBase< int32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hHeroPawn",
+      "type": {
+        "name": "CHandle< CCitadelPlayerPawn >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CCitadelPlayerPawn",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_PlayerDataGlobal",
+      "type": {
+        "name": "PlayerDataGlobal_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nDeathReplayAvailable",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "LocalPlayerOwnerAndObserversExclusive"
+        }
+      ]
+    },
+    {
+      "name": "m_unLobbyPlayerSlot",
+      "type": {
+        "name": "CitadelLobbyPlayerSlot_t",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

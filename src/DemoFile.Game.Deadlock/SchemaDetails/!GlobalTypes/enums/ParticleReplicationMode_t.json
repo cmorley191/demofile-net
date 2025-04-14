@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_REPLICATIONMODE_NONE",
+      "PARTICLE_REPLICATIONMODE_REPLICATE_FOR_EACH_PARENT_PARTICLE"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

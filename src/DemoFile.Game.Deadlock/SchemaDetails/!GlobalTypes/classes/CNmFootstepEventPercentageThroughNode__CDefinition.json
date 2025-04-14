@@ -1,0 +1,9 @@
+{
+  "parent": "CNmFloatValueNode::CDefinition",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

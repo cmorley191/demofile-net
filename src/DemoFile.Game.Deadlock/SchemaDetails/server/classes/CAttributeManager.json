@@ -1,0 +1,35 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_iReapplyProvisionParity",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_hOuter",
+      "type": {
+        "name": "CHandle< CBaseEntity >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CHandle",
+        "inner": {
+          "name": "CBaseEntity",
+          "category": 5
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_ProviderType",
+      "type": {
+        "name": "attributeprovidertypes_t",
+        "category": 6
+      },
+      "metadata": []
+    }
+  ]
+}

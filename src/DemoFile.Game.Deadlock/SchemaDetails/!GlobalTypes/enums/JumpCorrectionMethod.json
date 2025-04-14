@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ScaleMotion",
+      "AddCorrectionDelta"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

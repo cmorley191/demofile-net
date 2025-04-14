@@ -1,0 +1,18 @@
+{
+  "parent": "CBasePulseGraphInstance",
+  "metadata": [
+    {
+      "name": "MPulseInstanceDomainInfo"
+    },
+    {
+      "name": "MPulseDomainHookInfo"
+    },
+    {
+      "name": "MPulseLibraryBindings"
+    },
+    {
+      "name": "MPulseDomainOptInFeatureTag"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DOOR_SPAWN_CLOSED",
+      "DOOR_SPAWN_OPEN_FORWARD",
+      "DOOR_SPAWN_OPEN_BACK",
+      "DOOR_SPAWN_AJAR"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "CWarpSectionAnimTagBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Warp Section Tag"
+    }
+  ],
+  "fields": []
+}

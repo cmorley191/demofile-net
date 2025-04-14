@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MORPH_BUNDLE_TYPE_NONE",
+      "MORPH_BUNDLE_TYPE_POSITION_SPEED",
+      "MORPH_BUNDLE_TYPE_NORMAL_WRINKLE",
+      "MORPH_BUNDLE_TYPE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flStartTime",
+      "type": {
+        "name": "GameTime_t",
+        "category": 5
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iWindSeed",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iMinWind",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iMaxWind",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_windRadius",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iMinGust",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iMaxGust",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flMinGustDelay",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flMaxGustDelay",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flGustDuration",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_iGustDirChange",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_location",
+      "type": {
+        "name": "Vector",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkEncoder",
+          "value": "coord"
+        }
+      ]
+    },
+    {
+      "name": "m_iInitialWindDir",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flInitialWindSpeed",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

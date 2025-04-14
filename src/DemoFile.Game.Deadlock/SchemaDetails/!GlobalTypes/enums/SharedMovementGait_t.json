@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "eInvalid",
+      "eSlow",
+      "eMedium",
+      "eFast",
+      "eVeryFast",
+      "eCount"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_hModel",
+      "type": {
+        "name": "CStrongHandle< InfoForResourceTypeCModel >",
+        "category": 4,
+        "atomic": 1,
+        "outer": "CStrongHandle",
+        "inner": {
+          "name": "InfoForResourceTypeCModel",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "skeletonModelChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_bClientClothCreationSuppressed",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_MeshGroupMask",
+      "type": {
+        "name": "uint64",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "skeletonMeshGroupMaskChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nBodyGroupChoices",
+      "type": {
+        "name": "CNetworkUtlVectorBase< int32 >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "int32",
+          "category": 0
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "bodyGroupChoiceChanged"
+        }
+      ]
+    },
+    {
+      "name": "m_nIdealMotionType",
+      "type": {
+        "name": "int8",
+        "category": 0
+      },
+      "metadata": [
+        {
+          "name": "MNetworkChangeCallback",
+          "value": "skeletonMotionTypeChanged"
+        }
+      ]
+    }
+  ]
+}

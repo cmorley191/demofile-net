@@ -1,0 +1,9 @@
+{
+  "parent": "CitadelItemVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

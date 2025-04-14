@@ -1,0 +1,31 @@
+{
+  "parent": "CBaseFlex",
+  "metadata": [
+    {
+      "name": "MNetworkExcludeByUserGroup",
+      "value": "LocalPlayerExclusive"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_hMyWearables",
+      "type": {
+        "name": "CNetworkUtlVectorBase< CHandle< CEconWearable > >",
+        "category": 4,
+        "atomic": 2,
+        "outer": "CNetworkUtlVectorBase",
+        "inner": {
+          "name": "CHandle< CEconWearable >",
+          "category": 4,
+          "atomic": 1,
+          "outer": "CHandle",
+          "inner": {
+            "name": "CEconWearable",
+            "category": 5
+          }
+        }
+      },
+      "metadata": []
+    }
+  ]
+}

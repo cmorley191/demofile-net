@@ -1,0 +1,27 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IN_BUTTON_UP",
+      "IN_BUTTON_DOWN",
+      "IN_BUTTON_DOWN_UP",
+      "IN_BUTTON_UP_DOWN",
+      "IN_BUTTON_UP_DOWN_UP",
+      "IN_BUTTON_DOWN_UP_DOWN",
+      "IN_BUTTON_DOWN_UP_DOWN_UP",
+      "IN_BUTTON_UP_DOWN_UP_DOWN",
+      "IN_BUTTON_STATE_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

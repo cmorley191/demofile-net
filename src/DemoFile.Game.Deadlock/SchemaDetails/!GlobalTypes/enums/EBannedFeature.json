@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "k_eBannedFeature_Invalid",
+      "k_eBannedFeature_LowPriorityMatchmaking",
+      "k_eBannedFeature_CommsRestricted",
+      "k_eBannedFeature_ReportingDisabled"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

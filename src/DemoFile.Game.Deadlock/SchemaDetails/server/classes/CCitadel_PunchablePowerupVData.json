@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_BreakablePropModifierPickupVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

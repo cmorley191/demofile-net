@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eMoodType_Head",
+      "eMoodType_Body"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

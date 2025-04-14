@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "BUILDUP_MODE_ONE_AND_DONE",
+      "BUILDUP_MODE_RESTART_ON_FILL",
+      "BUILDUP_MODE_EXTEND_FILL_DURATION",
+      "BUILDUP_MODE_MAX_FILL_DURATION",
+      "BUILDUP_MODE_ADD_STACK"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

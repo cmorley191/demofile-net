@@ -1,0 +1,9 @@
+{
+  "parent": "CitadelAbilityVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

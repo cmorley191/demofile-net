@@ -1,0 +1,9 @@
+{
+  "parent": "IGapHost_YieldingCursor",
+  "metadata": [
+    {
+      "name": "MPulseInternal_IsCursor"
+    }
+  ],
+  "fields": []
+}

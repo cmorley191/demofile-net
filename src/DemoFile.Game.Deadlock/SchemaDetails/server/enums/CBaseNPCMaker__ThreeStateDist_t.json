@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TS_DIST_NEAREST",
+      "TS_DIST_FARTHEST",
+      "TS_DIST_DONT_CARE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

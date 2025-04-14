@@ -1,0 +1,22 @@
+{
+  "parent": "CNPC_SimpleAnimatingAI",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_flAimPitch",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flAttackRange",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

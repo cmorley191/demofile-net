@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_RR_SPEAKER_PARENT",
+      "MODIFIER_RR_SPEAKER_CASTER"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

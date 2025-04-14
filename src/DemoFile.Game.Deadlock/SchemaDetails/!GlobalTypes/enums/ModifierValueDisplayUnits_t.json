@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EDisplayUnit_Normal",
+      "EDisplayUnit_Meters",
+      "EDisplayUnit_MetersPerSecond",
+      "EDisplayUnit_Invert"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "TRANSITION_TO_LIFESTATE_DYING",
+      "TRANSITION_TO_LIFESTATE_DEAD"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

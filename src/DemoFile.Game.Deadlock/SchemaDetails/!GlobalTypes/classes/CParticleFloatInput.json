@@ -1,0 +1,15 @@
+{
+  "parent": "CParticleInput",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MClassIsParticleFloat"
+    },
+    {
+      "name": "MParticleCustomFieldDefaultValue"
+    }
+  ],
+  "fields": []
+}

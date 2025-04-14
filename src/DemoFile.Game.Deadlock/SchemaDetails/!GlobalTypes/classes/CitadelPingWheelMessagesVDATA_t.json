@@ -1,0 +1,14 @@
+{
+  "metadata": [
+    {
+      "name": "MVDataRoot"
+    },
+    {
+      "name": "MVDataSingleton"
+    },
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "VERT_JUSTIFICATION_TOP",
+      "VERT_JUSTIFICATION_CENTER",
+      "VERT_JUSTIFICATION_BOTTOM",
+      "VERT_JUSTIFICATION_NONE"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

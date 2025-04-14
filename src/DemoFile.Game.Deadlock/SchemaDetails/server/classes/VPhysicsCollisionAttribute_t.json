@@ -1,0 +1,69 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_nInteractsAs",
+      "type": {
+        "name": "uint64",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nInteractsWith",
+      "type": {
+        "name": "uint64",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nInteractsExclude",
+      "type": {
+        "name": "uint64",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nEntityId",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nOwnerId",
+      "type": {
+        "name": "uint32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nHierarchyId",
+      "type": {
+        "name": "uint16",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nCollisionGroup",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nCollisionFunctionMask",
+      "type": {
+        "name": "uint8",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

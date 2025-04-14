@@ -1,0 +1,13 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "SHARD_SOLID",
+      "SHARD_DEBRIS"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ETier3State_Alive",
+      "ETier3State_Dying",
+      "ETier3State_Falling",
+      "ETier3Staet_Vulnerable"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

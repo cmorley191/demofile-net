@@ -1,0 +1,21 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IMPULSE_TYPE_NONE",
+      "IMPULSE_TYPE_GENERIC",
+      "IMPULSE_TYPE_ROPE",
+      "IMPULSE_TYPE_EXPLOSION",
+      "IMPULSE_TYPE_EXPLOSION_UNDERWATER",
+      "IMPULSE_TYPE_PARTICLE_SYSTEM"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16
+    ]
+  }
+}

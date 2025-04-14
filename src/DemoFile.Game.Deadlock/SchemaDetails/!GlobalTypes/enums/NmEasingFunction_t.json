@@ -1,0 +1,27 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "Linear",
+      "Quad",
+      "Cubic",
+      "Quart",
+      "Quint",
+      "Sine",
+      "Expo",
+      "Circ",
+      "Back"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "CBodyComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_sceneNode",
+      "type": {
+        "name": "CGameSceneNode",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

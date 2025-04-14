@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TRANSITION_TO_PATH_NODE_ACTION_NONE",
+      "TRANSITION_TO_PATH_NODE_ACTION_START_FORWARD",
+      "TRANSITION_TO_PATH_NODE_ACTION_START_REVERSE"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

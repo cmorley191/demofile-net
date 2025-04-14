@@ -1,0 +1,15 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ENTITY_NOT_PLATFORM",
+      "ENTITY_PLATFORM_PLAYER_FOLLOWS_YAW",
+      "ENTITY_PLATFORM_PLAYER_IGNORES_YAW"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

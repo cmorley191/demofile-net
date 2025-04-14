@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "CITADEL_PORTRAIT_ENVIRONMENT_INVALID",
+      "CITADEL_PORTRAIT_ENVIRONMENT_DEFAULT",
+      "CITADEL_PORTRAIT_ENVIRONMENT_FULL_BODY",
+      "CITADEL_PORTRAIT_ENVIRONMENT_CARD",
+      "CITADEL_PORTRAIT_ENVIRONMENT_WEBPAGE",
+      "CITADEL_PORTRAIT_ENVIRONMENT_FULL_BODY_RIGHT_SIDE",
+      "CITADEL_PORTRAIT_ENVIRONMENT_TYPE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

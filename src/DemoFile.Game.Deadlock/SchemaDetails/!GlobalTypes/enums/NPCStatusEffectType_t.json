@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "STATUS_EFFECT_NONE",
+      "STATUS_EFFECT_LAST",
+      "STATUS_EFFECT_COUNT"
+    ],
+    "values": [
+      0,
+      1,
+      0
+    ]
+  }
+}

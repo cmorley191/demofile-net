@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DOOR_STATE_CLOSED",
+      "DOOR_STATE_OPENING",
+      "DOOR_STATE_OPEN",
+      "DOOR_STATE_CLOSING",
+      "DOOR_STATE_AJAR"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "CBodyComponent",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_skeletonInstance",
+      "type": {
+        "name": "CSkeletonInstance",
+        "category": 5
+      },
+      "metadata": []
+    }
+  ]
+}

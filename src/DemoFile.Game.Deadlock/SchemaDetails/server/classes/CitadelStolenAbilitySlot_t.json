@@ -1,0 +1,21 @@
+{
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_eStolenSlot",
+      "type": {
+        "name": "EAbilitySlots_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bIsActivelyStolen",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

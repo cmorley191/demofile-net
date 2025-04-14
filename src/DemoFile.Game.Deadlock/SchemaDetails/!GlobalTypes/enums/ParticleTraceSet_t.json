@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_TRACE_SET_ALL",
+      "PARTICLE_TRACE_SET_STATIC",
+      "PARTICLE_TRACE_SET_STATIC_AND_KEYFRAMED",
+      "PARTICLE_TRACE_SET_DYNAMIC"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

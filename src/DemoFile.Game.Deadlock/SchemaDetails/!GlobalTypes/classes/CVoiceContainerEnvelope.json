@@ -1,0 +1,17 @@
+{
+  "parent": "CVoiceContainerBase",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPropertyFriendlyName",
+      "value": "Envelope VSND"
+    },
+    {
+      "name": "MPropertyDescription",
+      "value": "Plays sound with envelope."
+    }
+  ],
+  "fields": []
+}

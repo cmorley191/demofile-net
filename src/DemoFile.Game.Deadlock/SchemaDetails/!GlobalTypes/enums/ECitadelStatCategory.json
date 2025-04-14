@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ECitadelStat_Invalid",
+      "ECitadelStat_Weapon",
+      "ECitadelStat_Vitality",
+      "ECitadelStat_Spirit"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  }
+}

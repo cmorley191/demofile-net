@@ -1,0 +1,9 @@
+{
+  "parent": "CNmEvent",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

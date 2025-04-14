@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "InputType_PlayerShootPosition",
+      "InputType_PlayerShootPositionAroundAxis"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

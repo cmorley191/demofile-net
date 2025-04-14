@@ -1,0 +1,150 @@
+{
+  "parent": "CModelPointEntity",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_messageText",
+      "type": {
+        "name": "char[512]",
+        "category": 3,
+        "arraySize": 512,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_FontName",
+      "type": {
+        "name": "char[64]",
+        "category": 3,
+        "arraySize": 64,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_BackgroundMaterialName",
+      "type": {
+        "name": "char[64]",
+        "category": 3,
+        "arraySize": 64,
+        "inner": {
+          "name": "char",
+          "category": 0
+        }
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bEnabled",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bFullbright",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flWorldUnitsPerPx",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flFontSize",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flDepthOffset",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_bDrawBackground",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flBackgroundBorderWidth",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flBackgroundBorderHeight",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_flBackgroundWorldToUV",
+      "type": {
+        "name": "float32",
+        "category": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_Color",
+      "type": {
+        "name": "Color",
+        "category": 4,
+        "atomic": 0
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nJustifyHorizontal",
+      "type": {
+        "name": "PointWorldTextJustifyHorizontal_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nJustifyVertical",
+      "type": {
+        "name": "PointWorldTextJustifyVertical_t",
+        "category": 6
+      },
+      "metadata": []
+    },
+    {
+      "name": "m_nReorientMode",
+      "type": {
+        "name": "PointWorldTextReorientMode_t",
+        "category": 6
+      },
+      "metadata": []
+    }
+  ]
+}

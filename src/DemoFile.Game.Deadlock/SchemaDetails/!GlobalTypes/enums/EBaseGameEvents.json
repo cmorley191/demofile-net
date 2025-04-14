@@ -1,0 +1,35 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "GE_VDebugGameSessionIDEvent",
+      "GE_PlaceDecalEvent",
+      "GE_ClearWorldDecalsEvent",
+      "GE_ClearEntityDecalsEvent",
+      "GE_ClearDecalsForSkeletonInstanceEvent",
+      "GE_Source1LegacyGameEventList",
+      "GE_Source1LegacyListenEvents",
+      "GE_Source1LegacyGameEvent",
+      "GE_SosStartSoundEvent",
+      "GE_SosStopSoundEvent",
+      "GE_SosSetSoundEventParams",
+      "GE_SosSetLibraryStackFields",
+      "GE_SosStopSoundEventHash"
+    ],
+    "values": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212
+    ]
+  }
+}

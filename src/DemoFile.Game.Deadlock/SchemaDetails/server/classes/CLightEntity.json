@@ -1,0 +1,35 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MEntityAllowsPortraitWorldSpawn"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_CLightComponent",
+      "type": {
+        "name": "CLightComponent*",
+        "category": 1,
+        "inner": {
+          "name": "CLightComponent",
+          "category": 5
+        }
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CLightComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CLightComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CLightComponent"
+        }
+      ]
+    }
+  ]
+}

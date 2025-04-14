@@ -1,0 +1,19 @@
+{
+  "parent": "CBaseModelEntity",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iTeamNum"
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_iLane",
+      "type": {
+        "name": "int32",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

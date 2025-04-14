@@ -1,0 +1,14 @@
+{
+  "parent": "CAI_CitadelNPC",
+  "metadata": [
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iHealth"
+    },
+    {
+      "name": "MNetworkIncludeByName",
+      "value": "m_iMaxHealth"
+    }
+  ],
+  "fields": []
+}

@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "IkEndEffector_Attachment",
+      "IkEndEffector_Bone"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

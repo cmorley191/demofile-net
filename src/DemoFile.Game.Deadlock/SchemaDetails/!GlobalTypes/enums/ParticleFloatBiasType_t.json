@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PF_BIAS_TYPE_INVALID",
+      "PF_BIAS_TYPE_STANDARD",
+      "PF_BIAS_TYPE_GAIN",
+      "PF_BIAS_TYPE_EXPONENTIAL",
+      "PF_BIAS_TYPE_COUNT"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

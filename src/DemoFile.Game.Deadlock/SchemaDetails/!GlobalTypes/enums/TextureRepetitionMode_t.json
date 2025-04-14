@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "TEXTURE_REPETITION_PARTICLE",
+      "TEXTURE_REPETITION_PATH"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

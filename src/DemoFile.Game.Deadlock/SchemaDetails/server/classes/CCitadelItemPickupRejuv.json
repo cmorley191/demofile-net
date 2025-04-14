@@ -1,0 +1,35 @@
+{
+  "parent": "CCitadelItemPickup",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_CCitadelAbilityComponent",
+      "type": {
+        "name": "CCitadelAbilityComponent",
+        "category": 5
+      },
+      "metadata": [
+        {
+          "name": "MNetworkUserGroup",
+          "value": "CCitadelAbilityComponent"
+        },
+        {
+          "name": "MNetworkAlias",
+          "value": "CCitadelAbilityComponent"
+        },
+        {
+          "name": "MNetworkTypeAlias",
+          "value": "CCitadelAbilityComponent"
+        }
+      ]
+    },
+    {
+      "name": "m_bPickedUp",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

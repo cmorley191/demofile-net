@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_ATTR_BOX_FLAGS_NONE",
+      "PARTICLE_ATTR_BOX_FLAGS_WATER",
+      "PARTICLE_ATTR_BOX_FLAGS_ON_FIRE",
+      "PARTICLE_ATTR_BOX_FLAGS_ASLEEP"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

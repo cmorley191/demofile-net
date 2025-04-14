@@ -1,0 +1,31 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "AGE_DMG_INVALID",
+      "AGE_DMG_LIGHT",
+      "AGE_DMG_HEAVY",
+      "AGE_DMG_BLAST",
+      "AGE_DMG_PHYSICS",
+      "AGE_DMG_MELEE",
+      "AGE_DMG_SHOCK",
+      "AGE_DMG_BURN",
+      "AGE_DMG_SONIC_SECONDARY",
+      "AGE_DMG_SONIC_PRIMARY",
+      "AGE_DMG_NEWTON"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

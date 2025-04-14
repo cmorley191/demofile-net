@@ -1,0 +1,17 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "INPUT_LAYOUT_VARIATION_DEFAULT",
+      "INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID",
+      "INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID",
+      "INPUT_LAYOUT_VARIATION_MAX"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

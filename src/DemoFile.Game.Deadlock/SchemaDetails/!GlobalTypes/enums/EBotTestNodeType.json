@@ -1,0 +1,23 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "EBotTestNode_NotSet",
+      "EBotTestNode_StandingMantleStart",
+      "EBotTestNode_MovingMantleStart",
+      "EBotTestNode_Dest",
+      "EBotTestNode_ShootTarget",
+      "EBotTestNode_TargetDummy",
+      "EBotTestNode_GunDPSTest"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ]
+  }
+}

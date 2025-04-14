@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_Modifier_StunnedVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

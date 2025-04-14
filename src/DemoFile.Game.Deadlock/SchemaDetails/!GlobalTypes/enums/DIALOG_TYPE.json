@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "DIALOG_MSG",
+      "DIALOG_MENU",
+      "DIALOG_TEXT",
+      "DIALOG_ENTRY",
+      "DIALOG_ASKCONNECT"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "CBaseToggle",
+  "metadata": [],
+  "fields": [
+    {
+      "name": "m_bIsUsable",
+      "type": {
+        "name": "bool",
+        "category": 0
+      },
+      "metadata": []
+    }
+  ]
+}

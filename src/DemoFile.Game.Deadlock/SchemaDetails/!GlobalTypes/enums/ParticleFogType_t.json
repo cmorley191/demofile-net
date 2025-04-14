@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_FOG_GAME_DEFAULT",
+      "PARTICLE_FOG_ENABLED",
+      "PARTICLE_FOG_DISABLED"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

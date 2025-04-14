@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MODIFIER_TIME_SCALE_USE_PARENT",
+      "MODIFIER_TIME_SCALE_USE_CASTER"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

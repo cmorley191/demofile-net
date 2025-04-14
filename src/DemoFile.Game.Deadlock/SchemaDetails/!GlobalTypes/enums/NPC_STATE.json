@@ -1,0 +1,29 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "NPC_STATE_INVALID",
+      "NPC_STATE_INIT",
+      "NPC_STATE_IDLE",
+      "NPC_STATE_ALERT",
+      "NPC_STATE_COMBAT",
+      "NPC_STATE_SCRIPT",
+      "NPC_STATE_DEAD",
+      "NPC_STATE_INERT",
+      "NPC_STATE_SYNCHRONIZED_SECONDARY",
+      "NUM_NPC_STATES"
+    ],
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

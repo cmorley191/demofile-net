@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "MOVECOLLIDE_DEFAULT",
+      "MOVECOLLIDE_FLY_BOUNCE",
+      "MOVECOLLIDE_FLY_CUSTOM",
+      "MOVECOLLIDE_FLY_SLIDE",
+      "MOVECOLLIDE_COUNT",
+      "MOVECOLLIDE_MAX_BITS"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3
+    ]
+  }
+}

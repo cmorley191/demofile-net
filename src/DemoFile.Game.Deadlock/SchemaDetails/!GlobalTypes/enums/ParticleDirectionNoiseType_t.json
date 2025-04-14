@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_DIR_NOISE_PERLIN",
+      "PARTICLE_DIR_NOISE_CURL",
+      "PARTICLE_DIR_NOISE_WORLEY_BASIC"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

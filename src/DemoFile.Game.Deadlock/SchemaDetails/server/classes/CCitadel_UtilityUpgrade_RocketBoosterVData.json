@@ -1,0 +1,9 @@
+{
+  "parent": "CCitadel_UtilityUpgrade_RocketBootsVData",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

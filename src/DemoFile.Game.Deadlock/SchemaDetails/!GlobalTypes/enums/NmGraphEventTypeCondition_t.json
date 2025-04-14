@@ -1,0 +1,21 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "Entry",
+      "FullyInState",
+      "Exit",
+      "Timed",
+      "Generic",
+      "Any"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

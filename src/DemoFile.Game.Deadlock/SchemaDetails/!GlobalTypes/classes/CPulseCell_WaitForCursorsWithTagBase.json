@@ -1,0 +1,12 @@
+{
+  "parent": "CPulseCell_BaseYieldingInflow",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    },
+    {
+      "name": "MPulseEditorCanvasItemSpecKV3"
+    }
+  ],
+  "fields": []
+}

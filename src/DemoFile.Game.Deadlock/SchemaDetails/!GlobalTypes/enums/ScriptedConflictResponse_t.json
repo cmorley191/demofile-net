@@ -1,0 +1,13 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SS_CONFLICT_ENQUEUE",
+      "SS_CONFLICT_INTERRUPT"
+    ],
+    "values": [
+      0,
+      1
+    ]
+  }
+}

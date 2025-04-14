@@ -1,0 +1,25 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "MESH_DRAW_FLAGS_NONE",
+      "MESH_DRAW_FLAGS_USE_SHADOW_FAST_PATH",
+      "MESH_DRAW_FLAGS_USE_COMPRESSED_NORMAL_TANGENT",
+      "MESH_DRAW_INPUT_LAYOUT_IS_NOT_MATCHED_TO_MATERIAL",
+      "MESH_DRAW_FLAGS_USE_COMPRESSED_PER_VERTEX_LIGHTING",
+      "MESH_DRAW_FLAGS_USE_UNCOMPRESSED_PER_VERTEX_LIGHTING",
+      "MESH_DRAW_FLAGS_CAN_BATCH_WITH_DYNAMIC_SHADER_CONSTANTS",
+      "MESH_DRAW_FLAGS_DRAW_LAST"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      8,
+      16,
+      32,
+      64,
+      128
+    ]
+  }
+}

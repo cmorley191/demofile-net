@@ -1,0 +1,19 @@
+{
+  "align": 1,
+  "items": {
+    "names": [
+      "ETelepunchState_None",
+      "ETelepunchState_EnemyPortalTelegraph",
+      "ETelepunchState_SelfPortalTelegraph",
+      "ETelepunchState_Windup",
+      "ETelepunchState_Attack"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "C_INIT_RemapParticleCountToScalar",
+  "metadata": [
+    {
+      "name": "MGetKV3ClassDefaults"
+    }
+  ],
+  "fields": []
+}

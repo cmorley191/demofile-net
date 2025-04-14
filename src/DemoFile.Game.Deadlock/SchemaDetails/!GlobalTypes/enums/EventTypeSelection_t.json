@@ -1,0 +1,31 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "PARTICLE_EVENT_TYPE_MASK_NONE",
+      "PARTICLE_EVENT_TYPE_MASK_SPAWNED",
+      "PARTICLE_EVENT_TYPE_MASK_KILLED",
+      "PARTICLE_EVENT_TYPE_MASK_COLLISION",
+      "PARTICLE_EVENT_TYPE_MASK_FIRST_COLLISION",
+      "PARTICLE_EVENT_TYPE_MASK_COLLISION_STOPPED",
+      "PARTICLE_EVENT_TYPE_MASK_KILLED_ON_COLLISION",
+      "PARTICLE_EVENT_TYPE_MASK_USER_1",
+      "PARTICLE_EVENT_TYPE_MASK_USER_2",
+      "PARTICLE_EVENT_TYPE_MASK_USER_3",
+      "PARTICLE_EVENT_TYPE_MASK_USER_4"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ]
+  }
+}

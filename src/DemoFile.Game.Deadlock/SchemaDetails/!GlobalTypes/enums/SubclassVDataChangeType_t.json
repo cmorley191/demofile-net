@@ -1,0 +1,15 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "SUBCLASS_VDATA_CREATED",
+      "SUBCLASS_VDATA_SUBCLASS_CHANGED",
+      "SUBCLASS_VDATA_RELOADED"
+    ],
+    "values": [
+      0,
+      1,
+      2
+    ]
+  }
+}

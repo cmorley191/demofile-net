@@ -1,0 +1,35 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "ANIMPARAM_BUTTON_NONE",
+      "ANIMPARAM_BUTTON_DPAD_UP",
+      "ANIMPARAM_BUTTON_DPAD_RIGHT",
+      "ANIMPARAM_BUTTON_DPAD_DOWN",
+      "ANIMPARAM_BUTTON_DPAD_LEFT",
+      "ANIMPARAM_BUTTON_A",
+      "ANIMPARAM_BUTTON_B",
+      "ANIMPARAM_BUTTON_X",
+      "ANIMPARAM_BUTTON_Y",
+      "ANIMPARAM_BUTTON_LEFT_SHOULDER",
+      "ANIMPARAM_BUTTON_RIGHT_SHOULDER",
+      "ANIMPARAM_BUTTON_LTRIGGER",
+      "ANIMPARAM_BUTTON_RTRIGGER"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+}

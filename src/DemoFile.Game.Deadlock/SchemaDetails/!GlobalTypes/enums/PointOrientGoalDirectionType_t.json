@@ -1,0 +1,19 @@
+{
+  "align": 4,
+  "items": {
+    "names": [
+      "eAbsOrigin",
+      "eCenter",
+      "eHead",
+      "eForward",
+      "eEyesForward"
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}
