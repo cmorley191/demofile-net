@@ -35443,7 +35443,7 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "[Test] Random Yes\/No Outflow"
+          "value": "[Test] Random Yes/No Outflow"
         },
         {
           "name": "MPropertyDescription",
@@ -35688,7 +35688,7 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "[Test] Explicit Yes\/No Outflow"
+          "value": "[Test] Explicit Yes/No Outflow"
         },
         {
           "name": "MPropertyDescription",

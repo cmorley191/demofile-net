@@ -7116,6 +7116,7 @@
             "name": "CWeakHandle< InfoForResourceTypeIParticleSystemDefinition >",
             "category": 4,
             "atomic": 1,
+            "outer": "CWeakHandle",
             "inner": {
               "name": "InfoForResourceTypeIParticleSystemDefinition",
               "category": 5
@@ -12677,6 +12678,7 @@
               "name": "CHandle< CEconWearable >",
               "category": 4,
               "atomic": 1,
+              "outer": "CHandle",
               "inner": {
                 "name": "CEconWearable",
                 "category": 5
@@ -15348,6 +15350,7 @@
               "name": "CHandle< CBaseFlex >",
               "category": 4,
               "atomic": 1,
+              "outer": "CHandle",
               "inner": {
                 "name": "CBaseFlex",
                 "category": 5
@@ -17166,6 +17169,7 @@
             "name": "CNetworkUtlVectorBase< CHandle< CBaseModelEntity > >",
             "category": 4,
             "atomic": 2,
+            "outer": "CNetworkUtlVectorBase",
             "inner": {
               "name": "CHandle< CBaseModelEntity >",
               "category": 4,
@@ -17186,6 +17190,7 @@
             "name": "CNetworkUtlVectorBase< CUtlSymbolLarge >",
             "category": 4,
             "atomic": 2,
+            "outer": "CNetworkUtlVectorBase",
             "inner": {
               "name": "CUtlSymbolLarge",
               "category": 4,
@@ -21837,6 +21842,7 @@
               "name": "CHandle< CCitadelZipLineNode >",
               "category": 4,
               "atomic": 1,
+              "outer": "CHandle",
               "inner": {
                 "name": "CCitadelZipLineNode",
                 "category": 5
@@ -29299,6 +29305,7 @@
               "name": "CHandle< CPostProcessingVolume >",
               "category": 4,
               "atomic": 1,
+              "outer": "CHandle",
               "inner": {
                 "name": "CPostProcessingVolume",
                 "category": 5
