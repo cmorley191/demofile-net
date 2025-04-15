@@ -1,5 +1,17 @@
 # Updating generated schema classes
 
+## Method 1: cmorley191/SchemaGenDemofileNet-cm191
+
+Retrieves the schema statically by reading the game's `.dll` files; based on [neverlosecc/source2gen](https://github.com/neverlosecc/source2gen)
+
+See full instructions in [cmorley191/SchemaGenDemofileNet-cm191](https://github.com/cmorley191/SchemaGenDemofileNet-cm191)'s README (including specific instructions for this repo).
+
+## Method 2: saul/CS2SchemaGen
+
+Retrieves the schema dynamically by accessing the Source 2 SDK while the game is running, by integrating itself as a game plugin/addon.
+
+Instructions:
+
 1. Build https://github.com/saul/cs2schemagen - note you may need to change the path in [main.cpp](https://github.com/saul/CS2SchemaGen/blob/main/src/plugin/main.cpp#L42) depending on the game you're building for
 2. Copy the resulting `server.dll` to: `...\Steam\steamapps\common\Deadlock\game\citadel\addons\bin\win64` (you will need to create this directory the first time)
 3. Update the game's `gameinfo.gi` to add the `addons` directory to the search path:
