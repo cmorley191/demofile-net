@@ -192,6 +192,8 @@ public partial class DemoParser<TGameParser>
             var updateType = entityBitBuffer.ReadUBits(2);
             if ((updateType & 0b01) != 0)
             {
+                // (01 = leave)
+                // (11 = delete)
                 Debug.Assert(msg.LegacyIsDelta, "Deletion on full update");
 
                 // FHDR_LEAVEPVS
@@ -217,6 +219,7 @@ public partial class DemoParser<TGameParser>
             }
             else if (updateType == 0b10)
             {
+                // (10 = create)
                 // FHDR_ENTERPVS
 
                 Debug.Assert(!alternateBaselines.ContainsKey(entityIndex));
@@ -326,6 +329,7 @@ public partial class DemoParser<TGameParser>
             }
             else
             {
+                // (00 = update)
                 if (msg.HasPvsVisBits > 0)
                 {
                     var deltaCmd = entityBitBuffer.ReadUBits(2);
@@ -342,6 +346,7 @@ public partial class DemoParser<TGameParser>
 
                 if (!entity.IsActive)
                 {
+                    Console.WriteLine($"Entity update after left?!");
                     entity.IsActive = true;
                     // todo: fire event: EntityEnterPvs
                 }
