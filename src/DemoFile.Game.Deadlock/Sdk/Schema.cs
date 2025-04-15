@@ -34428,9 +34428,9 @@ public partial class CInWorldKeyBindPanel : CPointClientUIWorldPanel
 }
 
 // MIsBoxedIntegerType
-public readonly record struct CitadelLobbyPlayerSlot(int Value)
+public readonly record struct CitadelLobbyPlayerSlot(uint Value)
 {
-    public static CitadelLobbyPlayerSlot Decode(ref BitBuffer buffer) => new CitadelLobbyPlayerSlot(buffer.ReadVarInt32());
+    public static CitadelLobbyPlayerSlot Decode(ref BitBuffer buffer) => new CitadelLobbyPlayerSlot(buffer.ReadUVarInt32());
 }
 
 public partial class CitadelStolenAbilitySlot
@@ -44355,9 +44355,9 @@ public readonly record struct HeroBuildID(int Value)
 }
 
 // MIsBoxedIntegerType
-public readonly record struct HeroID(int Value)
+public readonly record struct HeroID(uint Value)
 {
-    public static HeroID Decode(ref BitBuffer buffer) => new HeroID(buffer.ReadVarInt32());
+    public static HeroID Decode(ref BitBuffer buffer) => new HeroID(buffer.ReadUVarInt32());
 }
 
 public partial class ice_path_shard_model_desc
@@ -44710,9 +44710,9 @@ public partial class LockonTarget
 }
 
 // MIsBoxedIntegerType
-public readonly record struct MatchID(int Value)
+public readonly record struct MatchID(uint Value)
 {
-    public static MatchID Decode(ref BitBuffer buffer) => new MatchID(buffer.ReadVarInt32());
+    public static MatchID Decode(ref BitBuffer buffer) => new MatchID(buffer.ReadUVarInt32());
 }
 
 public partial class PhysicsRagdollPose
