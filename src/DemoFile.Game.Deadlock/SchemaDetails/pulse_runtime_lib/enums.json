@@ -1,11 +1,11 @@
 [
   "PulseCursorCancelPriority_t",
   "PulseCursorExecResult_t",
-  "PulseTestEnumShape_t",
-  "PulseMethodCallMode_t",
-  "EPulseGraphExecutionHistoryFlag",
   "PulseTestEnumColor_t",
+  "PulseMethodCallMode_t",
   "PulseInstructionCode_t",
+  "PulseTestEnumShape_t",
+  "EPulseGraphExecutionHistoryFlag",
   "PulseValueType_t",
   "PulseDomainValueType_t"
 ]

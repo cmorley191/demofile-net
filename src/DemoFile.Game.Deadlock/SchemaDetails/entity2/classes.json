@@ -2,15 +2,15 @@
   "CEntityIOOutput",
   "GameTick_t",
   "CEntityComponentHelper",
-  "EntInput_t",
-  "CEntityIdentity",
   "CEntityComponent",
   "CScriptComponent",
+  "EntInput_t",
+  "CEntityIdentity",
   "CEntityInstance",
   "GameTime_t",
   "CNetworkVarChainer",
-  "EntOutput_t",
   "CVariantDefaultAllocator",
+  "EntOutput_t",
   "CEmptyEntityInstance",
   "EntComponentInfo_t"
 ]

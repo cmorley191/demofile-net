@@ -25456,23 +25456,6 @@
         }
       ]
     },
-    "SmartPropSpace_t": {
-      "align": 4,
-      "items": [
-        {
-          "name": "WORLD",
-          "value": 0
-        },
-        {
-          "name": "OBJECT",
-          "value": 1
-        },
-        {
-          "name": "ELEMENT",
-          "value": 2
-        }
-      ]
-    },
     "SmartPropDirection_t": {
       "align": 4,
       "items": [
@@ -25532,24 +25515,16 @@
         }
       ]
     },
-    "LightRigType_t": {
+    "SmartPropGridOriginBasis_t": {
       "align": 4,
       "items": [
         {
-          "name": "PREVIEW",
+          "name": "CENTER",
           "value": 0
         },
         {
-          "name": "THUMBNAIL",
+          "name": "CORNER",
           "value": 1
-        },
-        {
-          "name": "MATERIAL_THUMBNAIL",
-          "value": 2
-        },
-        {
-          "name": "NUM_TYPES",
-          "value": 3
         }
       ]
     },
@@ -25562,19 +25537,6 @@
         },
         {
           "name": "REGULAR",
-          "value": 1
-        }
-      ]
-    },
-    "SmartPropGridPlacementMode_t": {
-      "align": 4,
-      "items": [
-        {
-          "name": "SEGMENT",
-          "value": 0
-        },
-        {
-          "name": "FILL",
           "value": 1
         }
       ]
@@ -25596,15 +25558,32 @@
         }
       ]
     },
-    "SmartPropGridOriginBasis_t": {
+    "SmartPropSpace_t": {
       "align": 4,
       "items": [
         {
-          "name": "CENTER",
+          "name": "WORLD",
           "value": 0
         },
         {
-          "name": "CORNER",
+          "name": "OBJECT",
+          "value": 1
+        },
+        {
+          "name": "ELEMENT",
+          "value": 2
+        }
+      ]
+    },
+    "SmartPropGridPlacementMode_t": {
+      "align": 4,
+      "items": [
+        {
+          "name": "SEGMENT",
+          "value": 0
+        },
+        {
+          "name": "FILL",
           "value": 1
         }
       ]
@@ -25626,6 +25605,27 @@
         },
         {
           "name": "CONTROL_POINTS",
+          "value": 3
+        }
+      ]
+    },
+    "LightRigType_t": {
+      "align": 4,
+      "items": [
+        {
+          "name": "PREVIEW",
+          "value": 0
+        },
+        {
+          "name": "THUMBNAIL",
+          "value": 1
+        },
+        {
+          "name": "MATERIAL_THUMBNAIL",
+          "value": 2
+        },
+        {
+          "name": "NUM_TYPES",
           "value": 3
         }
       ]
@@ -43244,7 +43244,251 @@
       "fields": [
       ]
     },
+    "CSmartPropAttributePathPositions": {
+      "metadata": [
+        {
+          "name": "MPropertyCustomEditor"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigVMap": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropAttributeChoiceSelectionMode": {
+      "metadata": [
+        {
+          "name": "MPropertyCustomEditor"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataBase"
+        },
+        {
+          "name": "MVDataNodeType"
+        },
+        {
+          "name": "MVDataAnonymousNode"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Smart Prop Element"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_Group": {
+      "parent": "CSmartPropElement",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Group"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "A group of elements that will all be evaulated."
+        },
+        {
+          "name": "MVDataOutlinerLabelExpr"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_PlaceMultiple": {
+      "parent": "CSmartPropElement_Group",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Place Multiple"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "An element which places multiple instances of its child elements."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_PickOne": {
+      "parent": "CSmartPropElement_Group",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Select Single Child"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "An element which selects a single choice from its set of child choices."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_ModifyState": {
+      "parent": "CSmartPropElement",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Apply Modifiers"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "An element which is used to apply a set of modifiers to the state of its parent."
+        },
+        {
+          "name": "MPropertySuppressBaseClassField"
+        },
+        {
+          "name": "MVDataOutlinerLabelExpr"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_PlaceInSphere": {
+      "parent": "CSmartPropElement_Group",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Place In Radius"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "An element which places multiple instances of its child elements within a radius."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_Model": {
+      "parent": "CSmartPropElement",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Model"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Places a model as the child of an element."
+        },
+        {
+          "name": "MVDataOutlinerAssetNameExpr"
+        }
+      ],
+      "fields": [
+      ]
+    },
     "CSmartPropAttributeScaleMode": {
+      "metadata": [
+        {
+          "name": "MPropertyCustomEditor"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "ColorChoice_t": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_SmartProp": {
+      "parent": "CSmartPropElement",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Smart Prop Reference"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Evaluates a specified smart prop as a child of the current element."
+        },
+        {
+          "name": "MVDataOutlinerAssetNameExpr"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigBackground": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropChoiceOption": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigExposure": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropAttributeRadiusPlacementMode": {
+      "metadata": [
+        {
+          "name": "MPropertyCustomEditor"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropAttributeDirection": {
       "metadata": [
         {
           "name": "MPropertyCustomEditor"
@@ -43291,15 +43535,6 @@
       "fields": [
       ]
     },
-    "CSmartPropAttributeDistributionMode": {
-      "metadata": [
-        {
-          "name": "MPropertyCustomEditor"
-        }
-      ],
-      "fields": [
-      ]
-    },
     "CSmartPropAttributeCoordinateSpace": {
       "metadata": [
         {
@@ -43309,16 +43544,7 @@
       "fields": [
       ]
     },
-    "ColorChoice_t": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropAttributeDirection": {
+    "CSmartPropAttributeGridPlacementMode": {
       "metadata": [
         {
           "name": "MPropertyCustomEditor"
@@ -43327,95 +43553,10 @@
       "fields": [
       ]
     },
-    "CSmartPropAttributePickMode": {
-      "metadata": [
-        {
-          "name": "MPropertyCustomEditor"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement": {
+    "CLightRigGrid": {
       "metadata": [
         {
           "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataBase"
-        },
-        {
-          "name": "MVDataNodeType"
-        },
-        {
-          "name": "MVDataAnonymousNode"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Smart Prop Element"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_ModifyState": {
-      "parent": "CSmartPropElement",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Apply Modifiers"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "An element which is used to apply a set of modifiers to the state of its parent."
-        },
-        {
-          "name": "MPropertySuppressBaseClassField"
-        },
-        {
-          "name": "MVDataOutlinerLabelExpr"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_Group": {
-      "parent": "CSmartPropElement",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Group"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "A group of elements that will all be evaulated."
-        },
-        {
-          "name": "MVDataOutlinerLabelExpr"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_PickOne": {
-      "parent": "CSmartPropElement_Group",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Select Single Child"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "An element which selects a single choice from its set of child choices."
         }
       ],
       "fields": [
@@ -43439,43 +43580,7 @@
       "fields": [
       ]
     },
-    "CSmartPropElement_PlaceInSphere": {
-      "parent": "CSmartPropElement_Group",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Place In Radius"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "An element which places multiple instances of its child elements within a radius."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropAttributeChoiceSelectionMode": {
-      "metadata": [
-        {
-          "name": "MPropertyCustomEditor"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CLightRigSky": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropAttributePathPositions": {
+    "CSmartPropAttributeApplyColorMode": {
       "metadata": [
         {
           "name": "MPropertyCustomEditor"
@@ -43493,31 +43598,19 @@
       "fields": [
       ]
     },
-    "CLightRigVMap": {
+    "CSmartPropAttributeGridOriginMode": {
       "metadata": [
         {
-          "name": "MGetKV3ClassDefaults"
+          "name": "MPropertyCustomEditor"
         }
       ],
       "fields": [
       ]
     },
-    "CSmartPropElement_Model": {
-      "parent": "CSmartPropElement",
+    "CSmartPropAttributeTraceNoHit": {
       "metadata": [
         {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Model"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Places a model as the child of an element."
-        },
-        {
-          "name": "MVDataOutlinerAssetNameExpr"
+          "name": "MPropertyCustomEditor"
         }
       ],
       "fields": [
@@ -43532,10 +43625,712 @@
       "fields": [
       ]
     },
-    "CLightRigGrid": {
+    "CSmartPropElement_Layout2DGrid": {
+      "parent": "CSmartPropElement_Group",
       "metadata": [
         {
           "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Layout Grid"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Generates set of child instances arranged in a regular grid layout."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropParameter": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataRoot"
+        },
+        {
+          "name": "MVDataNodeType"
+        },
+        {
+          "name": "MVDataAnonymousNode"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropChoice": {
+      "parent": "CSmartPropParameter",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Choice"
+        },
+        {
+          "name": "MVDataAnonymousNode"
+        },
+        {
+          "name": "MVDataOutlinerNameExpr"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable": {
+      "parent": "CSmartPropParameter",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataRoot"
+        },
+        {
+          "name": "MVDataNodeType"
+        },
+        {
+          "name": "MVDataAnonymousNode"
+        },
+        {
+          "name": "MVDataOutlinerNameExpr"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Float": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Float"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Model": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Model"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Model Asset Variable"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Vector4D": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Vector 4D"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_GridPlacementMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Grid Placement"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies how to place elements within a grid."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_ApplyColorMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Tint Mode"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies how a color tint value is to be applied with respect to the existing color tint"
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_RadiusPlacementMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Placement Shape"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies the shape (circle, or sphere) to use with elements that place children within a radius."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Int": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Integer"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Angles": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Angles"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Bool": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Boolean"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_TraceNoHit": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Trace Miss Behavior"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specified what to do when a trace does not hit a surface."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_DirectionVector": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Direction Vector"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies a basis direction vector ( Forward, Left, or UP)."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_PathPositions": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Path Positions"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies the set of positions that are valid for path placement."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_DistributionMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Distribution Mode"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies a distribution mode used to determine how certain elements distribute instances of their children within a space."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Vector3D": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Vector 3D"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_String": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "String"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_CoordinateSpace": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Coordinate Space"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies a coordinate space in which a point or vector value is defined."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Material": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Material"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Material Asset Variable"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigLight": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigPointLight": {
+      "parent": "CLightRigLight",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigSpotLight": {
+      "parent": "CLightRigLight",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropSelectionCriteria": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataBase"
+        },
+        {
+          "name": "MVDataNodeType"
+        },
+        {
+          "name": "MVDataAnonymousNode"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropSelectionCriteria_LinearLength": {
+      "parent": "CSmartPropSelectionCriteria",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataComponentValidGrandParents"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Linear Length"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies the length of this element, used when fitting an element on to a line."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropSelectionCriteria_ChoiceWeight": {
+      "parent": "CSmartPropSelectionCriteria",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataComponentValidGrandParents"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Choice Weight"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies a weighting value which affects that likelyhood of selecting this element which picking a choice."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropAttributePickMode": {
+      "metadata": [
+        {
+          "name": "MPropertyCustomEditor"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropSelectionCriteria_PathPosition": {
+      "parent": "CSmartPropSelectionCriteria",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataComponentValidGrandParents"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Valid Path Positions"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies the path positions at which this element may appear."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigSky": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_ScaleMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Fit on Line Scale Mode"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies how a fit on line element will scale generate scale values for the objects it places."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CLightRigSunLight": {
+      "parent": "CLightRigLight",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CToolSceneLightRig": {
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MVDataRoot"
+        },
+        {
+          "name": "MVDataAssociatedFile"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_MaterialGroup": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Material Group"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_Deformer": {
+      "parent": "CSmartPropElement_Group",
+      "metadata": [
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_MidpointDeformer": {
+      "parent": "CSmartPropElement_Deformer",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Midpoint Deformer"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Soft deform the center of a volume defined by two endpoints."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropElement_BendDeformer": {
+      "parent": "CSmartPropElement_Deformer",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Bend Deformer"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Creates a bend deformer that is applied to child elements. The deformation bends the local space x-axis around the local space z-axis. The Angles property can be used to rotate the local axis to change the direction of deformation."
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Color": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Color"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_GridOriginMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Grid Origin"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies where the origin of a child element is placed realative to each grid cell."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_ChoiceSelectionMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Selection Mode"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies the method by which a child element is selected from a list."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_Vector2D": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Vector 2D"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropAttributeDistributionMode": {
+      "metadata": [
+        {
+          "name": "MPropertyCustomEditor"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropVariable_PickMode": {
+      "parent": "CSmartPropVariable",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Fit on Line Pick Mode"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Specifies how a fit on line element will pick which child elements it will place."
+        },
+        {
+          "name": "MVDataClassGroup"
         }
       ],
       "fields": [
@@ -43559,64 +44354,22 @@
       "fields": [
       ]
     },
-    "CLightRigBackground": {
+    "CSmartPropSelectionCriteria_IsValid": {
+      "parent": "CSmartPropSelectionCriteria",
       "metadata": [
         {
           "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropAttributeTraceNoHit": {
-      "metadata": [
+        },
         {
-          "name": "MPropertyCustomEditor"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropAttributeGridPlacementMode": {
-      "metadata": [
-        {
-          "name": "MPropertyCustomEditor"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_PlaceMultiple": {
-      "parent": "CSmartPropElement_Group",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
+          "name": "MVDataComponentValidGrandParents"
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Place Multiple"
+          "value": "Is Valid"
         },
         {
           "name": "MPropertyDescription",
-          "value": "An element which places multiple instances of its child elements."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CLightRigExposure": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropAttributeGridOriginMode": {
-      "metadata": [
-        {
-          "name": "MPropertyCustomEditor"
+          "value": "Specifies if this element is currently valid choice."
         }
       ],
       "fields": [
@@ -43695,6 +44448,27 @@
       "fields": [
       ]
     },
+    "CSmartPropFilter_Expression": {
+      "parent": "CSmartPropFilter",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Filter: Expression"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Evaluates the specified expression, if the result of the expression is false evaluation of the element is stopped."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
     "CSmartPropOperation": {
       "parent": "CSmartPropModifier",
       "metadata": [
@@ -43726,7 +44500,7 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_SetTintColor": {
+    "CSmartPropOperation_SavePosition": {
       "parent": "CSmartPropOperation",
       "metadata": [
         {
@@ -43734,32 +44508,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Tint Color Choice"
+          "value": "Save Current Position"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Set the color tint to one color out of a pre-selected set of colors."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_ComputeDotProduct3D": {
-      "parent": "CSmartPropOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Dot Product"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Compute a dot or cross product between two 3D vectors"
+          "value": "Save the current position to a specified variable in the requested coordinate space"
         },
         {
           "name": "MVDataClassGroup"
@@ -43831,27 +44584,6 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_ComputeCrossProduct3D": {
-      "parent": "CSmartPropOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Cross Product"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Compute a dot or cross product between two 3D vectors"
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
     "CSmartPropOperation_MaterialOverride": {
       "parent": "CSmartPropOperation",
       "metadata": [
@@ -43873,7 +44605,7 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_ComputeVectorBetweenPoints3D": {
+    "CSmartPropOperation_SetTintColor": {
       "parent": "CSmartPropOperation",
       "metadata": [
         {
@@ -43881,11 +44613,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Vector Between Points"
+          "value": "Tint Color Choice"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Compute the vector between two 3D points"
+          "value": "Set the color tint to one color out of a pre-selected set of colors."
         },
         {
           "name": "MVDataClassGroup"
@@ -43894,19 +44626,40 @@
       "fields": [
       ]
     },
-    "CSmartPropFilter_Expression": {
-      "parent": "CSmartPropFilter",
+    "CSmartPropOperation_SaveColor": {
+      "parent": "CSmartPropOperation",
       "metadata": [
         {
           "name": "MGetKV3ClassDefaults"
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Filter: Expression"
+          "value": "Save Current Color"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Evaluates the specified expression, if the result of the expression is false evaluation of the element is stopped."
+          "value": "Save the current color tint value to a specified variable"
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropOperation_ComputeCrossProduct3D": {
+      "parent": "CSmartPropOperation",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Cross Product"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Compute a dot or cross product between two 3D vectors"
         },
         {
           "name": "MVDataClassGroup"
@@ -43936,6 +44689,51 @@
       "fields": [
       ]
     },
+    "CSmartPropOperation_ComputeVectorBetweenPoints3D": {
+      "parent": "CSmartPropOperation",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Vector Between Points"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Compute the vector between two 3D points"
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropOperation_SetVariable": {
+      "parent": "CSmartPropOperation",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Set Variable"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Set the value of a variable."
+        },
+        {
+          "name": "MVDataClassGroup"
+        },
+        {
+          "name": "MVDataOutlinerNameExpr"
+        }
+      ],
+      "fields": [
+      ]
+    },
     "CSmartPropFilter_SurfaceAngle": {
       "parent": "CSmartPropFilter",
       "metadata": [
@@ -43949,30 +44747,6 @@
         {
           "name": "MPropertyDescription",
           "value": "Allows the parent element to be conditionally evaluated base on the current surface angle. The surface angle is set based on the initial placement of the smart prop object, but can also be updated by the Trace to Surface modifier."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_SaveState": {
-      "parent": "CSmartPropOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Save State"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Save the current state, allowing it to be restored at a later state."
-        },
-        {
-          "name": "MVDataNodeTintColor"
         },
         {
           "name": "MVDataClassGroup"
@@ -44005,450 +44779,25 @@
       "fields": [
       ]
     },
-    "CSmartPropChoiceOption": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropParameter": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataRoot"
-        },
-        {
-          "name": "MVDataNodeType"
-        },
-        {
-          "name": "MVDataAnonymousNode"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable": {
-      "parent": "CSmartPropParameter",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataRoot"
-        },
-        {
-          "name": "MVDataNodeType"
-        },
-        {
-          "name": "MVDataAnonymousNode"
-        },
-        {
-          "name": "MVDataOutlinerNameExpr"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Vector4D": {
-      "parent": "CSmartPropVariable",
+    "CSmartPropOperation_SaveState": {
+      "parent": "CSmartPropOperation",
       "metadata": [
         {
           "name": "MGetKV3ClassDefaults"
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Vector 4D"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_PathPositions": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Path Positions"
+          "value": "Save State"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Specifies the set of positions that are valid for path placement."
+          "value": "Save the current state, allowing it to be restored at a later state."
+        },
+        {
+          "name": "MVDataNodeTintColor"
         },
         {
           "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Float": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Float"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_MaterialGroup": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Material Group"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_DirectionVector": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Direction Vector"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies a basis direction vector ( Forward, Left, or UP)."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_PickMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Fit on Line Pick Mode"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies how a fit on line element will pick which child elements it will place."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Material": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Material"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Material Asset Variable"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_DistributionMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Distribution Mode"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies a distribution mode used to determine how certain elements distribute instances of their children within a space."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Vector2D": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Vector 2D"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_TraceNoHit": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Trace Miss Behavior"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specified what to do when a trace does not hit a surface."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_GridPlacementMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Grid Placement"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies how to place elements within a grid."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_ScaleMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Fit on Line Scale Mode"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies how a fit on line element will scale generate scale values for the objects it places."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_RadiusPlacementMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Placement Shape"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies the shape (circle, or sphere) to use with elements that place children within a radius."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Int": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Integer"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_ApplyColorMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Tint Mode"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies how a color tint value is to be applied with respect to the existing color tint"
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Vector3D": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Vector 3D"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_String": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "String"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_CoordinateSpace": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Coordinate Space"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies a coordinate space in which a point or vector value is defined."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Color": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Color"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropSelectionCriteria": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataBase"
-        },
-        {
-          "name": "MVDataNodeType"
-        },
-        {
-          "name": "MVDataAnonymousNode"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropSelectionCriteria_LinearLength": {
-      "parent": "CSmartPropSelectionCriteria",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataComponentValidGrandParents"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Linear Length"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies the length of this element, used when fitting an element on to a line."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropSelectionCriteria_ChoiceWeight": {
-      "parent": "CSmartPropSelectionCriteria",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataComponentValidGrandParents"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Choice Weight"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies a weighting value which affects that likelyhood of selecting this element which picking a choice."
         }
       ],
       "fields": [
@@ -44462,48 +44811,6 @@
         },
         {
           "name": "MVDataNodeTintColor"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_ResetRotation": {
-      "parent": "CSmartPropTransformOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Transform: Reset Rotation"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Reset the current rotation such the element only inherits the object level rotation, but does not inherit the rotation applied to its parent."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_CreateSizer": {
-      "parent": "CSmartPropTransformOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Create Sizer"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Create a sizer that will be displayed at the current location, allowing the user to manipulate the specified set of size values."
-        },
-        {
-          "name": "MVDataClassGroup"
         }
       ],
       "fields": [
@@ -44530,7 +44837,7 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_Rotate": {
+    "CSmartPropOperation_ResetRotation": {
       "parent": "CSmartPropTransformOperation",
       "metadata": [
         {
@@ -44538,11 +44845,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Transform: Rotate"
+          "value": "Transform: Reset Rotation"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Apply a rotation to the current transform."
+          "value": "Reset the current rotation such the element only inherits the object level rotation, but does not inherit the rotation applied to its parent."
         },
         {
           "name": "MVDataClassGroup"
@@ -44596,6 +44903,48 @@
       "fields": [
       ]
     },
+    "CSmartPropOperation_CreateRotator": {
+      "parent": "CSmartPropTransformOperation",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Create Rotator"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Create a rotator that will be displayed at the current location, allowing the user to manipulate a rotation around an axis. The rotation value can be applied to the current transform as well as saved to a variable."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
+    "CSmartPropOperation_Scale": {
+      "parent": "CSmartPropTransformOperation",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Transform: Scale"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Apply a scale to the current transform."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
     "CSmartPropOperation_RandomOffset": {
       "parent": "CSmartPropTransformOperation",
       "metadata": [
@@ -44641,7 +44990,7 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_Scale": {
+    "CSmartPropOperation_CreateSizer": {
       "parent": "CSmartPropTransformOperation",
       "metadata": [
         {
@@ -44649,11 +44998,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Transform: Scale"
+          "value": "Create Sizer"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Apply a scale to the current transform."
+          "value": "Create a sizer that will be displayed at the current location, allowing the user to manipulate the specified set of size values."
         },
         {
           "name": "MVDataClassGroup"
@@ -44662,7 +45011,7 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_SetPosition": {
+    "CSmartPropOperation_Translate": {
       "parent": "CSmartPropTransformOperation",
       "metadata": [
         {
@@ -44670,11 +45019,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Transform: Set Position"
+          "value": "Transform: Translate"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Set the position of the current transform."
+          "value": "Apply a position offset to the current transform."
         },
         {
           "name": "MVDataClassGroup"
@@ -44714,6 +45063,27 @@
       "fields": [
       ]
     },
+    "CSmartPropOperation_TraceInDirection": {
+      "parent": "CSmartPropOperation_Trace",
+      "metadata": [
+        {
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Transform: Trace In Direction"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Perform a trace in a direction from a specified origin and stop when a surface is hit."
+        },
+        {
+          "name": "MVDataClassGroup"
+        }
+      ],
+      "fields": [
+      ]
+    },
     "CSmartPropOperation_TraceToLine": {
       "parent": "CSmartPropOperation_Trace",
       "metadata": [
@@ -44738,28 +45108,7 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_TraceInDirection": {
-      "parent": "CSmartPropOperation_Trace",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Transform: Trace In Direction"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Perform a trace in a direction from a specified origin and stop when a surface is hit."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_Translate": {
+    "CSmartPropOperation_SetOrientation": {
       "parent": "CSmartPropTransformOperation",
       "metadata": [
         {
@@ -44767,11 +45116,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Transform: Translate"
+          "value": "Transform: Set Orientation"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Apply a position offset to the current transform."
+          "value": "Set the current orientation from a specified forward and up vector."
         },
         {
           "name": "MVDataClassGroup"
@@ -44801,7 +45150,7 @@
       "fields": [
       ]
     },
-    "CSmartPropOperation_SetOrientation": {
+    "CSmartPropOperation_Rotate": {
       "parent": "CSmartPropTransformOperation",
       "metadata": [
         {
@@ -44809,131 +45158,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Transform: Set Orientation"
+          "value": "Transform: Rotate"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Set the current orientation from a specified forward and up vector."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_CreateRotator": {
-      "parent": "CSmartPropTransformOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Create Rotator"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Create a rotator that will be displayed at the current location, allowing the user to manipulate a rotation around an axis. The rotation value can be applied to the current transform as well as saved to a variable."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Model": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Model"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Model Asset Variable"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_SaveSurfaceNormal": {
-      "parent": "CSmartPropOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Save Current Surface Normal"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Save the current surface normal to a specified variable in the requested coordinate space"
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_Layout2DGrid": {
-      "parent": "CSmartPropElement_Group",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Layout Grid"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Generates set of child instances arranged in a regular grid layout."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_GridOriginMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Grid Origin"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies where the origin of a child element is placed realative to each grid cell."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_ComputeNormalizedVector3D": {
-      "parent": "CSmartPropOperation",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Normalize Vector"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Normalize the value of a 3d vector."
+          "value": "Apply a rotation to the current transform."
         },
         {
           "name": "MVDataClassGroup"
@@ -44963,27 +45192,6 @@
       "fields": [
       ]
     },
-    "CSmartPropSelectionCriteria_PathPosition": {
-      "parent": "CSmartPropSelectionCriteria",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataComponentValidGrandParents"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Valid Path Positions"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies the path positions at which this element may appear."
-        }
-      ],
-      "fields": [
-      ]
-    },
     "CSmartPropOperation_TraceToPoint": {
       "parent": "CSmartPropOperation_Trace",
       "metadata": [
@@ -45008,16 +45216,28 @@
       "fields": [
       ]
     },
-    "CSmartPropAttributeRadiusPlacementMode": {
+    "CSmartPropOperation_SetPosition": {
+      "parent": "CSmartPropTransformOperation",
       "metadata": [
         {
-          "name": "MPropertyCustomEditor"
+          "name": "MGetKV3ClassDefaults"
+        },
+        {
+          "name": "MPropertyFriendlyName",
+          "value": "Transform: Set Position"
+        },
+        {
+          "name": "MPropertyDescription",
+          "value": "Set the position of the current transform."
+        },
+        {
+          "name": "MVDataClassGroup"
         }
       ],
       "fields": [
       ]
     },
-    "CSmartPropOperation_SetVariable": {
+    "CSmartPropOperation_ComputeDotProduct3D": {
       "parent": "CSmartPropOperation",
       "metadata": [
         {
@@ -45025,23 +45245,20 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Set Variable"
+          "value": "Dot Product"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Set the value of a variable."
+          "value": "Compute a dot or cross product between two 3D vectors"
         },
         {
           "name": "MVDataClassGroup"
-        },
-        {
-          "name": "MVDataOutlinerNameExpr"
         }
       ],
       "fields": [
       ]
     },
-    "CSmartPropOperation_SavePosition": {
+    "CSmartPropOperation_SaveSurfaceNormal": {
       "parent": "CSmartPropOperation",
       "metadata": [
         {
@@ -45049,11 +45266,11 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Save Current Position"
+          "value": "Save Current Surface Normal"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Save the current position to a specified variable in the requested coordinate space"
+          "value": "Save the current surface normal to a specified variable in the requested coordinate space"
         },
         {
           "name": "MVDataClassGroup"
@@ -45062,113 +45279,7 @@
       "fields": [
       ]
     },
-    "CToolSceneLightRig": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataRoot"
-        },
-        {
-          "name": "MVDataAssociatedFile"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Angles": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Angles"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_Bool": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Boolean"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropChoice": {
-      "parent": "CSmartPropParameter",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Choice"
-        },
-        {
-          "name": "MVDataAnonymousNode"
-        },
-        {
-          "name": "MVDataOutlinerNameExpr"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_Deformer": {
-      "parent": "CSmartPropElement_Group",
-      "metadata": [
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_MidpointDeformer": {
-      "parent": "CSmartPropElement_Deformer",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Midpoint Deformer"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Soft deform the center of a volume defined by two endpoints."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_BendDeformer": {
-      "parent": "CSmartPropElement_Deformer",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Bend Deformer"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Creates a bend deformer that is applied to child elements. The deformation bends the local space x-axis around the local space z-axis. The Angles property can be used to rotate the local axis to change the direction of deformation."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropOperation_SaveColor": {
+    "CSmartPropOperation_ComputeNormalizedVector3D": {
       "parent": "CSmartPropOperation",
       "metadata": [
         {
@@ -45176,95 +45287,14 @@
         },
         {
           "name": "MPropertyFriendlyName",
-          "value": "Save Current Color"
+          "value": "Normalize Vector"
         },
         {
           "name": "MPropertyDescription",
-          "value": "Save the current color tint value to a specified variable"
+          "value": "Normalize the value of a 3d vector."
         },
         {
           "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropSelectionCriteria_IsValid": {
-      "parent": "CSmartPropSelectionCriteria",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MVDataComponentValidGrandParents"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Is Valid"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies if this element is currently valid choice."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropVariable_ChoiceSelectionMode": {
-      "parent": "CSmartPropVariable",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Selection Mode"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Specifies the method by which a child element is selected from a list."
-        },
-        {
-          "name": "MVDataClassGroup"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CLightRigLight": {
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CLightRigPointLight": {
-      "parent": "CLightRigLight",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CLightRigSpotLight": {
-      "parent": "CLightRigLight",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CLightRigSunLight": {
-      "parent": "CLightRigLight",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
         }
       ],
       "fields": [
@@ -45286,36 +45316,6 @@
         {
           "name": "MPropertyDescription",
           "value": "Specifies that this is a special part that should be used at the start or end of the line."
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropAttributeApplyColorMode": {
-      "metadata": [
-        {
-          "name": "MPropertyCustomEditor"
-        }
-      ],
-      "fields": [
-      ]
-    },
-    "CSmartPropElement_SmartProp": {
-      "parent": "CSmartPropElement",
-      "metadata": [
-        {
-          "name": "MGetKV3ClassDefaults"
-        },
-        {
-          "name": "MPropertyFriendlyName",
-          "value": "Smart Prop Reference"
-        },
-        {
-          "name": "MPropertyDescription",
-          "value": "Evaluates a specified smart prop as a child of the current element."
-        },
-        {
-          "name": "MVDataOutlinerAssetNameExpr"
         }
       ],
       "fields": [
